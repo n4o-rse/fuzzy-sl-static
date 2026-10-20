@@ -1,0 +1,18 @@
+# Site metadata for the static copy of fuzzy-sl (schema: PRIMER.md of wikibase-static, A4).
+title: fuzzy-sl (static copy)
+description: Static, read-only copy of the Wikibase fuzzy-sl.wikibase.cloud. The data was archived with wikibase-static; nothing on these pages can be edited.
+source:
+  url: https://fuzzy-sl.wikibase.cloud
+languages:
+  default: en
+  second: de
+# fuzzy-sl keeps the formatter URL of external-id properties in its own property P18 (Wikidata uses P1630).
+formatter_property: P18
+# Logo, top left on every page: save the file in this repository (for instance as assets/logo.png) and
+# remove the "#". A file is copied to docs/assets/logo/, so the pages never load it from the source Wikibase.
+# A URL works too, but then every page loads the image from there.
+# logo: assets/logo.png
+# Licence: without a "license" block the footer says CC0 1.0 (Public Domain). Write one only to change it:
+# license:
+#   name: CC BY 4.0
+#   url: https://creativecommons.org/licenses/by/4.0/
