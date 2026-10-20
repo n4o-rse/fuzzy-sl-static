@@ -1,0 +1,433 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q95$dde3db8c-4630-4e50-cc43-25dd65973d8a",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q10",
+              "numeric-id": 10
+            }
+          },
+          "hash": "a066d63451157f1bc5f04e16e68166202c347237",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P10": [
+      {
+        "id": "Q95$201c3bfe-4099-cc53-b69c-ace55a141afd",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://wikidata.org/entity/Q103177460"
+          },
+          "hash": "01a120097f9c6ae697ca4ebc4d8c6941a674a2e9",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://archaeoinformatics.link/ontology#spatialCloseMatch"
+              },
+              "hash": "bca3ca3f2f1466513ea9fc689ee68b6664c35653",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q95$f438c637-48b6-cf0d-0e63-65ed0a82235d",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://data.archaeology.link/data/samian/loc_ds_1000136"
+          },
+          "hash": "0662170cb68aa2b4473386602bd3b2c404fdb12c",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://archaeoinformatics.link/ontology#spatialCloseMatch"
+              },
+              "hash": "bca3ca3f2f1466513ea9fc689ee68b6664c35653",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P11": [
+      {
+        "id": "Q95$11a9fa54-41a0-fafd-83ad-ccc4acaacc05",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "Samian Research Database"
+          },
+          "hash": "d8279bc68cedbda1a06daa2c6f9b778034bc98f0",
+          "property": "P11",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P27": [
+      {
+        "id": "Q95$9d8e4e1b-4748-aa05-b413-82a78320cef4",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://data.archaeology.link/data/samian/loc_ds_1000136"
+          },
+          "hash": "ee470123a53f3a6d08a1989ed3b9e029168c56e7",
+          "property": "P27",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P28": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://archaeoinformatics.link/ontology#spatialCloseMatch"
+              },
+              "hash": "031449ffefeff054b44702f63a3e74b309afc491",
+              "property": "P28",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P28"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P29": [
+      {
+        "id": "Q95$42d9b765-4b0c-676c-8662-738d85bab3f6",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q101",
+              "numeric-id": 101
+            }
+          },
+          "hash": "f7bdb51fe149d115799d7875d012a1906ccf7833",
+          "property": "P29",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P3": [
+      {
+        "id": "Q95$951340ca-498e-9d71-fdec-46b90b0a6dab",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q94",
+              "numeric-id": 94
+            }
+          },
+          "hash": "c9861954599c0dfea08b409e75dab4b841b21019",
+          "property": "P3",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "Q95$7e50d41d-4ab8-dd30-29d5-e0088ae9b652",
+        "mainsnak": {
+          "datatype": "globe-coordinate",
+          "datavalue": {
+            "type": "globecoordinate",
+            "value": {
+              "altitude": null,
+              "globe": "http://www.wikidata.org/entity/Q2",
+              "latitude": 51.513363,
+              "longitude": -0.090556,
+              "precision": 1e-06
+            }
+          },
+          "hash": "05827c743b08606c4ce2a3ed0208c88d9c4b988d",
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P13": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "historicengland No.1 Poultry, list-entry/1428881"
+              },
+              "hash": "7e9ad3aec11035a19d0701db12dbba9d2ddf9d1c",
+              "property": "P13",
+              "snaktype": "value"
+            }
+          ],
+          "P14": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q35",
+                  "numeric-id": 35
+                }
+              },
+              "hash": "5d80a1ae7a97d6c27a8919614daa22505139b62e",
+              "property": "P14",
+              "snaktype": "value"
+            }
+          ],
+          "P15": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "set a point based on using historicengland list-entry/1428881 (UK GRID: TQ3259681110), 1 Poultry, London, EC2R 8EJ"
+              },
+              "hash": "a9c94f8544449a9dbf0d81d301dbfc98c8ca7217",
+              "property": "P15",
+              "snaktype": "value"
+            }
+          ],
+          "P16": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q100",
+                  "numeric-id": 100
+                }
+              },
+              "hash": "cb0a4fbff5ba195c51b29afc3456ea2454515e4f",
+              "property": "P16",
+              "snaktype": "value"
+            }
+          ],
+          "P23": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "±0.000001°"
+              },
+              "hash": "4715e499f19794e167f9053b7d5a16cabdce2401",
+              "property": "P23",
+              "snaktype": "value"
+            }
+          ],
+          "P24": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q80",
+                  "numeric-id": 80
+                }
+              },
+              "hash": "01bd4bccfacab9dffa9bc3564cc0f398c09b8d9a",
+              "property": "P24",
+              "snaktype": "value"
+            }
+          ],
+          "P33": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q128",
+                  "numeric-id": 128
+                }
+              },
+              "hash": "9bd8bf8cbda0d249acce2b91a7eeb29f6c56f2ce",
+              "property": "P33",
+              "snaktype": "value"
+            }
+          ],
+          "P5": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q23",
+                  "numeric-id": 23
+                }
+              },
+              "hash": "c15738677ef387263f84ec8e65f270df54d1979e",
+              "property": "P5",
+              "snaktype": "value"
+            }
+          ],
+          "P6": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q100",
+                  "numeric-id": 100
+                }
+              },
+              "hash": "fdb529cd65c29b86976b97af7134d562ea539e32",
+              "property": "P6",
+              "snaktype": "value"
+            }
+          ],
+          "P7": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q34",
+                  "numeric-id": 34
+                }
+              },
+              "hash": "a22e0069280db79e87cab3fb9387bb237799eba8",
+              "property": "P7",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P5",
+          "P13",
+          "P7",
+          "P14",
+          "P16",
+          "P6",
+          "P15",
+          "P23",
+          "P24",
+          "P33"
+        ],
+        "rank": "preferred",
+        "references": [
+          {
+            "hash": "8c89c7d5591acef801009d02a59a82460fdceda2",
+            "snaks": {
+              "P17": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://historicengland.org.uk/listing/the-list/list-entry/1428881?section=official-list-entry"
+                  },
+                  "hash": "ead923c1545693a822af984b5e59b0b088074eab",
+                  "property": "P17",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P17"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ],
+    "P8": [
+      {
+        "id": "Q95$f2a7f666-456f-0678-d1aa-75c5c0622fe0",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q32",
+              "numeric-id": 32
+            }
+          },
+          "hash": "70b263c74094790904c19ac47d477dee0d4d36d3",
+          "property": "P8",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Samian Ware Findsport (Samian Research)"
+    }
+  },
+  "id": "Q95",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "London (Londinium) / No. 1 Poultry"
+    }
+  },
+  "lastrevid": 601,
+  "modified": "2024-10-23T11:38:39Z",
+  "ns": 120,
+  "pageid": 115,
+  "sitelinks": {},
+  "title": "Item:Q95",
+  "type": "item"
+}

@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q92$810de626-45f1-3aa6-407c-b1860834b5eb",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q91",
+              "numeric-id": 91
+            }
+          },
+          "hash": "a18259c8f0a4891ef8d759e2c51ba1f4083034b9",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "spatial category"
+    }
+  },
+  "id": "Q92",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Archaeology"
+    }
+  },
+  "lastrevid": 304,
+  "modified": "2024-10-21T21:07:54Z",
+  "ns": 120,
+  "pageid": 112,
+  "sitelinks": {},
+  "title": "Item:Q92",
+  "type": "item"
+}

@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q17$898a1e17-4a07-f0ea-98e6-8dbcf0ce1f99",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q7",
+              "numeric-id": 7
+            }
+          },
+          "hash": "15b99b8396f20997284cdd601cb95c1b0368bba0",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "method to get coordinates"
+    }
+  },
+  "id": "Q17",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Georeferencing"
+    }
+  },
+  "lastrevid": 60,
+  "modified": "2023-08-14T12:55:39Z",
+  "ns": 120,
+  "pageid": 30,
+  "sitelinks": {},
+  "title": "Item:Q17",
+  "type": "item"
+}

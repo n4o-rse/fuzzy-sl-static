@@ -1,0 +1,31 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "subclass"
+      }
+    ]
+  },
+  "claims": {},
+  "datatype": "wikibase-item",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "is a subclass of"
+    }
+  },
+  "id": "P2",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "subclass of"
+    }
+  },
+  "lastrevid": 2,
+  "modified": "2023-07-27T08:54:24Z",
+  "ns": 122,
+  "pageid": 2,
+  "title": "Property:P2",
+  "type": "property"
+}

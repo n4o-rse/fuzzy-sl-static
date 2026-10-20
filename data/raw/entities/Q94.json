@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q94$5b4968f4-4007-4412-c8fe-3ec3859fe16e",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q5",
+              "numeric-id": 5
+            }
+          },
+          "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Project"
+    }
+  },
+  "id": "Q94",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Samian Ware (Terra Sigillata) Findspots"
+    }
+  },
+  "lastrevid": 316,
+  "modified": "2024-10-21T21:16:34Z",
+  "ns": 120,
+  "pageid": 114,
+  "sitelinks": {},
+  "title": "Item:Q94",
+  "type": "item"
+}

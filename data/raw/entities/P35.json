@@ -1,0 +1,31 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "WKT"
+      }
+    ]
+  },
+  "claims": {},
+  "datatype": "string",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "a geometry description encoded as Well-Known Text"
+    }
+  },
+  "id": "P35",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "WKT Geometry"
+    }
+  },
+  "lastrevid": 762,
+  "modified": "2025-01-30T17:32:22Z",
+  "ns": 122,
+  "pageid": 173,
+  "title": "Property:P35",
+  "type": "property"
+}

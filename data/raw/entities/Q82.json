@@ -1,0 +1,32 @@
+{
+  "aliases": {},
+  "claims": {},
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "spatial type"
+    },
+    "en": {
+      "language": "en",
+      "value": "spatial type"
+    }
+  },
+  "id": "Q82",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "Steinbruch"
+    },
+    "en": {
+      "language": "en",
+      "value": "Quarry"
+    }
+  },
+  "lastrevid": 246,
+  "modified": "2024-10-21T20:21:55Z",
+  "ns": 120,
+  "pageid": 100,
+  "sitelinks": {},
+  "title": "Item:Q82",
+  "type": "item"
+}

@@ -1,0 +1,305 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q120$2a47a71f-476d-ca3c-a072-3ea248fc7b2d",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q10",
+              "numeric-id": 10
+            }
+          },
+          "hash": "a066d63451157f1bc5f04e16e68166202c347237",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P3": [
+      {
+        "id": "Q120$ba845365-44b0-4815-096d-ea041a6ac966",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q94",
+              "numeric-id": 94
+            }
+          },
+          "hash": "c9861954599c0dfea08b409e75dab4b841b21019",
+          "property": "P3",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "Q120$1dc0704a-43fc-765e-2c7a-525402f67d81",
+        "mainsnak": {
+          "datatype": "globe-coordinate",
+          "datavalue": {
+            "type": "globecoordinate",
+            "value": {
+              "altitude": null,
+              "globe": "http://www.wikidata.org/entity/Q2",
+              "latitude": 53.0125,
+              "longitude": -0.2678,
+              "precision": 0.0001
+            }
+          },
+          "hash": "ce18db809fc6636a355d998eafd6e0da6418310b",
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P13": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "Wikidata Item Q120052 and OSM way 60965523"
+              },
+              "hash": "061e934dbdd2ea79dc1ab5484fbf84dc16f40ae3",
+              "property": "P13",
+              "snaktype": "value"
+            }
+          ],
+          "P14": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q35",
+                  "numeric-id": 35
+                }
+              },
+              "hash": "5d80a1ae7a97d6c27a8919614daa22505139b62e",
+              "property": "P14",
+              "snaktype": "value"
+            }
+          ],
+          "P15": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "set a point based on using Wikidata Item Q120052 and OSM way 60965523"
+              },
+              "hash": "a8477a17b2209cd31a52f50ecf805ac90f329054",
+              "property": "P15",
+              "snaktype": "value"
+            }
+          ],
+          "P16": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q99",
+                  "numeric-id": 99
+                }
+              },
+              "hash": "ebdbd74a7908bec70d3f215a50d64732da286e9d",
+              "property": "P16",
+              "snaktype": "value"
+            }
+          ],
+          "P23": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "±0.0001°"
+              },
+              "hash": "b244f7450ca309b1cf6aec97c5286395e671d728",
+              "property": "P23",
+              "snaktype": "value"
+            }
+          ],
+          "P24": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q80",
+                  "numeric-id": 80
+                }
+              },
+              "hash": "01bd4bccfacab9dffa9bc3564cc0f398c09b8d9a",
+              "property": "P24",
+              "snaktype": "value"
+            }
+          ],
+          "P33": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q126",
+                  "numeric-id": 126
+                }
+              },
+              "hash": "49e21066a0063a71c7bd8165290c820cb0fa8a65",
+              "property": "P33",
+              "snaktype": "value"
+            }
+          ],
+          "P5": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q15",
+                  "numeric-id": 15
+                }
+              },
+              "hash": "6aebcdbb96a89241548df7beda2a560b7875f792",
+              "property": "P5",
+              "snaktype": "value"
+            }
+          ],
+          "P6": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q100",
+                  "numeric-id": 100
+                }
+              },
+              "hash": "fdb529cd65c29b86976b97af7134d562ea539e32",
+              "property": "P6",
+              "snaktype": "value"
+            }
+          ],
+          "P7": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q17",
+                  "numeric-id": 17
+                }
+              },
+              "hash": "9bd2c45f902cc46626138fed5415ba12d21e9c0f",
+              "property": "P7",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P23",
+          "P5",
+          "P13",
+          "P7",
+          "P14",
+          "P16",
+          "P6",
+          "P15",
+          "P24",
+          "P33"
+        ],
+        "rank": "preferred",
+        "references": [
+          {
+            "hash": "4bcdc6d49ec60409729c61ac1ae287300cbe6585",
+            "snaks": {
+              "P17": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "http://www.wikidata.org/entity/Q120052"
+                  },
+                  "hash": "88c0f10a2c20eb001035b9aa4aaf27f411eb60e4",
+                  "property": "P17",
+                  "snaktype": "value"
+                },
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/way/60965523"
+                  },
+                  "hash": "5bd022a5387429f99c7371f22bc81f7dbf5a2d45",
+                  "property": "P17",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P17"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ],
+    "P8": [
+      {
+        "id": "Q120$1ef28da0-48e7-a74a-e1e6-51980d8d5fa4",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q123",
+              "numeric-id": 123
+            }
+          },
+          "hash": "ac6795e0fe17f871ffa5ad34dcff2fb6d6f6c61b",
+          "property": "P8",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Samian Ware Findsport (Samian Research)"
+    }
+  },
+  "id": "Q120",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Car Dyke (Samian Discovery Site)"
+    }
+  },
+  "lastrevid": 591,
+  "modified": "2024-10-23T11:33:19Z",
+  "ns": 120,
+  "pageid": 146,
+  "sitelinks": {},
+  "title": "Item:Q120",
+  "type": "item"
+}

@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q33$89831a8f-481c-9fb6-7597-f9c049400d6e",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q4",
+              "numeric-id": 4
+            }
+          },
+          "hash": "6056844c4a6d3699fbafab69805eed5ca36eab0e",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "spatial type"
+    }
+  },
+  "id": "Q33",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "River"
+    }
+  },
+  "lastrevid": 104,
+  "modified": "2023-08-14T13:56:10Z",
+  "ns": 120,
+  "pageid": 49,
+  "sitelinks": {},
+  "title": "Item:Q33",
+  "type": "item"
+}

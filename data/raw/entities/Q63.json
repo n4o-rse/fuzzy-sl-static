@@ -1,0 +1,304 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q63$A759730C-0801-4759-B17F-42A17F08F682",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q10",
+              "numeric-id": 10
+            }
+          },
+          "hash": "a066d63451157f1bc5f04e16e68166202c347237",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P10": [
+      {
+        "id": "Q63$9B540B95-AA02-4561-9E07-5961CA2947BA",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://coinhoards.org/id/igch1873"
+          },
+          "hash": "21406359b0793b4814cbcc9511790c24c1123de6",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://www.w3.org/2004/02/skos/core#exactMatch"
+              },
+              "hash": "6d0a67b4895a149990720e0f8b0d5b0e11275fe9",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q63$4129C6CC-5E4B-4BD7-A337-6AAA908DCB1F",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://sws.geonames.org/2525468"
+          },
+          "hash": "c31d16855c45d39fa99c66aa8b18e10afd468656",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://www.w3.org/2004/02/skos/core#exactMatch"
+              },
+              "hash": "6d0a67b4895a149990720e0f8b0d5b0e11275fe9",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P11": [
+      {
+        "id": "Q63$6F43C08E-68BE-4DA9-BD78-7642C0298A61",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "Sambon, Recherches, pp. 35-6"
+          },
+          "hash": "bea8696674f90f8c4ccd675408a4e5bbb1895285",
+          "property": "P11",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P3": [
+      {
+        "id": "Q63$8EB92684-8F3E-46D8-BE7B-BCBA6B384CA9",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q14",
+              "numeric-id": 14
+            }
+          },
+          "hash": "599d367d7a57df18953cda571f1d578a81622d7b",
+          "property": "P3",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "Q63$7AA9EE44-9F5E-4449-B2EE-2CB86E4F2192",
+        "mainsnak": {
+          "datatype": "globe-coordinate",
+          "datavalue": {
+            "type": "globecoordinate",
+            "value": {
+              "altitude": null,
+              "globe": "http://www.wikidata.org/entity/Q2",
+              "latitude": 39.155622,
+              "longitude": 16.434446,
+              "precision": 1e-06
+            }
+          },
+          "hash": "3e226e779f1ce37dcaa3e8ab21673deeb7abe09a",
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P13": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "coordinate from related GeoNames ID"
+              },
+              "hash": "85fe20760f74d2d4c66e9c2daa9a57ac4609dfc7",
+              "property": "P13",
+              "snaktype": "value"
+            }
+          ],
+          "P14": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q18",
+                  "numeric-id": 18
+                }
+              },
+              "hash": "22d3c3d7532798be81a9e5adbd65fa0aa25014aa",
+              "property": "P14",
+              "snaktype": "value"
+            }
+          ],
+          "P15": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "uses existing URI from coinhoards.org"
+              },
+              "hash": "bb664a28733f245b32dba851efe1da2d0751760d",
+              "property": "P15",
+              "snaktype": "value"
+            }
+          ],
+          "P16": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q26",
+                  "numeric-id": 26
+                }
+              },
+              "hash": "435efce077304f96cec19e0dcc9f8c71eb52bc77",
+              "property": "P16",
+              "snaktype": "value"
+            }
+          ],
+          "P5": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q24",
+                  "numeric-id": 24
+                }
+              },
+              "hash": "4cd26ba769bf361fc9b3980822ad39cac1a8b08f",
+              "property": "P5",
+              "snaktype": "value"
+            }
+          ],
+          "P6": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q31",
+                  "numeric-id": 31
+                }
+              },
+              "hash": "e5e950c65c27ed6ce419c9673e12d5ff5b4ed127",
+              "property": "P6",
+              "snaktype": "value"
+            }
+          ],
+          "P7": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q34",
+                  "numeric-id": 34
+                }
+              },
+              "hash": "a22e0069280db79e87cab3fb9387bb237799eba8",
+              "property": "P7",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P5",
+          "P13",
+          "P7",
+          "P14",
+          "P16",
+          "P6",
+          "P15"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P8": [
+      {
+        "id": "Q63$DB6C34BF-611B-4B3F-8829-935D9DAED4E6",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q37",
+              "numeric-id": 37
+            }
+          },
+          "hash": "cbb788bc4cbf758f00b108804848839627dce56d",
+          "property": "P8",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {},
+  "id": "Q63",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Calabria (anc. Bruttium)"
+    }
+  },
+  "lastrevid": 143,
+  "modified": "2023-08-14T15:07:34Z",
+  "ns": 120,
+  "pageid": 73,
+  "sitelinks": {},
+  "title": "Item:Q63",
+  "type": "item"
+}

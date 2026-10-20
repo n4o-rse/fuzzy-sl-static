@@ -1,0 +1,292 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q138$d8ded743-4212-2ce3-77df-e163a3daa11a",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q11",
+              "numeric-id": 11
+            }
+          },
+          "hash": "31d6bca2e5b12517a8a47cb2317f9e184cb614d9",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q138$a2ea1d4f-4f31-9d0d-e29c-5779b4f7f8a7",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q10",
+              "numeric-id": 10
+            }
+          },
+          "hash": "a066d63451157f1bc5f04e16e68166202c347237",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P10": [
+      {
+        "id": "Q138$d95528cf-4414-284d-c0b6-85127b4b5d47",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://openstreetmap.org/node/319406677"
+          },
+          "hash": "402dd6cfb2e148fbf529919ab299baadb7a9f7f3",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://archaeoinformatics.link/ontology#spatialCloseMatch"
+              },
+              "hash": "bca3ca3f2f1466513ea9fc689ee68b6664c35653",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q138$c8ce5360-4de4-b821-165c-f5f9893d9d65",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://wikidata.org/entity/Q27686986"
+          },
+          "hash": "f872c8b122181336c6e68912f7b94214151554ab",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://archaeoinformatics.link/ontology#spatialCloseMatch"
+              },
+              "hash": "bca3ca3f2f1466513ea9fc689ee68b6664c35653",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P11": [
+      {
+        "id": "Q138$b320f282-455f-dced-082d-c3d0ffcf7c44",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "Rovella et al. (2018)"
+          },
+          "hash": "b8baa2b5d2a2a8e8da0a6ef55511551cc6f24ed6",
+          "property": "P11",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "793a1698174638f0271493fa76c58b9f14633029",
+            "snaks": {
+              "P17": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://doi.org/10.1140/epjp/i2018-12369-2"
+                  },
+                  "hash": "7d42dfc7e839018547600aa1246b083419c8d1e6",
+                  "property": "P17",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P17"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ],
+    "P26": [
+      {
+        "id": "Q138$dd88a173-437d-1e17-902d-26df1b8ef8fc",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q93",
+              "numeric-id": 93
+            }
+          },
+          "hash": "81de198f3de9c7df3fce85298727b2d90174f378",
+          "property": "P26",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q138$a9138163-47d5-aca0-ab6e-8f3e3b403398",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q92",
+              "numeric-id": 92
+            }
+          },
+          "hash": "4c5f7cc568367827a97722ed39eed218302f26d2",
+          "property": "P26",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P3": [
+      {
+        "id": "Q138$00398efe-4713-0402-f2c4-ec4806aa7718",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q71",
+              "numeric-id": 71
+            }
+          },
+          "hash": "89567dd13053949ea90716a4d8ee4102fa9b65c5",
+          "property": "P3",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P32": [
+      {
+        "id": "Q138$2535c09c-45c0-d945-e8d5-70b4db2906c7",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://wikidata.org/entity/Q38"
+          },
+          "hash": "190bb7757422624033fea8d2618fedf0f43ff7bd",
+          "property": "P32",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "Q138$17c70ef4-4433-e3b0-b655-b929af269a95",
+        "mainsnak": {
+          "datatype": "globe-coordinate",
+          "datavalue": {
+            "type": "globecoordinate",
+            "value": {
+              "altitude": null,
+              "globe": "http://www.wikidata.org/entity/Q2",
+              "latitude": 40.75,
+              "longitude": 14.49,
+              "precision": 0.0001
+            }
+          },
+          "hash": "7adf84a1345eac155dbc2f21366f5ecfc139429c",
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P8": [
+      {
+        "id": "Q138$cc1745b5-446e-a589-3e8e-62b7e14c67d3",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q32",
+              "numeric-id": 32
+            }
+          },
+          "hash": "70b263c74094790904c19ac47d477dee0d4d36d3",
+          "property": "P8",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Campanian Ignimbrite Findspot"
+    }
+  },
+  "id": "Q138",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Pompeii Casa della Caccia Antica"
+    }
+  },
+  "lastrevid": 733,
+  "modified": "2025-01-12T13:30:19Z",
+  "ns": 120,
+  "pageid": 166,
+  "sitelinks": {},
+  "title": "Item:Q138",
+  "type": "item"
+}

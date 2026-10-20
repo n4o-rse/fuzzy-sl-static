@@ -1,0 +1,302 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "Roman Bath House, Shadwell"
+      }
+    ]
+  },
+  "claims": {
+    "P1": [
+      {
+        "id": "Q102$61a98147-47f2-5965-0d98-4492bd0aaf21",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q10",
+              "numeric-id": 10
+            }
+          },
+          "hash": "a066d63451157f1bc5f04e16e68166202c347237",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P29": [
+      {
+        "id": "Q102$730323a3-4b34-a81e-ba40-c65007eebe75",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q101",
+              "numeric-id": 101
+            }
+          },
+          "hash": "f7bdb51fe149d115799d7875d012a1906ccf7833",
+          "property": "P29",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "Q102$c3850b3c-45a2-f692-8d4b-91e58b5837b7",
+        "mainsnak": {
+          "datatype": "globe-coordinate",
+          "datavalue": {
+            "type": "globecoordinate",
+            "value": {
+              "altitude": null,
+              "globe": "http://www.wikidata.org/entity/Q2",
+              "latitude": 51.508987,
+              "longitude": -0.05843,
+              "precision": 1e-06
+            }
+          },
+          "hash": "bdde744199fea7fba60d190f9fa6c16bdb7e4248",
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P13": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "historicengland Roman Bath House, Shadwell, list-entry/1456951"
+              },
+              "hash": "ad4633d126d1df4d7fad9446d1f0392578bbe1a9",
+              "property": "P13",
+              "snaktype": "value"
+            }
+          ],
+          "P14": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q35",
+                  "numeric-id": 35
+                }
+              },
+              "hash": "5d80a1ae7a97d6c27a8919614daa22505139b62e",
+              "property": "P14",
+              "snaktype": "value"
+            }
+          ],
+          "P15": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "set a point based on using historicengland list-entry/1456951 (UK GRID: TQ3483880682), Eluna Apartments, 4, Wapping Lane, London, E1W 2RG"
+              },
+              "hash": "e9ec9e7e194b615d6c3b88d42ac0ab45380af338",
+              "property": "P15",
+              "snaktype": "value"
+            }
+          ],
+          "P16": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q100",
+                  "numeric-id": 100
+                }
+              },
+              "hash": "cb0a4fbff5ba195c51b29afc3456ea2454515e4f",
+              "property": "P16",
+              "snaktype": "value"
+            }
+          ],
+          "P23": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "±0.000001°"
+              },
+              "hash": "4715e499f19794e167f9053b7d5a16cabdce2401",
+              "property": "P23",
+              "snaktype": "value"
+            }
+          ],
+          "P24": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q80",
+                  "numeric-id": 80
+                }
+              },
+              "hash": "01bd4bccfacab9dffa9bc3564cc0f398c09b8d9a",
+              "property": "P24",
+              "snaktype": "value"
+            }
+          ],
+          "P33": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q128",
+                  "numeric-id": 128
+                }
+              },
+              "hash": "9bd8bf8cbda0d249acce2b91a7eeb29f6c56f2ce",
+              "property": "P33",
+              "snaktype": "value"
+            }
+          ],
+          "P5": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q23",
+                  "numeric-id": 23
+                }
+              },
+              "hash": "c15738677ef387263f84ec8e65f270df54d1979e",
+              "property": "P5",
+              "snaktype": "value"
+            }
+          ],
+          "P6": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q100",
+                  "numeric-id": 100
+                }
+              },
+              "hash": "fdb529cd65c29b86976b97af7134d562ea539e32",
+              "property": "P6",
+              "snaktype": "value"
+            }
+          ],
+          "P7": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q34",
+                  "numeric-id": 34
+                }
+              },
+              "hash": "a22e0069280db79e87cab3fb9387bb237799eba8",
+              "property": "P7",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P13",
+          "P5",
+          "P7",
+          "P14",
+          "P16",
+          "P15",
+          "P23",
+          "P24",
+          "P6",
+          "P33"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "22fc307b960ac41411f3f443197317e1bf09b641",
+            "snaks": {
+              "P17": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://historicengland.org.uk/listing/the-list/list-entry/1456951?section=official-list-entry"
+                  },
+                  "hash": "5e2274a34439c4ef03eb64b8d667ed8f1c09b8ae",
+                  "property": "P17",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P17"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ],
+    "P9": [
+      {
+        "id": "Q102$fed833a2-4360-199c-266e-1e608a12784a",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q94",
+              "numeric-id": 94
+            }
+          },
+          "hash": "840e72ef8672ef6c00b75fa4a988f891e6d579b7",
+          "property": "P9",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Samian Ware Findsport (Samian Research)"
+    }
+  },
+  "id": "Q102",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "London (Londinium) / Shadwell"
+    }
+  },
+  "lastrevid": 602,
+  "modified": "2024-10-23T11:38:54Z",
+  "ns": 120,
+  "pageid": 126,
+  "sitelinks": {},
+  "title": "Item:Q102",
+  "type": "item"
+}

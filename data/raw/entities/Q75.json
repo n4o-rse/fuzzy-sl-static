@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q75$68ede3ad-4633-164d-9b1e-09f471164a63",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q5",
+              "numeric-id": 5
+            }
+          },
+          "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Project"
+    }
+  },
+  "id": "Q75",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Ogham Stones"
+    }
+  },
+  "lastrevid": 194,
+  "modified": "2024-10-14T11:10:36Z",
+  "ns": 120,
+  "pageid": 85,
+  "sitelinks": {},
+  "title": "Item:Q75",
+  "type": "item"
+}

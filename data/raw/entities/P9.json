@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "datatype": "wikibase-item",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "has generic type"
+    }
+  },
+  "id": "P9",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "has type"
+    }
+  },
+  "lastrevid": 11,
+  "modified": "2023-07-27T09:07:56Z",
+  "ns": 122,
+  "pageid": 9,
+  "title": "Property:P9",
+  "type": "property"
+}

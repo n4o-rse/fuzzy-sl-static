@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "datatype": "wikibase-item",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "coordinate qualifier"
+    }
+  },
+  "id": "P14",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "acting person"
+    }
+  },
+  "lastrevid": 476,
+  "modified": "2024-10-23T09:34:48Z",
+  "ns": 122,
+  "pageid": 31,
+  "title": "Property:P14",
+  "type": "property"
+}

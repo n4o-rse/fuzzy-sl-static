@@ -1,0 +1,31 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "P361"
+      }
+    ]
+  },
+  "claims": {},
+  "datatype": "wikibase-item",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "is part of"
+    }
+  },
+  "id": "P3",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "part of"
+    }
+  },
+  "lastrevid": 3,
+  "modified": "2023-07-27T08:57:31Z",
+  "ns": 122,
+  "pageid": 3,
+  "title": "Property:P3",
+  "type": "property"
+}

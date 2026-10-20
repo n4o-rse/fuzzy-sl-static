@@ -1,0 +1,355 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q140$2ccc828f-46f8-7994-1041-05b5124c861a",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q141",
+              "numeric-id": 141
+            }
+          },
+          "hash": "2837aa89588fe5650e54ab9388ee1278f699dbd6",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P10": [
+      {
+        "id": "Q140$cbb8e9ea-4ce3-b02c-7ad5-6cb753568de6",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://www.openstreetmap.org/node/296551085"
+          },
+          "hash": "a244d929ec000f0662c3beff96b31a9d00f2677b",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "f66dfc0feccd96057b6632563100f49981033a32",
+            "snaks": {
+              "P17": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.tmbrno.cz/wp-content/uploads/2017/10/kaplan_nemcina.pdf"
+                  },
+                  "hash": "457f875b36b32aad8a698fe4dc2d361d05124d95",
+                  "property": "P17",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P17"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ],
+    "P26": [
+      {
+        "id": "Q140$e2362ff9-4dcd-01f4-0c5e-2d23a37bf54e",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q143",
+              "numeric-id": 143
+            }
+          },
+          "hash": "c378527ead6ebfaee06362526616bd0a68912216",
+          "property": "P26",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P3": [
+      {
+        "id": "Q140$a5a64e70-4843-98c3-c5c9-fd11c207fb2b",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q142",
+              "numeric-id": 142
+            }
+          },
+          "hash": "b26401a14b6a460bb0ea6013f7e60a4aa7aca125",
+          "property": "P3",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "Q140$4d8c2fb1-4db6-798e-9486-098bcba35a90",
+        "mainsnak": {
+          "datatype": "globe-coordinate",
+          "datavalue": {
+            "type": "globecoordinate",
+            "value": {
+              "altitude": null,
+              "globe": "http://www.wikidata.org/entity/Q2",
+              "latitude": 49.1924,
+              "longitude": 16.6247,
+              "precision": 0.0001
+            }
+          },
+          "hash": "c1ece2b43f5a6d5c442474daf21280f779d0d889",
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P13": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "Brünner Maschinenfabrik Ignaz Storek– heute Šmeral Brno a. s., Křenová 65c,Brünn in https://www.tmbrno.cz/wp-content/uploads/2017/10/kaplan_nemcina.pdf"
+              },
+              "hash": "39e197d60b608756a7036765204b4d4175382c34",
+              "property": "P13",
+              "snaktype": "value"
+            }
+          ],
+          "P14": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q35",
+                  "numeric-id": 35
+                }
+              },
+              "hash": "5d80a1ae7a97d6c27a8919614daa22505139b62e",
+              "property": "P14",
+              "snaktype": "value"
+            }
+          ],
+          "P15": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "site related from literature"
+              },
+              "hash": "e5a5ee8828bc0b960f9f7233b3533bb7a7b6d2b3",
+              "property": "P15",
+              "snaktype": "value"
+            }
+          ],
+          "P16": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q19",
+                  "numeric-id": 19
+                }
+              },
+              "hash": "326e561b18c1ef4d9c35a223211d5c58b950ba6a",
+              "property": "P16",
+              "snaktype": "value"
+            }
+          ],
+          "P23": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "±0.0001°"
+              },
+              "hash": "b244f7450ca309b1cf6aec97c5286395e671d728",
+              "property": "P23",
+              "snaktype": "value"
+            }
+          ],
+          "P24": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q144",
+                  "numeric-id": 144
+                }
+              },
+              "hash": "0165c5ab9aaafa9e126f8e5c74e7c7a996a27074",
+              "property": "P24",
+              "snaktype": "value"
+            }
+          ],
+          "P33": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q126",
+                  "numeric-id": 126
+                }
+              },
+              "hash": "49e21066a0063a71c7bd8165290c820cb0fa8a65",
+              "property": "P33",
+              "snaktype": "value"
+            }
+          ],
+          "P5": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q15",
+                  "numeric-id": 15
+                }
+              },
+              "hash": "6aebcdbb96a89241548df7beda2a560b7875f792",
+              "property": "P5",
+              "snaktype": "value"
+            }
+          ],
+          "P6": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q20",
+                  "numeric-id": 20
+                }
+              },
+              "hash": "4b0b69cce1ef7d94360781da603bbb9053096cef",
+              "property": "P6",
+              "snaktype": "value"
+            }
+          ],
+          "P7": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q17",
+                  "numeric-id": 17
+                }
+              },
+              "hash": "9bd2c45f902cc46626138fed5415ba12d21e9c0f",
+              "property": "P7",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P5",
+          "P13",
+          "P7",
+          "P14",
+          "P6",
+          "P16",
+          "P15",
+          "P23",
+          "P24",
+          "P33"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "f66dfc0feccd96057b6632563100f49981033a32",
+            "snaks": {
+              "P17": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.tmbrno.cz/wp-content/uploads/2017/10/kaplan_nemcina.pdf"
+                  },
+                  "hash": "457f875b36b32aad8a698fe4dc2d361d05124d95",
+                  "property": "P17",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P17"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ],
+    "P8": [
+      {
+        "id": "Q140$32edb495-4ed3-24f2-6c1e-dc23e941bcef",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q16",
+              "numeric-id": 16
+            }
+          },
+          "hash": "7106f5376eda7b5eb6b29f3c6cb34894764fc4c3",
+          "property": "P8",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Provenance Research Geo Location"
+    }
+  },
+  "id": "Q140",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Ignaz Storek (Brünn)"
+    }
+  },
+  "lastrevid": 761,
+  "modified": "2025-01-16T13:24:52Z",
+  "ns": 120,
+  "pageid": 168,
+  "sitelinks": {},
+  "title": "Item:Q140",
+  "type": "item"
+}

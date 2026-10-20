@@ -1,0 +1,31 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "URL formatter"
+      }
+    ]
+  },
+  "claims": {},
+  "datatype": "string",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "describes the URL to use when displaying property; “$1” in the value is replaced with the property’s value"
+    }
+  },
+  "id": "P18",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Formatter URL"
+    }
+  },
+  "lastrevid": 228,
+  "modified": "2024-10-17T13:47:37Z",
+  "ns": 122,
+  "pageid": 91,
+  "title": "Property:P18",
+  "type": "property"
+}

@@ -1,0 +1,70 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "crm:E53_Place"
+      }
+    ]
+  },
+  "claims": {
+    "P2": [
+      {
+        "id": "Q146$1b2a1f73-4845-2f04-e314-c20aec01a001",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q145",
+              "numeric-id": 145
+            }
+          },
+          "hash": "93eed40edfcef78d2435b276ce932b0709b9074c",
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P37": [
+      {
+        "id": "Q146$7251be17-4de4-875b-1f1f-4511416b9ccc",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://www.cidoc-crm.org/cidoc-crm/E53_Place"
+          },
+          "hash": "ed085cbe1606af1254b255293766e84608856b05",
+          "property": "P37",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "This class comprises extents in the natural space where people live, in particular on the surface of the Earth, in the pure sense of physics: independent from temporal phenomena and matter. They may serve describing the physical location of things or phenomena or other areas of interest."
+    }
+  },
+  "id": "Q146",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "E53 Place"
+    }
+  },
+  "lastrevid": 771,
+  "modified": "2025-05-02T14:01:46Z",
+  "ns": 120,
+  "pageid": 176,
+  "sitelinks": {},
+  "title": "Item:Q146",
+  "type": "item"
+}

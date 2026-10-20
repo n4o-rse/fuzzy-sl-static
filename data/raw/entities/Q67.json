@@ -1,0 +1,387 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q67$9941D112-87FB-47D9-8121-D4C7A73AB524",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q10",
+              "numeric-id": 10
+            }
+          },
+          "hash": "a066d63451157f1bc5f04e16e68166202c347237",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P10": [
+      {
+        "id": "Q67$5E54F714-74E2-44AC-A1F2-78244A9DADE9",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://openopenstreetmap.org/way/137318585"
+          },
+          "hash": "d50b3baea5f33c8990e1baa34b14ce8eefb10ade",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://archaeoinformatics.link/ontology#dubiousMatch"
+              },
+              "hash": "f9c2d2821b92b1551b4cc5381a9c3425214c292a",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q67$1FF687A6-D8D6-4555-84B0-9DCC7BE14E2D",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://wikidata.org/entity/Q6681"
+          },
+          "hash": "6c4685689bfcbce0cdbc73606198dc5e59333f89",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://archaeoinformatics.link/ontology#dubiousMatch"
+              },
+              "hash": "f9c2d2821b92b1551b4cc5381a9c3425214c292a",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P11": [
+      {
+        "id": "Q67$AE00C1C0-EED4-4FB2-9418-F60219547444",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "P. Attianese (1980)"
+          },
+          "hash": "7d3dd9cb659e9a995abf5dbf995b05811d38e8b3",
+          "property": "P11",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q67$88C0E927-1D51-4299-A7C7-529A5899564F",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "E. A. Arslan (2014)"
+          },
+          "hash": "0ded335c59d06047dc772480f10ffe165aa11fc0",
+          "property": "P11",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P3": [
+      {
+        "id": "Q67$74DA7C08-94ED-4E28-9634-2BC610ACDEEB",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q14",
+              "numeric-id": 14
+            }
+          },
+          "hash": "599d367d7a57df18953cda571f1d578a81622d7b",
+          "property": "P3",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "Q67$2380351C-2AB0-4669-84BF-F573299B315D",
+        "mainsnak": {
+          "datatype": "globe-coordinate",
+          "datavalue": {
+            "type": "globecoordinate",
+            "value": {
+              "altitude": null,
+              "globe": "http://www.wikidata.org/entity/Q2",
+              "latitude": 39.0855,
+              "longitude": 17.1123,
+              "precision": 1e-06
+            }
+          },
+          "hash": "e1b4d1c7594a79aac794a598f9bcc63d3d992ed3",
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P14": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q18",
+                  "numeric-id": 18
+                }
+              },
+              "hash": "22d3c3d7532798be81a9e5adbd65fa0aa25014aa",
+              "property": "P14",
+              "snaktype": "value"
+            }
+          ],
+          "P15": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "set a point based on P. Attianese (1980) and E. A. Arslan (2014) using OSM Way 137318585"
+              },
+              "hash": "963349bfa5c8803287d83d1178f07e4440c92917",
+              "property": "P15",
+              "snaktype": "value"
+            }
+          ],
+          "P16": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q19",
+                  "numeric-id": 19
+                }
+              },
+              "hash": "326e561b18c1ef4d9c35a223211d5c58b950ba6a",
+              "property": "P16",
+              "snaktype": "value"
+            }
+          ],
+          "P22": [
+            {
+              "datatype": "monolingualtext",
+              "datavalue": {
+                "type": "monolingualtext",
+                "value": {
+                  "language": "en",
+                  "text": "There is only the information that the hoard was found on the river Esaro, without specifying exactly where on the river course. In the literature, there is information that it was found \"in Crotone\", by which the city rather than the province is meant, otherwise it would have been formulated differently. The urban area of the river course ends shortly after the \"Strada Statale 106 Jonica\". The most likely location for the find is along the course of the river between the section just before the motorway and the mouth of the river in the sea. Since the find was made in 1967, the course of the river at that time probably corresponds fairly closely to the course of the river today. However, both the latter and the presumed find section are conjectures."
+                }
+              },
+              "hash": "87c2aafe65ff84f5cdfe4f0737a62689e80fcbab",
+              "property": "P22",
+              "snaktype": "value"
+            },
+            {
+              "datatype": "monolingualtext",
+              "datavalue": {
+                "type": "monolingualtext",
+                "value": {
+                  "language": "de",
+                  "text": "Es gibt lediglich die Information, dass der Hortfund am Fluss Esaro gefunden wurde, ohne genaue Angabe, wo am Flusslauf. In der Literatur gibt es die Information, dass er “in Crotone” gefunden wurde, womit eher die Stadt als die Provinz gemeint sein dürfte, da es ansonsten anders formuliert worden wäre. Der städtische Bereich des Flusslaufes endet kurz hinter der “Strada Statale 106 Jonica”. Am wahrscheinlichsten ist der Fundort am Flusslauf zwischen dem Abschnitt kurz vor der Autobahn und der Flussmündung im Meer. Da der Fund 1967 getätigt wurde, entspricht der damalige Flussverlauf vermutlich ziemlich genau dem heutigen. Sowohl Letzteres als auch der mutmaßliche Fundabschnitt sind jedoch Vermutungen."
+                }
+              },
+              "hash": "8ff3cb226f5201e38a5139ff98924e9b6561dc0e",
+              "property": "P22",
+              "snaktype": "value"
+            }
+          ],
+          "P23": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "±0.000001°"
+              },
+              "hash": "4715e499f19794e167f9053b7d5a16cabdce2401",
+              "property": "P23",
+              "snaktype": "value"
+            }
+          ],
+          "P24": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q80",
+                  "numeric-id": 80
+                }
+              },
+              "hash": "01bd4bccfacab9dffa9bc3564cc0f398c09b8d9a",
+              "property": "P24",
+              "snaktype": "value"
+            }
+          ],
+          "P33": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q126",
+                  "numeric-id": 126
+                }
+              },
+              "hash": "49e21066a0063a71c7bd8165290c820cb0fa8a65",
+              "property": "P33",
+              "snaktype": "value"
+            }
+          ],
+          "P5": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q24",
+                  "numeric-id": 24
+                }
+              },
+              "hash": "4cd26ba769bf361fc9b3980822ad39cac1a8b08f",
+              "property": "P5",
+              "snaktype": "value"
+            }
+          ],
+          "P6": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q20",
+                  "numeric-id": 20
+                }
+              },
+              "hash": "4b0b69cce1ef7d94360781da603bbb9053096cef",
+              "property": "P6",
+              "snaktype": "value"
+            }
+          ],
+          "P7": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q17",
+                  "numeric-id": 17
+                }
+              },
+              "hash": "9bd2c45f902cc46626138fed5415ba12d21e9c0f",
+              "property": "P7",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P5",
+          "P7",
+          "P14",
+          "P16",
+          "P6",
+          "P15",
+          "P22",
+          "P33",
+          "P23",
+          "P24"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P8": [
+      {
+        "id": "Q67$E33C8A26-82F2-47A6-9FD7-DD17A4ABD9A7",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q33",
+              "numeric-id": 33
+            }
+          },
+          "hash": "5aa46ca6ef1ef6495b5dadc370b1718187500341",
+          "property": "P8",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Am `Fiume Esaro`."
+    }
+  },
+  "id": "Q67",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Fiume Esaro 1967 (gennaio)"
+    }
+  },
+  "lastrevid": 672,
+  "modified": "2024-10-30T11:22:04Z",
+  "ns": 120,
+  "pageid": 76,
+  "sitelinks": {},
+  "title": "Item:Q67",
+  "type": "item"
+}

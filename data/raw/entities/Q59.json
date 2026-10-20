@@ -1,0 +1,260 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q59$8CDAAD3B-0E78-44B7-AA24-6804C175DADB",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q10",
+              "numeric-id": 10
+            }
+          },
+          "hash": "a066d63451157f1bc5f04e16e68166202c347237",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P10": [
+      {
+        "id": "Q59$B53F3B06-F811-4840-93B1-50A6165B91E4",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://sws.geonames.org/2524872"
+          },
+          "hash": "b64d8ffda97c06fd312f34219ae219e3cdd18e02",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://www.w3.org/2004/02/skos/core#exactMatch"
+              },
+              "hash": "6d0a67b4895a149990720e0f8b0d5b0e11275fe9",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P3": [
+      {
+        "id": "Q59$0AFF081B-7CBD-4F2B-BE1B-7D8E7765634B",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q14",
+              "numeric-id": 14
+            }
+          },
+          "hash": "599d367d7a57df18953cda571f1d578a81622d7b",
+          "property": "P3",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "Q59$2164E18F-E5AF-4840-99F3-C9CF189017F6",
+        "mainsnak": {
+          "datatype": "globe-coordinate",
+          "datavalue": {
+            "type": "globecoordinate",
+            "value": {
+              "altitude": null,
+              "globe": "http://www.wikidata.org/entity/Q2",
+              "latitude": 38.82811,
+              "longitude": 16.31344,
+              "precision": 1e-06
+            }
+          },
+          "hash": "cf608e6b95bec50af161b32c25b5b5a95d52d4a8",
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P13": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "Coordinate is directly used from the GeoNames record."
+              },
+              "hash": "813785a11495ad30ef619022f2f5201eda0b8870",
+              "property": "P13",
+              "snaktype": "value"
+            }
+          ],
+          "P14": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q35",
+                  "numeric-id": 35
+                }
+              },
+              "hash": "5d80a1ae7a97d6c27a8919614daa22505139b62e",
+              "property": "P14",
+              "snaktype": "value"
+            }
+          ],
+          "P15": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "uses existing link to GeoNames in coinhorads ID 1881"
+              },
+              "hash": "3458c7b03e8341594a8e930a1bfbede3db9d3fd0",
+              "property": "P15",
+              "snaktype": "value"
+            }
+          ],
+          "P16": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q26",
+                  "numeric-id": 26
+                }
+              },
+              "hash": "435efce077304f96cec19e0dcc9f8c71eb52bc77",
+              "property": "P16",
+              "snaktype": "value"
+            }
+          ],
+          "P5": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q24",
+                  "numeric-id": 24
+                }
+              },
+              "hash": "4cd26ba769bf361fc9b3980822ad39cac1a8b08f",
+              "property": "P5",
+              "snaktype": "value"
+            }
+          ],
+          "P6": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q31",
+                  "numeric-id": 31
+                }
+              },
+              "hash": "e5e950c65c27ed6ce419c9673e12d5ff5b4ed127",
+              "property": "P6",
+              "snaktype": "value"
+            }
+          ],
+          "P7": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q34",
+                  "numeric-id": 34
+                }
+              },
+              "hash": "a22e0069280db79e87cab3fb9387bb237799eba8",
+              "property": "P7",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P5",
+          "P13",
+          "P7",
+          "P14",
+          "P16",
+          "P6",
+          "P15"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P8": [
+      {
+        "id": "Q59$C7A776CA-17D8-46DF-AC7D-3B4DEC5338DD",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q16",
+              "numeric-id": 16
+            }
+          },
+          "hash": "7106f5376eda7b5eb6b29f3c6cb34894764fc4c3",
+          "property": "P8",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Derived from conhoards.org identifier"
+    }
+  },
+  "id": "Q59",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Curinga (Italy)"
+    }
+  },
+  "lastrevid": 139,
+  "modified": "2023-08-14T15:07:30Z",
+  "ns": 120,
+  "pageid": 69,
+  "sitelinks": {},
+  "title": "Item:Q59",
+  "type": "item"
+}

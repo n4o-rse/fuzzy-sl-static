@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Type"
+    }
+  },
+  "id": "Q81",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Location Type"
+    }
+  },
+  "lastrevid": 242,
+  "modified": "2024-10-21T20:20:45Z",
+  "ns": 120,
+  "pageid": 99,
+  "sitelinks": {},
+  "title": "Item:Q81",
+  "type": "item"
+}

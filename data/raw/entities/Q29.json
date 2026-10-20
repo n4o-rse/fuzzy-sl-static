@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q29$ee2d081f-4293-9da5-d212-ab77fa19cdc5",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "hash": "2a3b4b0a52cd6c738fd7ba49e5cb34800d258d5c",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Source"
+    }
+  },
+  "id": "Q29",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Pleiades Gazetteer"
+    }
+  },
+  "lastrevid": 96,
+  "modified": "2023-08-14T13:52:45Z",
+  "ns": 120,
+  "pageid": 45,
+  "sitelinks": {},
+  "title": "Item:Q29",
+  "type": "item"
+}

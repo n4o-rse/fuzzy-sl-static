@@ -1,0 +1,31 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "skos:relatedMatch"
+      }
+    ]
+  },
+  "claims": {},
+  "datatype": "url",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "related to external identifier"
+    }
+  },
+  "id": "P10",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "related to"
+    }
+  },
+  "lastrevid": 21,
+  "modified": "2023-07-27T09:23:19Z",
+  "ns": 122,
+  "pageid": 17,
+  "title": "Property:P10",
+  "type": "property"
+}

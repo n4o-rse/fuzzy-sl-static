@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "datatype": "string",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "reference property"
+    }
+  },
+  "id": "P25",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "reference (String)"
+    }
+  },
+  "lastrevid": 256,
+  "modified": "2024-10-21T20:28:32Z",
+  "ns": 122,
+  "pageid": 102,
+  "title": "Property:P25",
+  "type": "property"
+}

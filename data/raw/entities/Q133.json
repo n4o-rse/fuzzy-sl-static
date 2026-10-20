@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q133$59e0974b-45a0-4da6-c1ac-b88b3658ca51",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q125",
+              "numeric-id": 125
+            }
+          },
+          "hash": "f7e73057efbc22073d07424db862a06f715e17ba",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Point Type"
+    }
+  },
+  "id": "Q133",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Exhibition"
+    }
+  },
+  "lastrevid": 654,
+  "modified": "2024-10-29T15:06:09Z",
+  "ns": 120,
+  "pageid": 160,
+  "sitelinks": {},
+  "title": "Item:Q133",
+  "type": "item"
+}

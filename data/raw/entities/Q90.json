@@ -1,0 +1,67 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q90$c99f621a-48d6-babf-e4e3-b21d77b1ccea",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q4",
+              "numeric-id": 4
+            }
+          },
+          "hash": "6056844c4a6d3699fbafab69805eed5ca36eab0e",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P2": [
+      {
+        "id": "Q90$b5f72664-4cad-ebf8-c3ef-907b5cd3428e",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q147",
+              "numeric-id": 147
+            }
+          },
+          "hash": "e4e09a24a68a0666c4686b457e20c29abeb9fc8b",
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "spatial type"
+    }
+  },
+  "id": "Q90",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Cave"
+    }
+  },
+  "lastrevid": 775,
+  "modified": "2025-05-02T14:03:58Z",
+  "ns": 120,
+  "pageid": 109,
+  "sitelinks": {},
+  "title": "Item:Q90",
+  "type": "item"
+}

@@ -1,0 +1,295 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q97$a83ba7de-478c-64fd-1ef1-701e296959c1",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q10",
+              "numeric-id": 10
+            }
+          },
+          "hash": "a066d63451157f1bc5f04e16e68166202c347237",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P29": [
+      {
+        "id": "Q97$a0de1224-478d-8f2e-91b9-4031e0195c8e",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q106",
+              "numeric-id": 106
+            }
+          },
+          "hash": "f00e782b2755f3bf5a98a86cf17c62b1ae09ad43",
+          "property": "P29",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P3": [
+      {
+        "id": "Q97$ba7e3083-46a7-0967-a685-f3941816a54b",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q94",
+              "numeric-id": 94
+            }
+          },
+          "hash": "c9861954599c0dfea08b409e75dab4b841b21019",
+          "property": "P3",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "Q97$01c7ebee-4c62-1e71-535f-ed12a85abf8f",
+        "mainsnak": {
+          "datatype": "globe-coordinate",
+          "datavalue": {
+            "type": "globecoordinate",
+            "value": {
+              "altitude": null,
+              "globe": "http://www.wikidata.org/entity/Q2",
+              "latitude": 54.9912,
+              "longitude": -2.3602,
+              "precision": 0.0001
+            }
+          },
+          "hash": "81b8f05c57137ea8fd429b524e4f66abe0118d04",
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P13": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "middle of Castra Vindolanda, OSM node 10089459650"
+              },
+              "hash": "a8195463fabaa52637afd5646d7a5ef1f1d04296",
+              "property": "P13",
+              "snaktype": "value"
+            }
+          ],
+          "P14": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q35",
+                  "numeric-id": 35
+                }
+              },
+              "hash": "5d80a1ae7a97d6c27a8919614daa22505139b62e",
+              "property": "P14",
+              "snaktype": "value"
+            }
+          ],
+          "P15": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "set a point based on OSM node 10089459650"
+              },
+              "hash": "739aa5a2485375f0509d3c25637eeeb71811f59c",
+              "property": "P15",
+              "snaktype": "value"
+            }
+          ],
+          "P16": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q104",
+                  "numeric-id": 104
+                }
+              },
+              "hash": "fa982d921c688917bc7fe06e8ba7617e4a8bc782",
+              "property": "P16",
+              "snaktype": "value"
+            }
+          ],
+          "P23": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "±0.0001°"
+              },
+              "hash": "b244f7450ca309b1cf6aec97c5286395e671d728",
+              "property": "P23",
+              "snaktype": "value"
+            }
+          ],
+          "P24": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q80",
+                  "numeric-id": 80
+                }
+              },
+              "hash": "01bd4bccfacab9dffa9bc3564cc0f398c09b8d9a",
+              "property": "P24",
+              "snaktype": "value"
+            }
+          ],
+          "P33": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q128",
+                  "numeric-id": 128
+                }
+              },
+              "hash": "9bd8bf8cbda0d249acce2b91a7eeb29f6c56f2ce",
+              "property": "P33",
+              "snaktype": "value"
+            }
+          ],
+          "P5": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q23",
+                  "numeric-id": 23
+                }
+              },
+              "hash": "c15738677ef387263f84ec8e65f270df54d1979e",
+              "property": "P5",
+              "snaktype": "value"
+            }
+          ],
+          "P6": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q100",
+                  "numeric-id": 100
+                }
+              },
+              "hash": "fdb529cd65c29b86976b97af7134d562ea539e32",
+              "property": "P6",
+              "snaktype": "value"
+            }
+          ],
+          "P7": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q17",
+                  "numeric-id": 17
+                }
+              },
+              "hash": "9bd2c45f902cc46626138fed5415ba12d21e9c0f",
+              "property": "P7",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P23",
+          "P13",
+          "P5",
+          "P7",
+          "P14",
+          "P16",
+          "P15",
+          "P24",
+          "P6",
+          "P33"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "e49606ea11065623027942dbafa5750416aa28fc",
+            "snaks": {
+              "P17": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.openstreetmap.org/node/10089459650"
+                  },
+                  "hash": "880a73bb1ec44e1cf074c6effa1d3b4c64252803",
+                  "property": "P17",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P17"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Samian Ware Findsport (Samian Research)"
+    }
+  },
+  "id": "Q97",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Chesterholm-Vindolanda / vicus"
+    }
+  },
+  "lastrevid": 607,
+  "modified": "2024-10-23T11:40:31Z",
+  "ns": 120,
+  "pageid": 119,
+  "sitelinks": {},
+  "title": "Item:Q97",
+  "type": "item"
+}

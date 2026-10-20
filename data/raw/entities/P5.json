@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "datatype": "wikibase-item",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "coordinate qualifier"
+    }
+  },
+  "id": "P5",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "certainty level"
+    }
+  },
+  "lastrevid": 472,
+  "modified": "2024-10-23T09:31:38Z",
+  "ns": 122,
+  "pageid": 5,
+  "title": "Property:P5",
+  "type": "property"
+}

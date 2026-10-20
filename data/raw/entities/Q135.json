@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q135$25c0af17-4c35-b762-d297-023cfac00a91",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q4",
+              "numeric-id": 4
+            }
+          },
+          "hash": "6056844c4a6d3699fbafab69805eed5ca36eab0e",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "spatial type"
+    }
+  },
+  "id": "Q135",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Lake / Sea"
+    }
+  },
+  "lastrevid": 684,
+  "modified": "2025-01-12T12:49:48Z",
+  "ns": 120,
+  "pageid": 163,
+  "sitelinks": {},
+  "title": "Item:Q135",
+  "type": "item"
+}

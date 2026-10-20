@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q124$138a5813-49ff-6232-8d3a-21ecde456d94",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q4",
+              "numeric-id": 4
+            }
+          },
+          "hash": "6056844c4a6d3699fbafab69805eed5ca36eab0e",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Spatial Type"
+    }
+  },
+  "id": "Q124",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Spatial Region (without administrative borders)"
+    }
+  },
+  "lastrevid": 580,
+  "modified": "2024-10-23T11:24:11Z",
+  "ns": 120,
+  "pageid": 150,
+  "sitelinks": {},
+  "title": "Item:Q124",
+  "type": "item"
+}

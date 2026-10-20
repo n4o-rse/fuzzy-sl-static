@@ -1,0 +1,703 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q74$7ec947fa-4159-bfce-5ace-f6cae30b01d7",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q10",
+              "numeric-id": 10
+            }
+          },
+          "hash": "a066d63451157f1bc5f04e16e68166202c347237",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P10": [
+      {
+        "id": "Q74$066ecd19-4781-d58b-14fd-34d780ba3642",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://wikidata.org/entity/Q130529871"
+          },
+          "hash": "c979c069432a9ec3e8179c50f2896528d98f9a91",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://archaeoinformatics.link/ontology#spatialCloseMatch"
+              },
+              "hash": "bca3ca3f2f1466513ea9fc689ee68b6664c35653",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q74$08b978dc-4eb7-2392-5011-378804b19cb5",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://wikibase.semantic-kompakkt.de/entity/Q1247"
+          },
+          "hash": "35ba4497c2d64b45bf4ca1d6ad89275bb9cf918c",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://archaeoinformatics.link/ontology#spatialCloseMatch"
+              },
+              "hash": "bca3ca3f2f1466513ea9fc689ee68b6664c35653",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q74$04a4372e-4cc2-4fb9-fd7d-ca0e10d16846",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://database.factgrid.de/entity/Q1000294"
+          },
+          "hash": "01bd97593f73946b54001930148736801b912c6d",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://archaeoinformatics.link/ontology#spatialCloseMatch"
+              },
+              "hash": "bca3ca3f2f1466513ea9fc689ee68b6664c35653",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q74$ea2ebf02-4299-5a80-9e8b-e293b9d5f583",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://lod.ogham.link/data/Y50000081"
+          },
+          "hash": "fa8e966a0472491febcb7e4f4cd3fcd3d78ac8d9",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://archaeoinformatics.link/ontology#spatialCloseMatch"
+              },
+              "hash": "bca3ca3f2f1466513ea9fc689ee68b6664c35653",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P11": [
+      {
+        "id": "Q74$c95dee6c-49cb-e947-5c6e-7ac854f905d2",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "https://www.openstreetmap.org/node/11071361392"
+          },
+          "hash": "e4d2d3443a2caa45fab5a0f09a89144be6f247d9",
+          "property": "P11",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q74$5c86d982-42ce-dc6e-a758-2eb693603328",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "https://www.jstor.org/stable/25505959"
+          },
+          "hash": "15fa5590b8a2d2f5e9483ee31bb36971b8c4e150",
+          "property": "P11",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q74$734ac8da-47b8-45bc-9e8e-94d73aecdffa",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "https://www.ucl.ac.uk/archaeology/cisp/database/stone/gares_1.html"
+          },
+          "hash": "1cbc5b639ecfdd2a3dfc4eb5cdb322f1fb41c7b5",
+          "property": "P11",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q74$d5386125-4f7b-7871-e600-dba5140985b2",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "https://titus.uni-frankfurt.de/ogam/h/og081.htm"
+          },
+          "hash": "eebb23303de7037f09d2eb3565e59607db04b4cc",
+          "property": "P11",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P19": [
+      {
+        "id": "Q74$1b15be22-4ace-a255-bd54-410b3c142ef1",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "Q1262"
+          },
+          "hash": "d510a3498ee051e1ec51b5489d631a6be7fb6d11",
+          "property": "P19",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P26": [
+      {
+        "id": "Q74$5187e32f-4f78-4d27-18a8-afc048140b19",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q92",
+              "numeric-id": 92
+            }
+          },
+          "hash": "4c5f7cc568367827a97722ed39eed218302f26d2",
+          "property": "P26",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P3": [
+      {
+        "id": "Q74$a7a43978-44a2-3a71-40e5-4479023ba4cf",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q75",
+              "numeric-id": 75
+            }
+          },
+          "hash": "83762d4cb0de251f886973497f69bdd7f9ca9c10",
+          "property": "P3",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P34": [
+      {
+        "id": "Q74$0055ccf8-43cf-8ea6-cf5d-b4c84f875ed6",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "Q130529871"
+          },
+          "hash": "a05d0b1926515a0a60dd9aa87de3a52c004d2fc3",
+          "property": "P34",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "Q74$044fd031-4b81-05b3-c118-c7f409417337",
+        "mainsnak": {
+          "datatype": "globe-coordinate",
+          "datavalue": {
+            "type": "globecoordinate",
+            "value": {
+              "altitude": null,
+              "globe": "http://www.wikidata.org/entity/Q2",
+              "latitude": 51.89365930555556,
+              "longitude": -8.492443111111111,
+              "precision": 0.0001
+            }
+          },
+          "hash": "f35fd5a4877940e2aaa0996412120b55eb9efd47",
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P13": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "on-site servey at exhebition area"
+              },
+              "hash": "b8e3180bf91e711cf321fa18425aa15ef12c22dc",
+              "property": "P13",
+              "snaktype": "value"
+            }
+          ],
+          "P14": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q35",
+                  "numeric-id": 35
+                }
+              },
+              "hash": "5d80a1ae7a97d6c27a8919614daa22505139b62e",
+              "property": "P14",
+              "snaktype": "value"
+            }
+          ],
+          "P15": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "on-site survey at UCC Cork"
+              },
+              "hash": "ac73067930fb968ec5a97955beec306101c2446c",
+              "property": "P15",
+              "snaktype": "value"
+            }
+          ],
+          "P16": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q78",
+                  "numeric-id": 78
+                }
+              },
+              "hash": "331fdcfc08fe869d2c4d00ad372d48ea3a37ac0e",
+              "property": "P16",
+              "snaktype": "value"
+            }
+          ],
+          "P23": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "±0.0001°"
+              },
+              "hash": "b244f7450ca309b1cf6aec97c5286395e671d728",
+              "property": "P23",
+              "snaktype": "value"
+            }
+          ],
+          "P24": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q132",
+                  "numeric-id": 132
+                }
+              },
+              "hash": "d137c87bc86fdc1d99f20355acc3fff5de653f35",
+              "property": "P24",
+              "snaktype": "value"
+            }
+          ],
+          "P33": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q133",
+                  "numeric-id": 133
+                }
+              },
+              "hash": "08ec91f49848d4fd93a6e5880c7282a5e1f35497",
+              "property": "P33",
+              "snaktype": "value"
+            }
+          ],
+          "P5": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q23",
+                  "numeric-id": 23
+                }
+              },
+              "hash": "c15738677ef387263f84ec8e65f270df54d1979e",
+              "property": "P5",
+              "snaktype": "value"
+            }
+          ],
+          "P6": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q78",
+                  "numeric-id": 78
+                }
+              },
+              "hash": "7c5d62352af1c679c62690a2f65b0ed3260c3b82",
+              "property": "P6",
+              "snaktype": "value"
+            }
+          ],
+          "P7": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q77",
+                  "numeric-id": 77
+                }
+              },
+              "hash": "8f3097bc2769fe352e3eb8e99a8e6b8555a0501d",
+              "property": "P7",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P5",
+          "P13",
+          "P7",
+          "P14",
+          "P16",
+          "P6",
+          "P15",
+          "P23",
+          "P24",
+          "P33"
+        ],
+        "rank": "preferred",
+        "type": "statement"
+      },
+      {
+        "id": "Q74$b6c08e15-4843-729d-ddc7-b81e66813d09",
+        "mainsnak": {
+          "datatype": "globe-coordinate",
+          "datavalue": {
+            "type": "globecoordinate",
+            "value": {
+              "altitude": null,
+              "globe": "http://www.wikidata.org/entity/Q2",
+              "latitude": 51.81655,
+              "longitude": -8.765869444444444,
+              "precision": 2.777777777777778e-06
+            }
+          },
+          "hash": "a1837719bd58508edec861bf304b735bea9daf45",
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P13": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "Gippert/Web, Ogham 81: `According to Brash, JRSAI 10, 1869, 260, the stone was found in a structure called Rath Lisheenagreine, in the townland of Gurranes (sic!), parish of Templemartin, 1 mle. north of the parish church (the village in question is named \"Gurranes\" in the Cork U.C. too). A detailed map of the rath (in connection with the larger Rath Lisnacaheragh) is available in S.P. O' RЎordяin's article in PRIA 47-C, 1941-42, 77 ff. - According to Brash, the stone was discovered by one farmer Crowley 17 years before (the publication of his article in JRSAI 10, 1869); Macalister states in CIIC that it \"has been known since the sixities\" and \"appears to have come from a souterrain in the group\" of \"earth-works\" on the townland of Gurranes. The first report was made by John Lyons, C.C., Newcestown, Enniskeane; Brash's visit took place on 16.12.1868. The stone was moved to the Museum of the U.C., Cork after Macalister first visited it (at that time it was still \"standing loosely in one of the ditches\": CIIC 1, 84). In the collection of the U.C., it is assigned no. 17.'."
+              },
+              "hash": "aa034734272d0add6616fb792394f9537cba5511",
+              "property": "P13",
+              "snaktype": "value"
+            }
+          ],
+          "P14": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q35",
+                  "numeric-id": 35
+                }
+              },
+              "hash": "5d80a1ae7a97d6c27a8919614daa22505139b62e",
+              "property": "P14",
+              "snaktype": "value"
+            }
+          ],
+          "P15": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "found in old documents"
+              },
+              "hash": "e0603e139db101f827f7414654f604edd0205840",
+              "property": "P15",
+              "snaktype": "value"
+            }
+          ],
+          "P16": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q19",
+                  "numeric-id": 19
+                }
+              },
+              "hash": "326e561b18c1ef4d9c35a223211d5c58b950ba6a",
+              "property": "P16",
+              "snaktype": "value"
+            }
+          ],
+          "P23": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "±0.0001°"
+              },
+              "hash": "b244f7450ca309b1cf6aec97c5286395e671d728",
+              "property": "P23",
+              "snaktype": "value"
+            }
+          ],
+          "P24": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q80",
+                  "numeric-id": 80
+                }
+              },
+              "hash": "01bd4bccfacab9dffa9bc3564cc0f398c09b8d9a",
+              "property": "P24",
+              "snaktype": "value"
+            }
+          ],
+          "P33": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q128",
+                  "numeric-id": 128
+                }
+              },
+              "hash": "9bd8bf8cbda0d249acce2b91a7eeb29f6c56f2ce",
+              "property": "P33",
+              "snaktype": "value"
+            }
+          ],
+          "P5": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q24",
+                  "numeric-id": 24
+                }
+              },
+              "hash": "4cd26ba769bf361fc9b3980822ad39cac1a8b08f",
+              "property": "P5",
+              "snaktype": "value"
+            }
+          ],
+          "P6": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q20",
+                  "numeric-id": 20
+                }
+              },
+              "hash": "4b0b69cce1ef7d94360781da603bbb9053096cef",
+              "property": "P6",
+              "snaktype": "value"
+            }
+          ],
+          "P7": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q17",
+                  "numeric-id": 17
+                }
+              },
+              "hash": "9bd2c45f902cc46626138fed5415ba12d21e9c0f",
+              "property": "P7",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P5",
+          "P13",
+          "P7",
+          "P14",
+          "P6",
+          "P16",
+          "P15",
+          "P23",
+          "P24",
+          "P33"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P8": [
+      {
+        "id": "Q74$596e9b44-4ece-f099-76ff-8d48e3591ba3",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q76",
+              "numeric-id": 76
+            }
+          },
+          "hash": "ec801942cf8407cc2da44e577cd4ea3ee86b2cf7",
+          "property": "P8",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Ogham Stone #4 UCC Stone Corridor at UCC Cork"
+    }
+  },
+  "id": "Q74",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Ogham Stone UCC Stone Corridor IV"
+    }
+  },
+  "lastrevid": 670,
+  "modified": "2024-10-30T08:56:59Z",
+  "ns": 120,
+  "pageid": 84,
+  "sitelinks": {},
+  "title": "Item:Q74",
+  "type": "item"
+}

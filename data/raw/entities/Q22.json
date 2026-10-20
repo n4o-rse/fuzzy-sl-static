@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "owl:Thing"
+    }
+  },
+  "id": "Q22",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Generic Class"
+    }
+  },
+  "lastrevid": 75,
+  "modified": "2023-08-14T13:05:28Z",
+  "ns": 120,
+  "pageid": 38,
+  "sitelinks": {},
+  "title": "Item:Q22",
+  "type": "item"
+}

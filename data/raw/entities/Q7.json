@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "e.g. Google Maps, OSM"
+    }
+  },
+  "id": "Q7",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Method Type"
+    }
+  },
+  "lastrevid": 20,
+  "modified": "2023-07-27T09:21:30Z",
+  "ns": 120,
+  "pageid": 16,
+  "sitelinks": {},
+  "title": "Item:Q7",
+  "type": "item"
+}

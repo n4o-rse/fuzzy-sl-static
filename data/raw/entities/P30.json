@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "datatype": "wikibase-item",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "a more detailed location"
+    }
+  },
+  "id": "P30",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "has narrower location"
+    }
+  },
+  "lastrevid": 367,
+  "modified": "2024-10-22T17:40:30Z",
+  "ns": 122,
+  "pageid": 125,
+  "title": "Property:P30",
+  "type": "property"
+}

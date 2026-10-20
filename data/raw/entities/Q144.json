@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q144$807e5219-40f6-f983-0622-ac187969fe11",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q81",
+              "numeric-id": 81
+            }
+          },
+          "hash": "71b854e0aea6f33121b9468dc26b0e6374f74277",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "location type"
+    }
+  },
+  "id": "Q144",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Provenance Site"
+    }
+  },
+  "lastrevid": 759,
+  "modified": "2025-01-16T13:23:54Z",
+  "ns": 120,
+  "pageid": 172,
+  "sitelinks": {},
+  "title": "Item:Q144",
+  "type": "item"
+}

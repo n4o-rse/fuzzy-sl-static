@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q72$ac064c28-464f-2ed6-d95d-373f9f5e4bd4",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q21",
+              "numeric-id": 21
+            }
+          },
+          "hash": "cd9f768a4c42cdc7579b96784c19d1cb54b56afe",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Geoscientist"
+    }
+  },
+  "id": "Q72",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Fiona Schenk"
+    }
+  },
+  "lastrevid": 173,
+  "modified": "2024-05-31T17:06:29Z",
+  "ns": 120,
+  "pageid": 82,
+  "sitelinks": {},
+  "title": "Item:Q72",
+  "type": "item"
+}

@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "datatype": "url",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "has resource match"
+    }
+  },
+  "id": "P27",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "has match"
+    }
+  },
+  "lastrevid": 325,
+  "modified": "2024-10-21T21:23:23Z",
+  "ns": 122,
+  "pageid": 116,
+  "title": "Property:P27",
+  "type": "property"
+}

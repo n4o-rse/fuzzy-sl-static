@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q36$5d8e50b3-4323-93ad-fb88-7c2567ce63b8",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q4",
+              "numeric-id": 4
+            }
+          },
+          "hash": "6056844c4a6d3699fbafab69805eed5ca36eab0e",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "spatial type"
+    }
+  },
+  "id": "Q36",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Region Centre"
+    }
+  },
+  "lastrevid": 110,
+  "modified": "2023-08-14T14:05:16Z",
+  "ns": 120,
+  "pageid": 52,
+  "sitelinks": {},
+  "title": "Item:Q36",
+  "type": "item"
+}

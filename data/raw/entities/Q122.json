@@ -1,0 +1,295 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q122$df809596-4c3f-3d40-82b9-d757e134cad9",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q10",
+              "numeric-id": 10
+            }
+          },
+          "hash": "a066d63451157f1bc5f04e16e68166202c347237",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P3": [
+      {
+        "id": "Q122$f53d4720-4ae4-29fc-bcab-a3905f0924f1",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q94",
+              "numeric-id": 94
+            }
+          },
+          "hash": "c9861954599c0dfea08b409e75dab4b841b21019",
+          "property": "P3",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "Q122$d960d028-4a8a-5866-c20c-56b1623c5fb6",
+        "mainsnak": {
+          "datatype": "globe-coordinate",
+          "datavalue": {
+            "type": "globecoordinate",
+            "value": {
+              "altitude": null,
+              "globe": "http://www.wikidata.org/entity/Q2",
+              "latitude": 51.2075,
+              "longitude": 2.857,
+              "precision": 0.0001
+            }
+          },
+          "hash": "04d23bb960d12adb6395c88d403badfb6495da3b",
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P13": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "used marker of Google Maps Belgian Coast as central point"
+              },
+              "hash": "54200039a1a85a75d29e70e254290ce470e736b6",
+              "property": "P13",
+              "snaktype": "value"
+            }
+          ],
+          "P14": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q35",
+                  "numeric-id": 35
+                }
+              },
+              "hash": "5d80a1ae7a97d6c27a8919614daa22505139b62e",
+              "property": "P14",
+              "snaktype": "value"
+            }
+          ],
+          "P15": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "set a representative point based on a marker of Google Maps Belgian Coast"
+              },
+              "hash": "8a69fefe673d1660687ab0b84db0c47be000f63f",
+              "property": "P15",
+              "snaktype": "value"
+            }
+          ],
+          "P16": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q99",
+                  "numeric-id": 99
+                }
+              },
+              "hash": "ebdbd74a7908bec70d3f215a50d64732da286e9d",
+              "property": "P16",
+              "snaktype": "value"
+            }
+          ],
+          "P23": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "±0.01°"
+              },
+              "hash": "8cdc6374e851952072244e620a5ef9e0568d1c5a",
+              "property": "P23",
+              "snaktype": "value"
+            }
+          ],
+          "P24": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q80",
+                  "numeric-id": 80
+                }
+              },
+              "hash": "01bd4bccfacab9dffa9bc3564cc0f398c09b8d9a",
+              "property": "P24",
+              "snaktype": "value"
+            }
+          ],
+          "P33": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q126",
+                  "numeric-id": 126
+                }
+              },
+              "hash": "49e21066a0063a71c7bd8165290c820cb0fa8a65",
+              "property": "P33",
+              "snaktype": "value"
+            }
+          ],
+          "P5": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q24",
+                  "numeric-id": 24
+                }
+              },
+              "hash": "4cd26ba769bf361fc9b3980822ad39cac1a8b08f",
+              "property": "P5",
+              "snaktype": "value"
+            }
+          ],
+          "P6": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q100",
+                  "numeric-id": 100
+                }
+              },
+              "hash": "fdb529cd65c29b86976b97af7134d562ea539e32",
+              "property": "P6",
+              "snaktype": "value"
+            }
+          ],
+          "P7": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q17",
+                  "numeric-id": 17
+                }
+              },
+              "hash": "9bd2c45f902cc46626138fed5415ba12d21e9c0f",
+              "property": "P7",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P23",
+          "P5",
+          "P13",
+          "P7",
+          "P14",
+          "P16",
+          "P6",
+          "P15",
+          "P24",
+          "P33"
+        ],
+        "rank": "preferred",
+        "references": [
+          {
+            "hash": "7daa123df7d7d02c5b0c9a4cb4c0aa4c2e26c7ed",
+            "snaks": {
+              "P25": [
+                {
+                  "datatype": "string",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "Google Maps Belgian Coast"
+                  },
+                  "hash": "d28a21a6dc98b41e0cbacb6090eb41656aadf222",
+                  "property": "P25",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P25"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ],
+    "P8": [
+      {
+        "id": "Q122$4d51e141-4c21-3693-911b-50776a0981d3",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q124",
+              "numeric-id": 124
+            }
+          },
+          "hash": "77a97ddeb2f4696e8cf7b84767cb596b91c3e45f",
+          "property": "P8",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Samian Ware Findsport (Samian Research)"
+    }
+  },
+  "id": "Q122",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Belgian Coast (Samian Discovery Site)"
+    }
+  },
+  "lastrevid": 589,
+  "modified": "2024-10-23T11:32:50Z",
+  "ns": 120,
+  "pageid": 148,
+  "sitelinks": {},
+  "title": "Item:Q122",
+  "type": "item"
+}

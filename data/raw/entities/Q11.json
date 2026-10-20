@@ -1,0 +1,86 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q11$a043a312-4840-f34f-029a-26fc5294c3cc",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q3",
+              "numeric-id": 3
+            }
+          },
+          "hash": "dad80ce021597708e456b39bc26c8f08f3771429",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P2": [
+      {
+        "id": "Q11$bb58d789-4eee-5ae3-cb24-8125c0540867",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q79",
+              "numeric-id": 79
+            }
+          },
+          "hash": "5df86fffd1c276eef36f3d271c11f13076d68933",
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q11$80fffabf-4bd5-6b5f-0960-f11bbcac251e",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q146",
+              "numeric-id": 146
+            }
+          },
+          "hash": "bfc2994fbaf085dbbb8ba5aac3f16cbdf3847565",
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "e.g. Voscone"
+    }
+  },
+  "id": "Q11",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Geological Site"
+    }
+  },
+  "lastrevid": 773,
+  "modified": "2025-05-02T14:02:46Z",
+  "ns": 120,
+  "pageid": 21,
+  "sitelinks": {},
+  "title": "Item:Q11",
+  "type": "item"
+}

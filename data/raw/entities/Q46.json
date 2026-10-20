@@ -1,0 +1,309 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q46$7995E7C6-E6CA-4216-AC2C-C5A9565903FF",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q10",
+              "numeric-id": 10
+            }
+          },
+          "hash": "a066d63451157f1bc5f04e16e68166202c347237",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P10": [
+      {
+        "id": "Q46$7A56DA98-9406-4495-9361-E72ABEE1BBFF",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://openopenstreetmap.org/node/1257748539"
+          },
+          "hash": "de58ea370c7e5e36045ecee437c1fbd715f60ce8",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://archaeoinformatics.link/ontology#spatialCloseMatch"
+              },
+              "hash": "bca3ca3f2f1466513ea9fc689ee68b6664c35653",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q46$B8C46379-DDBB-410D-9EA8-C4049A91FC76",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://wikidata.org/entity/Q6681"
+          },
+          "hash": "6c4685689bfcbce0cdbc73606198dc5e59333f89",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://archaeoinformatics.link/ontology#spatialCloseMatch"
+              },
+              "hash": "bca3ca3f2f1466513ea9fc689ee68b6664c35653",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P11": [
+      {
+        "id": "Q46$B7558451-D6EF-4395-B33E-706CC2021818",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "P. Attianese (1980)"
+          },
+          "hash": "7d3dd9cb659e9a995abf5dbf995b05811d38e8b3",
+          "property": "P11",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P3": [
+      {
+        "id": "Q46$CA12D927-E368-4A1D-8745-B57BA63E4538",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q14",
+              "numeric-id": 14
+            }
+          },
+          "hash": "599d367d7a57df18953cda571f1d578a81622d7b",
+          "property": "P3",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "Q46$61C19B32-4ED6-4D2A-9D44-40F245BE4D14",
+        "mainsnak": {
+          "datatype": "globe-coordinate",
+          "datavalue": {
+            "type": "globecoordinate",
+            "value": {
+              "altitude": null,
+              "globe": "http://www.wikidata.org/entity/Q2",
+              "latitude": 39.08002,
+              "longitude": 17.12661,
+              "precision": 1e-06
+            }
+          },
+          "hash": "e14fc4df0e621f6dfb73180de53295f376df5320",
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P13": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "geringe Unsicherheit"
+              },
+              "hash": "2ac90f666e4845be940f5dd8f31f0dfe809de55d",
+              "property": "P13",
+              "snaktype": "value"
+            }
+          ],
+          "P14": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q18",
+                  "numeric-id": 18
+                }
+              },
+              "hash": "22d3c3d7532798be81a9e5adbd65fa0aa25014aa",
+              "property": "P14",
+              "snaktype": "value"
+            }
+          ],
+          "P15": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "set a point based on P. Attianese (1980) using OSM Node 1257748539"
+              },
+              "hash": "6d6443d076fb145056668b3ec7f008585d90b6de",
+              "property": "P15",
+              "snaktype": "value"
+            }
+          ],
+          "P16": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q19",
+                  "numeric-id": 19
+                }
+              },
+              "hash": "326e561b18c1ef4d9c35a223211d5c58b950ba6a",
+              "property": "P16",
+              "snaktype": "value"
+            }
+          ],
+          "P5": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q23",
+                  "numeric-id": 23
+                }
+              },
+              "hash": "c15738677ef387263f84ec8e65f270df54d1979e",
+              "property": "P5",
+              "snaktype": "value"
+            }
+          ],
+          "P6": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q20",
+                  "numeric-id": 20
+                }
+              },
+              "hash": "4b0b69cce1ef7d94360781da603bbb9053096cef",
+              "property": "P6",
+              "snaktype": "value"
+            }
+          ],
+          "P7": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q17",
+                  "numeric-id": 17
+                }
+              },
+              "hash": "9bd2c45f902cc46626138fed5415ba12d21e9c0f",
+              "property": "P7",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P5",
+          "P13",
+          "P7",
+          "P14",
+          "P16",
+          "P6",
+          "P15"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P8": [
+      {
+        "id": "Q46$64E71632-55C3-4546-8431-A4A69D8A40B5",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q32",
+              "numeric-id": 32
+            }
+          },
+          "hash": "70b263c74094790904c19ac47d477dee0d4d36d3",
+          "property": "P8",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Crotone, in der località “Via Paternostro” beim Palazzo Messinetti."
+    }
+  },
+  "id": "Q46",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Crotone, loc. Via Paternostro 1974"
+    }
+  },
+  "lastrevid": 128,
+  "modified": "2023-08-14T15:07:21Z",
+  "ns": 120,
+  "pageid": 58,
+  "sitelinks": {},
+  "title": "Item:Q46",
+  "type": "item"
+}

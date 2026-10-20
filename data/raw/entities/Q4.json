@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "e.g. sink, cave"
+    }
+  },
+  "id": "Q4",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Spatial Type"
+    }
+  },
+  "lastrevid": 15,
+  "modified": "2023-07-27T09:18:09Z",
+  "ns": 120,
+  "pageid": 13,
+  "sitelinks": {},
+  "title": "Item:Q4",
+  "type": "item"
+}

@@ -1,0 +1,468 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q134$c0b74692-4aad-fad3-2fe9-83042a9986f2",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q11",
+              "numeric-id": 11
+            }
+          },
+          "hash": "31d6bca2e5b12517a8a47cb2317f9e184cb614d9",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P10": [
+      {
+        "id": "Q134$bbad239c-476b-da9f-c8a5-4f811a6d34b5",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://openstreetmap.org/relation/9351124"
+          },
+          "hash": "68c2a4fe82014f287efed250e3175264ff3a3190",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://archaeoinformatics.link/ontology#spatialCloseMatch"
+              },
+              "hash": "bca3ca3f2f1466513ea9fc689ee68b6664c35653",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q134$e4ded882-495e-b119-8593-9b71af2803f8",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://wikidata.org/entity/Q23883"
+          },
+          "hash": "7dfd7dd38cf8512851865b9fe9fca8c59f08a3a1",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://archaeoinformatics.link/ontology#spatialCloseMatch"
+              },
+              "hash": "bca3ca3f2f1466513ea9fc689ee68b6664c35653",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P11": [
+      {
+        "id": "Q134$e82d81c4-424d-2e06-3fb0-d3ba26c66d48",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "Kearney et al. (2024)"
+          },
+          "hash": "ef4efb49bb0eef431590085199cabb2955bb8907",
+          "property": "P11",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "019048cb39e7eee7dfe50ba185ddb1cad6525719",
+            "snaks": {
+              "P17": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://doi.org/10.1038/s41598-024-59639-7"
+                  },
+                  "hash": "76ba2c43386074fb385be2787ed246ecb92f97bf",
+                  "property": "P17",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P17"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ],
+    "P26": [
+      {
+        "id": "Q134$5f43b45a-4378-cf01-9fba-76fc8cdb4c60",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q93",
+              "numeric-id": 93
+            }
+          },
+          "hash": "81de198f3de9c7df3fce85298727b2d90174f378",
+          "property": "P26",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P3": [
+      {
+        "id": "Q134$983ae8e0-4eae-16c4-a1b9-da1c161462b4",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q71",
+              "numeric-id": 71
+            }
+          },
+          "hash": "89567dd13053949ea90716a4d8ee4102fa9b65c5",
+          "property": "P3",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P32": [
+      {
+        "id": "Q134$bad92cac-49eb-4564-c0e3-21c91435c540",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://www.wikidata.org/entity/Q801"
+          },
+          "hash": "8e25445bf69c246a3ccd4e0af5e2f2e37922b197",
+          "property": "P32",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q134$5f1a96e3-4a11-f2cd-8b87-bf1440f3508e",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://www.wikidata.org/entity/Q810"
+          },
+          "hash": "ff2802f2fd4499f031c97500b2c9ae0740a2d460",
+          "property": "P32",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q134$e16afb35-4314-e968-d157-e0e23d54677a",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://www.wikidata.org/entity/Q219060"
+          },
+          "hash": "a6cf6690d463c2e30ab2acff254957dc7ed19ce6",
+          "property": "P32",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "Q134$62ce1882-4aaa-0b94-29eb-487a61a48be1",
+        "mainsnak": {
+          "datatype": "globe-coordinate",
+          "datavalue": {
+            "type": "globecoordinate",
+            "value": {
+              "altitude": null,
+              "globe": "http://www.wikidata.org/entity/Q2",
+              "latitude": 31.4931,
+              "longitude": 35.4752,
+              "precision": 0.0001
+            }
+          },
+          "hash": "ea1b17e8b7947ddd8370e065b2446dd2adb6a58a",
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P13": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "stated in scientific paper, Kearney et al. (2024), fig. 1"
+              },
+              "hash": "aa7085b7cc0a0c96ad5537bed8e955333d81cc60",
+              "property": "P13",
+              "snaktype": "value"
+            }
+          ],
+          "P14": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q35",
+                  "numeric-id": 35
+                }
+              },
+              "hash": "5d80a1ae7a97d6c27a8919614daa22505139b62e",
+              "property": "P14",
+              "snaktype": "value"
+            }
+          ],
+          "P15": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "scientific paper"
+              },
+              "hash": "9984ecb705eac772938ae5a75c2df8ff0edfba1b",
+              "property": "P15",
+              "snaktype": "value"
+            }
+          ],
+          "P16": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q19",
+                  "numeric-id": 19
+                }
+              },
+              "hash": "326e561b18c1ef4d9c35a223211d5c58b950ba6a",
+              "property": "P16",
+              "snaktype": "value"
+            }
+          ],
+          "P23": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "±0.0001°"
+              },
+              "hash": "b244f7450ca309b1cf6aec97c5286395e671d728",
+              "property": "P23",
+              "snaktype": "value"
+            }
+          ],
+          "P24": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q80",
+                  "numeric-id": 80
+                }
+              },
+              "hash": "01bd4bccfacab9dffa9bc3564cc0f398c09b8d9a",
+              "property": "P24",
+              "snaktype": "value"
+            }
+          ],
+          "P33": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q130",
+                  "numeric-id": 130
+                }
+              },
+              "hash": "d2cb1fcbd00748ce7e9d6a51bb1dc819cac148c1",
+              "property": "P33",
+              "snaktype": "value"
+            }
+          ],
+          "P5": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q15",
+                  "numeric-id": 15
+                }
+              },
+              "hash": "6aebcdbb96a89241548df7beda2a560b7875f792",
+              "property": "P5",
+              "snaktype": "value"
+            }
+          ],
+          "P6": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q20",
+                  "numeric-id": 20
+                }
+              },
+              "hash": "4b0b69cce1ef7d94360781da603bbb9053096cef",
+              "property": "P6",
+              "snaktype": "value"
+            }
+          ],
+          "P7": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q17",
+                  "numeric-id": 17
+                }
+              },
+              "hash": "9bd2c45f902cc46626138fed5415ba12d21e9c0f",
+              "property": "P7",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P5",
+          "P13",
+          "P7",
+          "P14",
+          "P15",
+          "P16",
+          "P6",
+          "P23",
+          "P24",
+          "P33"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "019048cb39e7eee7dfe50ba185ddb1cad6525719",
+            "snaks": {
+              "P17": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://doi.org/10.1038/s41598-024-59639-7"
+                  },
+                  "hash": "76ba2c43386074fb385be2787ed246ecb92f97bf",
+                  "property": "P17",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P17"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ],
+    "P8": [
+      {
+        "id": "Q134$c94f50dd-4ea3-bdff-2252-4e8fc0a0a272",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q135",
+              "numeric-id": 135
+            }
+          },
+          "hash": "1d330c62eec664f5c66a54f0947c972b6cb0ef28",
+          "property": "P8",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Campanian Ignimbrite Findspot"
+    }
+  },
+  "id": "Q134",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Dead Sea Deep Drilling Project 5017-1A"
+    }
+  },
+  "lastrevid": 693,
+  "modified": "2025-01-12T12:57:51Z",
+  "ns": 120,
+  "pageid": 162,
+  "sitelinks": {},
+  "title": "Item:Q134",
+  "type": "item"
+}

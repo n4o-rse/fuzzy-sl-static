@@ -1,0 +1,19 @@
+{
+  "aliases": {},
+  "claims": {},
+  "datatype": "wikibase-item",
+  "descriptions": {},
+  "id": "P26",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "has spatial category"
+    }
+  },
+  "lastrevid": 301,
+  "modified": "2024-10-21T21:06:24Z",
+  "ns": 122,
+  "pageid": 110,
+  "title": "Property:P26",
+  "type": "property"
+}

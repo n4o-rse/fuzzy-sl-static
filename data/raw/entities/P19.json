@@ -1,0 +1,42 @@
+{
+  "aliases": {},
+  "claims": {
+    "P18": [
+      {
+        "id": "P19$277006af-4cff-d64f-4a71-cc528f33eff7",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "https://wikibase.semantic-kompakkt.de/entity/$1"
+          },
+          "hash": "8268107325152502f1b28c93e60e3bbf1377f814",
+          "property": "P18",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "external-id",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "id in the Semantic Kompakkt Wikibase instance"
+    }
+  },
+  "id": "P19",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Semantic Kompakkt ID"
+    }
+  },
+  "lastrevid": 230,
+  "modified": "2024-10-17T13:49:14Z",
+  "ns": 122,
+  "pageid": 92,
+  "title": "Property:P19",
+  "type": "property"
+}

@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "e.g. Archaeology, Geology"
+    }
+  },
+  "id": "Q91",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Spatial Category"
+    }
+  },
+  "lastrevid": 302,
+  "modified": "2024-10-21T21:07:24Z",
+  "ns": 120,
+  "pageid": 111,
+  "sitelinks": {},
+  "title": "Item:Q91",
+  "type": "item"
+}

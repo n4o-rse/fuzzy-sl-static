@@ -1,0 +1,53 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "Pleiades Location"
+      }
+    ]
+  },
+  "claims": {
+    "P1": [
+      {
+        "id": "Q128$ac53f2b3-43f1-aa1e-d112-a3468d06b835",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q125",
+              "numeric-id": 125
+            }
+          },
+          "hash": "f7e73057efbc22073d07424db862a06f715e17ba",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Point Type"
+    }
+  },
+  "id": "Q128",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Location of a Place as a Concept"
+    }
+  },
+  "lastrevid": 600,
+  "modified": "2024-10-23T11:38:06Z",
+  "ns": 120,
+  "pageid": 155,
+  "sitelinks": {},
+  "title": "Item:Q128",
+  "type": "item"
+}

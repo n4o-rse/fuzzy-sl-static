@@ -1,0 +1,319 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q61$66BBAB32-2F20-4DC1-BE67-B93975AE811D",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q10",
+              "numeric-id": 10
+            }
+          },
+          "hash": "a066d63451157f1bc5f04e16e68166202c347237",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P10": [
+      {
+        "id": "Q61$91B37274-340F-4C4A-8547-09E8D84D3C7A",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://coinhoards.org/id/igch1925"
+          },
+          "hash": "e47474bda9d213ce8828d283c75dbd4fd8d8a2ad",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://www.w3.org/2004/02/skos/core#exactMatch"
+              },
+              "hash": "6d0a67b4895a149990720e0f8b0d5b0e11275fe9",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q61$6E7D94B7-3E0C-401A-B6D7-B120FB667034",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://sws.geonames.org/3171709"
+          },
+          "hash": "d5a3b1bd4c557286a95d2599c7f35d8ebd267ca6",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://www.w3.org/2004/02/skos/core#exactMatch"
+              },
+              "hash": "6d0a67b4895a149990720e0f8b0d5b0e11275fe9",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P11": [
+      {
+        "id": "Q61$C9780EF8-456E-4DD8-ABE2-41E50AB3EFBD",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "Pozzi, AIIN 1962-4, pp. 109-47, illus."
+          },
+          "hash": "756790a58edba1276e9c5d2ec9cbe6c8b31c3954",
+          "property": "P11",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q61$D913ED35-624D-4B49-B2A0-BF328D144516",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "Stazio, AIIN 1965-7, p. 61"
+          },
+          "hash": "da453af2b4ef8232ae4e8703c1f652753eccc0ed",
+          "property": "P11",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P3": [
+      {
+        "id": "Q61$E4DE062F-BB52-4FAE-9C35-90CE02CC542B",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q14",
+              "numeric-id": 14
+            }
+          },
+          "hash": "599d367d7a57df18953cda571f1d578a81622d7b",
+          "property": "P3",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "Q61$44182346-80CF-4D32-ADC9-13F77DA90527",
+        "mainsnak": {
+          "datatype": "globe-coordinate",
+          "datavalue": {
+            "type": "globecoordinate",
+            "value": {
+              "altitude": null,
+              "globe": "http://www.wikidata.org/entity/Q2",
+              "latitude": 40.4223,
+              "longitude": 15.00731,
+              "precision": 1e-06
+            }
+          },
+          "hash": "a884d4163afdb2204d24010bcdfcd223d698f4cc",
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P13": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "coordinate from related GeoNames ID"
+              },
+              "hash": "85fe20760f74d2d4c66e9c2daa9a57ac4609dfc7",
+              "property": "P13",
+              "snaktype": "value"
+            }
+          ],
+          "P14": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q18",
+                  "numeric-id": 18
+                }
+              },
+              "hash": "22d3c3d7532798be81a9e5adbd65fa0aa25014aa",
+              "property": "P14",
+              "snaktype": "value"
+            }
+          ],
+          "P15": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "uses existing URI from coinhoards.org"
+              },
+              "hash": "bb664a28733f245b32dba851efe1da2d0751760d",
+              "property": "P15",
+              "snaktype": "value"
+            }
+          ],
+          "P16": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q26",
+                  "numeric-id": 26
+                }
+              },
+              "hash": "435efce077304f96cec19e0dcc9f8c71eb52bc77",
+              "property": "P16",
+              "snaktype": "value"
+            }
+          ],
+          "P5": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q15",
+                  "numeric-id": 15
+                }
+              },
+              "hash": "6aebcdbb96a89241548df7beda2a560b7875f792",
+              "property": "P5",
+              "snaktype": "value"
+            }
+          ],
+          "P6": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q31",
+                  "numeric-id": 31
+                }
+              },
+              "hash": "e5e950c65c27ed6ce419c9673e12d5ff5b4ed127",
+              "property": "P6",
+              "snaktype": "value"
+            }
+          ],
+          "P7": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q34",
+                  "numeric-id": 34
+                }
+              },
+              "hash": "a22e0069280db79e87cab3fb9387bb237799eba8",
+              "property": "P7",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P5",
+          "P13",
+          "P7",
+          "P14",
+          "P16",
+          "P6",
+          "P15"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P8": [
+      {
+        "id": "Q61$4B67CCC7-F324-4BE9-B31D-B37B59F740FA",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q16",
+              "numeric-id": 16
+            }
+          },
+          "hash": "7106f5376eda7b5eb6b29f3c6cb34894764fc4c3",
+          "property": "P8",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {},
+  "id": "Q61",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Paestum (anc. Poseidonia), Lucania"
+    }
+  },
+  "lastrevid": 141,
+  "modified": "2023-08-14T15:07:32Z",
+  "ns": 120,
+  "pageid": 71,
+  "sitelinks": {},
+  "title": "Item:Q61",
+  "type": "item"
+}

@@ -1,0 +1,41 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q25$a3db1ad1-493c-06c2-b205-851dcc7b8c9b",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "hash": "2a3b4b0a52cd6c738fd7ba49e5cb34800d258d5c",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {},
+  "id": "Q25",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "coinhoards.org"
+    }
+  },
+  "lastrevid": 88,
+  "modified": "2023-08-14T13:49:52Z",
+  "ns": 120,
+  "pageid": 41,
+  "sitelinks": {},
+  "title": "Item:Q25",
+  "type": "item"
+}

@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "datatype": "url",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "type of a match"
+    }
+  },
+  "id": "P28",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "match type"
+    }
+  },
+  "lastrevid": 327,
+  "modified": "2024-10-21T21:24:08Z",
+  "ns": 122,
+  "pageid": 117,
+  "title": "Property:P28",
+  "type": "property"
+}
