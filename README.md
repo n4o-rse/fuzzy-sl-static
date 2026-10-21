@@ -29,8 +29,16 @@ what changed since the last run (`0 changed` when nothing did). If the Wikibase
 answers with a bot challenge, the step stops and does not try to get around it.
 
 `build` needs no network. It reads `data/raw/` and `site.yaml`, writes `docs/` and reports the
-number of pages and a link check; run it twice and `git status` stays clean. To publish, serve
-`docs/` with GitHub Pages (Settings, Pages, branch `main`, folder `/docs`).
+number of pages and a link check; run it twice and `git status` stays clean.
+`python main.py --strict` does the same and treats every `WARN` line (a dead internal link, an entity that
+does not load) as an error.
+
+## Publishing
+
+`.github/workflows/site.yml` runs on every push and pull request: `python main.py --strict` twice, with
+`git status` required to be clean after each run (so the committed `docs/` is what a fresh build makes),
+and, on `main`, publishes `docs/` to GitHub Pages. Set Settings, Pages, Source to "GitHub Actions" once.
+After a harvest or a change to `site.yaml`, run `python main.py` and commit `data/` and `docs/` together.
 
 ## Data
 
