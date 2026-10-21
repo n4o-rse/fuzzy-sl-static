@@ -1,5 +1,5 @@
 # Q92: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
-# Generated with wikibase-static 0.6.1; data as of 2025-11-01T08:28:29Z
+# Generated with wikibase-static 0.6.2; data as of 2025-11-01T08:28:29Z
 # Licence: CC0 1.0
 
 @prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
