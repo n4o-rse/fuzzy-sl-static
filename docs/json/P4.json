@@ -1,0 +1,31 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "P625"
+      }
+    ]
+  },
+  "claims": {},
+  "datatype": "globe-coordinate",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "coordinate location"
+    }
+  },
+  "id": "P4",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "has coordinate"
+    }
+  },
+  "lastrevid": 4,
+  "modified": "2023-07-27T08:59:33Z",
+  "ns": 122,
+  "pageid": 4,
+  "title": "Property:P4",
+  "type": "property"
+}

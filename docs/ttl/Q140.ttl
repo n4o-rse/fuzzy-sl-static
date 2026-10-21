@@ -1,0 +1,157 @@
+# Q140: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q140
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Provenance Research Geo Location"@en ;
+    dcterms:identifier "Q140" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2025-01-16T13:24:52Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q140 ;
+    dcterms:title "Ignaz Storek (Brünn)"@en ;
+    schema:about wd:Q140 ;
+    schema:dateModified "2025-01-16T13:24:52Z"^^xsd:dateTime ;
+    schema:version "761"^^xsd:integer ;
+    dcat:distribution dist:Q140-html,
+        dist:Q140-json,
+        dist:Q140-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q140.html> .
+
+dist:Q140-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q140, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q140.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q140-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q140, as archived from the Wikibase API"@en ;
+    dcat:byteSize "9897"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q140.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q140-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q140, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q140.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q140
+    a wikibase:Item ;
+    schema:description "Provenance Research Geo Location"@en ;
+    schema:name "Ignaz Storek (Brünn)"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "6"^^xsd:integer ;
+    rdfs:label "Ignaz Storek (Brünn)"@en ;
+    skos:prefLabel "Ignaz Storek (Brünn)"@en ;
+    p:P1 wds:Q140-2ccc828f-46f8-7994-1041-05b5124c861a ;
+    p:P3 wds:Q140-a5a64e70-4843-98c3-c5c9-fd11c207fb2b ;
+    p:P4 wds:Q140-4d8c2fb1-4db6-798e-9486-098bcba35a90 ;
+    p:P8 wds:Q140-32edb495-4ed3-24f2-6c1e-dc23e941bcef ;
+    p:P10 wds:Q140-cbb8e9ea-4ce3-b02c-7ad5-6cb753568de6 ;
+    p:P26 wds:Q140-e2362ff9-4dcd-01f4-0c5e-2d23a37bf54e ;
+    wdt:P1 wd:Q141 ;
+    wdt:P3 wd:Q142 ;
+    wdt:P4 "Point(16.6247 49.1924)"^^geo:wktLiteral ;
+    wdt:P8 wd:Q16 ;
+    wdt:P10 <https://www.openstreetmap.org/node/296551085> ;
+    wdt:P26 wd:Q143 .
+
+wds:Q140-2ccc828f-46f8-7994-1041-05b5124c861a
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q141 .
+
+wds:Q140-4d8c2fb1-4db6-798e-9486-098bcba35a90
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom wdref:687cd614ab1604a8068076b40c779d95b3aaee31 ;
+    pq:P5 wd:Q15 ;
+    pq:P6 wd:Q20 ;
+    pq:P7 wd:Q17 ;
+    pq:P13 "Brünner Maschinenfabrik Ignaz Storek– heute Šmeral Brno a. s., Křenová 65c,Brünn in https://www.tmbrno.cz/wp-content/uploads/2017/10/kaplan_nemcina.pdf" ;
+    pq:P14 wd:Q35 ;
+    pq:P15 "site related from literature" ;
+    pq:P16 wd:Q19 ;
+    pq:P23 "±0.0001°" ;
+    pq:P24 wd:Q144 ;
+    pq:P33 wd:Q126 ;
+    ps:P4 "Point(16.6247 49.1924)"^^geo:wktLiteral ;
+    psv:P4 wdv:e2e724ba4c8832a62b381bfb2f9ca15f .
+
+wds:Q140-32edb495-4ed3-24f2-6c1e-dc23e941bcef
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P8 wd:Q16 .
+
+wds:Q140-a5a64e70-4843-98c3-c5c9-fd11c207fb2b
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q142 .
+
+wds:Q140-cbb8e9ea-4ce3-b02c-7ad5-6cb753568de6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom wdref:687cd614ab1604a8068076b40c779d95b3aaee31 ;
+    ps:P10 <https://www.openstreetmap.org/node/296551085> .
+
+wds:Q140-e2362ff9-4dcd-01f4-0c5e-2d23a37bf54e
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P26 wd:Q143 .
+
+wdref:687cd614ab1604a8068076b40c779d95b3aaee31
+    a wikibase:Reference ;
+    pr:P17 <https://www.tmbrno.cz/wp-content/uploads/2017/10/kaplan_nemcina.pdf> .
+
+wdv:e2e724ba4c8832a62b381bfb2f9ca15f
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "49.1924"^^xsd:double ;
+    wikibase:geoLongitude "16.6247"^^xsd:double ;
+    wikibase:geoPrecision "0.0001"^^xsd:double .

@@ -1,0 +1,129 @@
+# P20: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:P20
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "formatter URL for RDF resource: URI template from which \"$1\" can be automatically replaced with the effective property value on items (it is the URI of the resources, not the URI of the RDF file describing it)"@en ;
+    dcterms:identifier "P20" ;
+    dcterms:isPartOf cat:properties ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2024-10-17T16:15:33Z"^^xsd:dateTime ;
+    dcterms:subject wd:P20 ;
+    dcterms:title "formatter URI for RDF resource"@en ;
+    schema:about wd:P20 ;
+    schema:dateModified "2024-10-17T16:15:33Z"^^xsd:dateTime ;
+    schema:version "232"^^xsd:integer ;
+    dcat:distribution dist:P20-html,
+        dist:P20-json,
+        dist:P20-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/P20.html> .
+
+dist:P20-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P20, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/P20.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:P20-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P20, as archived from the Wikibase API"@en ;
+    dcat:byteSize "890"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/P20.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:P20-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P20, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/P20.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:P20
+    a wikibase:Property ;
+    schema:description "formatter URL for RDF resource: URI template from which \"$1\" can be automatically replaced with the effective property value on items (it is the URI of the resources, not the URI of the RDF file describing it)"@en ;
+    schema:name "formatter URI for RDF resource"@en ;
+    wikibase:claim p:P20 ;
+    wikibase:directClaim wdt:P20 ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:novalue wdno:P20 ;
+    wikibase:propertyType wikibase:String ;
+    wikibase:qualifier pq:P20 ;
+    wikibase:qualifierValue pqv:P20 ;
+    wikibase:reference pr:P20 ;
+    wikibase:referenceValue prv:P20 ;
+    wikibase:statementProperty ps:P20 ;
+    wikibase:statementValue psv:P20 ;
+    wikibase:statements "0"^^xsd:integer ;
+    rdfs:label "formatter URI for RDF resource"@en ;
+    skos:altLabel "RDF URL pattern URI pattern for RDF resource formatter URL for RDF resource URL template for RDF resource RDF URI template URI used in RDF formatter URI of the RDF resources RDF formatter URL"@en ;
+    skos:prefLabel "formatter URI for RDF resource"@en .
+
+p:P20
+    a owl:ObjectProperty .
+
+wdt:P20
+    a owl:DatatypeProperty .
+
+pq:P20
+    a owl:DatatypeProperty .
+
+pqv:P20
+    a owl:ObjectProperty .
+
+pr:P20
+    a owl:DatatypeProperty .
+
+prv:P20
+    a owl:ObjectProperty .
+
+ps:P20
+    a owl:DatatypeProperty .
+
+psv:P20
+    a owl:ObjectProperty .
+
+wdno:P20
+    a owl:Class ;
+    owl:complementOf _:8b3fa395bd64472ee608e9a10cad05fb .
+
+_:8b3fa395bd64472ee608e9a10cad05fb
+    a owl:Restriction ;
+    owl:onProperty wdt:P20 ;
+    owl:someValuesFrom owl:Thing .

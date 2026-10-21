@@ -1,0 +1,42 @@
+{
+  "aliases": {},
+  "claims": {
+    "P18": [
+      {
+        "id": "P34$b9849907-4696-f8e2-3d81-6dc9dfefaa53",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "http://www.wikidata.org/entity/$1"
+          },
+          "hash": "f9e8e605f67a0a07ebea12f7756a7f6ffd2203fd",
+          "property": "P18",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "external-id",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "id in the Wikidata Wikibase instance"
+    }
+  },
+  "id": "P34",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Wikidata ID"
+    }
+  },
+  "lastrevid": 669,
+  "modified": "2024-10-30T08:56:42Z",
+  "ns": 122,
+  "pageid": 161,
+  "title": "Property:P34",
+  "type": "property"
+}

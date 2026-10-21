@@ -1,0 +1,53 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "Human"
+      }
+    ]
+  },
+  "claims": {
+    "P1": [
+      {
+        "id": "Q21$163eb962-4519-8d69-fb17-f330f954ce21",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q22",
+              "numeric-id": 22
+            }
+          },
+          "hash": "1a5939b0279ed0c6f71d6d7e70e0313cc3878c3d",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Human Person"
+    }
+  },
+  "id": "Q21",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Person"
+    }
+  },
+  "lastrevid": 347,
+  "modified": "2024-10-22T17:26:33Z",
+  "ns": 120,
+  "pageid": 37,
+  "sitelinks": {},
+  "title": "Item:Q21",
+  "type": "item"
+}

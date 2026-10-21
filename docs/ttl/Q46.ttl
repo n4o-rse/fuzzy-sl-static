@@ -1,0 +1,158 @@
+# Q46: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q46
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Crotone, in der località “Via Paternostro” beim Palazzo Messinetti."@en ;
+    dcterms:identifier "Q46" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2023-08-14T15:07:21Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q46 ;
+    dcterms:title "Crotone, loc. Via Paternostro 1974"@en ;
+    schema:about wd:Q46 ;
+    schema:dateModified "2023-08-14T15:07:21Z"^^xsd:dateTime ;
+    schema:version "128"^^xsd:integer ;
+    dcat:distribution dist:Q46-html,
+        dist:Q46-json,
+        dist:Q46-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q46.html> .
+
+dist:Q46-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q46, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q46.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q46-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q46, as archived from the Wikibase API"@en ;
+    dcat:byteSize "8425"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q46.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q46-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q46, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q46.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q46
+    a wikibase:Item ;
+    schema:description "Crotone, in der località “Via Paternostro” beim Palazzo Messinetti."@en ;
+    schema:name "Crotone, loc. Via Paternostro 1974"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "7"^^xsd:integer ;
+    rdfs:label "Crotone, loc. Via Paternostro 1974"@en ;
+    skos:prefLabel "Crotone, loc. Via Paternostro 1974"@en ;
+    p:P1 wds:Q46-7995E7C6-E6CA-4216-AC2C-C5A9565903FF ;
+    p:P3 wds:Q46-CA12D927-E368-4A1D-8745-B57BA63E4538 ;
+    p:P4 wds:Q46-61C19B32-4ED6-4D2A-9D44-40F245BE4D14 ;
+    p:P8 wds:Q46-64E71632-55C3-4546-8431-A4A69D8A40B5 ;
+    p:P10 wds:Q46-7A56DA98-9406-4495-9361-E72ABEE1BBFF,
+        wds:Q46-B8C46379-DDBB-410D-9EA8-C4049A91FC76 ;
+    p:P11 wds:Q46-B7558451-D6EF-4395-B33E-706CC2021818 ;
+    wdt:P1 wd:Q10 ;
+    wdt:P3 wd:Q14 ;
+    wdt:P4 "Point(17.12661 39.08002)"^^geo:wktLiteral ;
+    wdt:P8 wd:Q32 ;
+    wdt:P10 <http://openopenstreetmap.org/node/1257748539>,
+        <http://wikidata.org/entity/Q6681> ;
+    wdt:P11 "P. Attianese (1980)" .
+
+wds:Q46-7A56DA98-9406-4495-9361-E72ABEE1BBFF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 <http://archaeoinformatics.link/ontology#spatialCloseMatch> ;
+    ps:P10 <http://openopenstreetmap.org/node/1257748539> .
+
+wds:Q46-61C19B32-4ED6-4D2A-9D44-40F245BE4D14
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P5 wd:Q23 ;
+    pq:P6 wd:Q20 ;
+    pq:P7 wd:Q17 ;
+    pq:P13 "geringe Unsicherheit" ;
+    pq:P14 wd:Q18 ;
+    pq:P15 "set a point based on P. Attianese (1980) using OSM Node 1257748539" ;
+    pq:P16 wd:Q19 ;
+    ps:P4 "Point(17.12661 39.08002)"^^geo:wktLiteral ;
+    psv:P4 wdv:93febb9845672f27da3a0d473732dc3d .
+
+wds:Q46-64E71632-55C3-4546-8431-A4A69D8A40B5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P8 wd:Q32 .
+
+wds:Q46-7995E7C6-E6CA-4216-AC2C-C5A9565903FF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q10 .
+
+wds:Q46-B8C46379-DDBB-410D-9EA8-C4049A91FC76
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 <http://archaeoinformatics.link/ontology#spatialCloseMatch> ;
+    ps:P10 <http://wikidata.org/entity/Q6681> .
+
+wds:Q46-B7558451-D6EF-4395-B33E-706CC2021818
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P11 "P. Attianese (1980)" .
+
+wds:Q46-CA12D927-E368-4A1D-8745-B57BA63E4538
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q14 .
+
+wdv:93febb9845672f27da3a0d473732dc3d
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "39.08002"^^xsd:double ;
+    wikibase:geoLongitude "17.12661"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

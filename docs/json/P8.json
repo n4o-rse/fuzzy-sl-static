@@ -1,0 +1,19 @@
+{
+  "aliases": {},
+  "claims": {},
+  "datatype": "wikibase-item",
+  "descriptions": {},
+  "id": "P8",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "has spatial type"
+    }
+  },
+  "lastrevid": 152,
+  "modified": "2023-08-14T21:10:58Z",
+  "ns": 122,
+  "pageid": 8,
+  "title": "Property:P8",
+  "type": "property"
+}

@@ -1,0 +1,141 @@
+# Q59: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q59
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Derived from conhoards.org identifier"@en ;
+    dcterms:identifier "Q59" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2023-08-14T15:07:30Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q59 ;
+    dcterms:title "Curinga (Italy)"@en ;
+    schema:about wd:Q59 ;
+    schema:dateModified "2023-08-14T15:07:30Z"^^xsd:dateTime ;
+    schema:version "139"^^xsd:integer ;
+    dcat:distribution dist:Q59-html,
+        dist:Q59-json,
+        dist:Q59-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q59.html> .
+
+dist:Q59-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q59, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q59.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q59-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q59, as archived from the Wikibase API"@en ;
+    dcat:byteSize "7004"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q59.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q59-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q59, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q59.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q59
+    a wikibase:Item ;
+    schema:description "Derived from conhoards.org identifier"@en ;
+    schema:name "Curinga (Italy)"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "5"^^xsd:integer ;
+    rdfs:label "Curinga (Italy)"@en ;
+    skos:prefLabel "Curinga (Italy)"@en ;
+    p:P1 wds:Q59-8CDAAD3B-0E78-44B7-AA24-6804C175DADB ;
+    p:P3 wds:Q59-0AFF081B-7CBD-4F2B-BE1B-7D8E7765634B ;
+    p:P4 wds:Q59-2164E18F-E5AF-4840-99F3-C9CF189017F6 ;
+    p:P8 wds:Q59-C7A776CA-17D8-46DF-AC7D-3B4DEC5338DD ;
+    p:P10 wds:Q59-B53F3B06-F811-4840-93B1-50A6165B91E4 ;
+    wdt:P1 wd:Q10 ;
+    wdt:P3 wd:Q14 ;
+    wdt:P4 "Point(16.31344 38.82811)"^^geo:wktLiteral ;
+    wdt:P8 wd:Q16 ;
+    wdt:P10 <https://sws.geonames.org/2524872> .
+
+wds:Q59-0AFF081B-7CBD-4F2B-BE1B-7D8E7765634B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q14 .
+
+wds:Q59-8CDAAD3B-0E78-44B7-AA24-6804C175DADB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q10 .
+
+wds:Q59-2164E18F-E5AF-4840-99F3-C9CF189017F6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P5 wd:Q24 ;
+    pq:P6 wd:Q31 ;
+    pq:P7 wd:Q34 ;
+    pq:P13 "Coordinate is directly used from the GeoNames record." ;
+    pq:P14 wd:Q35 ;
+    pq:P15 "uses existing link to GeoNames in coinhorads ID 1881" ;
+    pq:P16 wd:Q26 ;
+    ps:P4 "Point(16.31344 38.82811)"^^geo:wktLiteral ;
+    psv:P4 wdv:ea7bd1db68059cc37b8a4ad50f0732bc .
+
+wds:Q59-B53F3B06-F811-4840-93B1-50A6165B91E4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 skos:exactMatch ;
+    ps:P10 <https://sws.geonames.org/2524872> .
+
+wds:Q59-C7A776CA-17D8-46DF-AC7D-3B4DEC5338DD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P8 wd:Q16 .
+
+wdv:ea7bd1db68059cc37b8a4ad50f0732bc
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "38.82811"^^xsd:double ;
+    wikibase:geoLongitude "16.31344"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

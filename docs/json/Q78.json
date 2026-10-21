@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q78$c685f989-48e6-3e2d-07de-5bd0ea024a82",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "hash": "2a3b4b0a52cd6c738fd7ba49e5cb34800d258d5c",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "survey as source type"
+    }
+  },
+  "id": "Q78",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "on-site survey (source type)"
+    }
+  },
+  "lastrevid": 205,
+  "modified": "2024-10-14T11:15:02Z",
+  "ns": 120,
+  "pageid": 88,
+  "sitelinks": {},
+  "title": "Item:Q78",
+  "type": "item"
+}

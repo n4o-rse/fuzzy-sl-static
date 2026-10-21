@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q87$8562bb4e-4016-fd63-a5a5-1cbaaacd858f",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q81",
+              "numeric-id": 81
+            }
+          },
+          "hash": "71b854e0aea6f33121b9468dc26b0e6374f74277",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "location type"
+    }
+  },
+  "id": "Q87",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Eruption Site"
+    }
+  },
+  "lastrevid": 293,
+  "modified": "2024-10-21T20:57:05Z",
+  "ns": 120,
+  "pageid": 106,
+  "sitelinks": {},
+  "title": "Item:Q87",
+  "type": "item"
+}

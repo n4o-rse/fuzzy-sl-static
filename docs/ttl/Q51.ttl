@@ -1,0 +1,141 @@
+# Q51: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q51
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Region Bruttium (ancient) or Calabria (modern)"@en ;
+    dcterms:identifier "Q51" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2023-08-14T15:07:24Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q51 ;
+    dcterms:title "Leucopetra (cape)"@en ;
+    schema:about wd:Q51 ;
+    schema:dateModified "2023-08-14T15:07:24Z"^^xsd:dateTime ;
+    schema:version "131"^^xsd:integer ;
+    dcat:distribution dist:Q51-html,
+        dist:Q51-json,
+        dist:Q51-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q51.html> .
+
+dist:Q51-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q51, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q51.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q51-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q51, as archived from the Wikibase API"@en ;
+    dcat:byteSize "7011"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q51.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q51-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q51, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q51.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q51
+    a wikibase:Item ;
+    schema:description "Region Bruttium (ancient) or Calabria (modern)"@en ;
+    schema:name "Leucopetra (cape)"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "5"^^xsd:integer ;
+    rdfs:label "Leucopetra (cape)"@en ;
+    skos:prefLabel "Leucopetra (cape)"@en ;
+    p:P1 wds:Q51-FD77E84F-FE91-4FDE-80E5-B394F077C591 ;
+    p:P3 wds:Q51-62A2DF49-5A53-462F-9566-F5537E2BE613 ;
+    p:P4 wds:Q51-DF131E16-EB56-4914-B9EF-320D3FEA469C ;
+    p:P8 wds:Q51-F5A8FD7D-2FE8-4961-A96D-C904145D8AE2 ;
+    p:P10 wds:Q51-69E15115-0007-41EA-BEA9-3D1BA74D876E ;
+    wdt:P1 wd:Q10 ;
+    wdt:P3 wd:Q14 ;
+    wdt:P4 "Point(15.6373254426 38.0199079744)"^^geo:wktLiteral ;
+    wdt:P8 wd:Q38 ;
+    wdt:P10 <https://pleiades.stoa.org/places/452366> .
+
+wds:Q51-62A2DF49-5A53-462F-9566-F5537E2BE613
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q14 .
+
+wds:Q51-69E15115-0007-41EA-BEA9-3D1BA74D876E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 skos:exactMatch ;
+    ps:P10 <https://pleiades.stoa.org/places/452366> .
+
+wds:Q51-DF131E16-EB56-4914-B9EF-320D3FEA469C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P5 wd:Q24 ;
+    pq:P6 wd:Q29 ;
+    pq:P7 wd:Q34 ;
+    pq:P13 "Coordinate is directly used from the Pleiades record." ;
+    pq:P14 wd:Q35 ;
+    pq:P15 "uses existing URI from Pleiades" ;
+    pq:P16 wd:Q26 ;
+    ps:P4 "Point(15.6373254426 38.0199079744)"^^geo:wktLiteral ;
+    psv:P4 wdv:d30e6eb7b8dcd6d3294d8c6bb0efafb1 .
+
+wds:Q51-F5A8FD7D-2FE8-4961-A96D-C904145D8AE2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P8 wd:Q38 .
+
+wds:Q51-FD77E84F-FE91-4FDE-80E5-B394F077C591
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q10 .
+
+wdv:d30e6eb7b8dcd6d3294d8c6bb0efafb1
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "38.0199079744"^^xsd:double ;
+    wikibase:geoLongitude "15.6373254426"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

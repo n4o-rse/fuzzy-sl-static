@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q93$185a395f-4987-5118-2c3b-eacf7252560c",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q91",
+              "numeric-id": 91
+            }
+          },
+          "hash": "a18259c8f0a4891ef8d759e2c51ba1f4083034b9",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "spatial category"
+    }
+  },
+  "id": "Q93",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Geology"
+    }
+  },
+  "lastrevid": 306,
+  "modified": "2024-10-21T21:08:32Z",
+  "ns": 120,
+  "pageid": 113,
+  "sitelinks": {},
+  "title": "Item:Q93",
+  "type": "item"
+}

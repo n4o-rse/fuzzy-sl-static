@@ -1,0 +1,172 @@
+# Q116: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q116
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Campanian Ignimbrite Findspot"@en ;
+    dcterms:identifier "Q116" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2024-10-23T13:52:26Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q116 ;
+    dcterms:title "Haua-Fteah Cave"@en ;
+    schema:about wd:Q116 ;
+    schema:dateModified "2024-10-23T13:52:26Z"^^xsd:dateTime ;
+    schema:version "614"^^xsd:integer ;
+    dcat:distribution dist:Q116-html,
+        dist:Q116-json,
+        dist:Q116-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q116.html> .
+
+dist:Q116-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q116, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q116.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q116-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q116, as archived from the Wikibase API"@en ;
+    dcat:byteSize "10123"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q116.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q116-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q116, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q116.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q116
+    a wikibase:Item ;
+    schema:description "Campanian Ignimbrite Findspot"@en ;
+    schema:name "Haua-Fteah Cave"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "8"^^xsd:integer ;
+    rdfs:label "Haua-Fteah Cave"@en ;
+    skos:prefLabel "Haua-Fteah Cave"@en ;
+    p:P1 wds:Q116-9c9094d8-486c-fd19-c6d1-7b0f74a6d98b,
+        wds:Q116-efd6840b-453b-11b5-8fd2-f6e325226ef0 ;
+    p:P3 wds:Q116-16c61fa1-4818-24d2-64c8-6559d8f23aa2 ;
+    p:P4 wds:Q116-79bb3f22-4d7c-8150-7dd2-ed5b9d5fe31a ;
+    p:P8 wds:Q116-d778ed91-4407-eca5-a4fb-927a728a5303 ;
+    p:P11 wds:Q116-445a0762-495d-b53e-eb9b-8c73b47c5899 ;
+    p:P26 wds:Q116-64f34c15-429f-36d0-978b-8eb0b7dd6f23,
+        wds:Q116-fbfb6b77-495b-8ed5-adda-2b30ed9ade15 ;
+    wdt:P1 wd:Q10,
+        wd:Q11 ;
+    wdt:P3 wd:Q71 ;
+    wdt:P4 "Point(22.0516 32.9002)"^^geo:wktLiteral ;
+    wdt:P8 wd:Q90 ;
+    wdt:P11 "Lowe et al., 2012" ;
+    wdt:P26 wd:Q92,
+        wd:Q93 .
+
+wds:Q116-9c9094d8-486c-fd19-c6d1-7b0f74a6d98b
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q11 .
+
+wds:Q116-16c61fa1-4818-24d2-64c8-6559d8f23aa2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q71 .
+
+wds:Q116-64f34c15-429f-36d0-978b-8eb0b7dd6f23
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P26 wd:Q92 .
+
+wds:Q116-79bb3f22-4d7c-8150-7dd2-ed5b9d5fe31a
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    prov:wasDerivedFrom wdref:e3a7525155eec88fb5300465a9b1fcedbcdd4502 ;
+    pq:P5 wd:Q23 ;
+    pq:P6 wd:Q20 ;
+    pq:P7 wd:Q17 ;
+    pq:P13 "findspot mentioned in a scientific paper and found on OpenStreetMap" ;
+    pq:P14 wd:Q72 ;
+    pq:P15 "CI findspot related from literature" ;
+    pq:P16 wd:Q19 ;
+    pq:P23 "±0.0001°" ;
+    pq:P24 wd:Q80 ;
+    pq:P33 wd:Q129 ;
+    ps:P4 "Point(22.0516 32.9002)"^^geo:wktLiteral ;
+    psv:P4 wdv:288f34d31385ccea6caec6ef995680bf .
+
+wds:Q116-445a0762-495d-b53e-eb9b-8c73b47c5899
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P11 "Lowe et al., 2012" .
+
+wds:Q116-d778ed91-4407-eca5-a4fb-927a728a5303
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P8 wd:Q90 .
+
+wds:Q116-efd6840b-453b-11b5-8fd2-f6e325226ef0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q10 .
+
+wds:Q116-fbfb6b77-495b-8ed5-adda-2b30ed9ade15
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P26 wd:Q93 .
+
+wdref:e3a7525155eec88fb5300465a9b1fcedbcdd4502
+    a wikibase:Reference ;
+    pr:P25 "Lowe et al., 2012" .
+
+wdv:288f34d31385ccea6caec6ef995680bf
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "32.9002"^^xsd:double ;
+    wikibase:geoLongitude "22.0516"^^xsd:double ;
+    wikibase:geoPrecision "0.0001"^^xsd:double .

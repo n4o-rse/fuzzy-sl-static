@@ -1,0 +1,70 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "crm:E26_Physical_Feature"
+      }
+    ]
+  },
+  "claims": {
+    "P2": [
+      {
+        "id": "Q147$e21d40e6-4721-93e2-dfb2-c0a5a6f865ab",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q145",
+              "numeric-id": 145
+            }
+          },
+          "hash": "93eed40edfcef78d2435b276ce932b0709b9074c",
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P37": [
+      {
+        "id": "Q147$71544382-491e-4c06-8c1f-69204c3b8415",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature"
+          },
+          "hash": "458388b40340e209df9d5c2cbd5eb3a96a91a1e6",
+          "property": "P37",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "This class comprises identifiable features that are physically attached in an integral way to particular physical objects.Instances of E26 Physical Feature share many of the attributes of instances of E19 Physical Object."
+    }
+  },
+  "id": "Q147",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "E26 Physical Feature"
+    }
+  },
+  "lastrevid": 777,
+  "modified": "2025-05-02T14:05:15Z",
+  "ns": 120,
+  "pageid": 178,
+  "sitelinks": {},
+  "title": "Item:Q147",
+  "type": "item"
+}

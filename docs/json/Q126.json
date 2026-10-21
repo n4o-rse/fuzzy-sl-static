@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q126$20443061-4259-43b1-db92-58ee48387082",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q125",
+              "numeric-id": 125
+            }
+          },
+          "hash": "f7e73057efbc22073d07424db862a06f715e17ba",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Point Type"
+    }
+  },
+  "id": "Q126",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Representative Point"
+    }
+  },
+  "lastrevid": 629,
+  "modified": "2024-10-23T14:00:31Z",
+  "ns": 120,
+  "pageid": 153,
+  "sitelinks": {},
+  "title": "Item:Q126",
+  "type": "item"
+}

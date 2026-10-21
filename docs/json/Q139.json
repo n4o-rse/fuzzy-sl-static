@@ -1,0 +1,175 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q139$ac320dc6-472e-3e07-2be2-f8f19185425c",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q11",
+              "numeric-id": 11
+            }
+          },
+          "hash": "31d6bca2e5b12517a8a47cb2317f9e184cb614d9",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q139$1b0ba1da-409c-ef35-3c78-fd5970bf89ed",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q10",
+              "numeric-id": 10
+            }
+          },
+          "hash": "a066d63451157f1bc5f04e16e68166202c347237",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P10": [
+      {
+        "id": "Q139$5bcbabce-49db-de51-6516-631625432ab3",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://wikidata.org/entity/Q3936338"
+          },
+          "hash": "281fb4233e229afddf4e4b3cb370abbd3f8b797a",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://archaeoinformatics.link/ontology#spatialCloseMatch"
+              },
+              "hash": "bca3ca3f2f1466513ea9fc689ee68b6664c35653",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q139$2854284a-402e-b00a-89a1-c0b8a7f2d157",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://openstreetmap.org/node/1894965622"
+          },
+          "hash": "d54a05737fee47637a1e32541a8edda89fbf0f99",
+          "property": "P10",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P12": [
+            {
+              "datatype": "url",
+              "datavalue": {
+                "type": "string",
+                "value": "http://archaeoinformatics.link/ontology#spatialCloseMatch"
+              },
+              "hash": "bca3ca3f2f1466513ea9fc689ee68b6664c35653",
+              "property": "P12",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P12"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P3": [
+      {
+        "id": "Q139$4c4b00f0-43cc-7077-6d8d-b2291078b325",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q71",
+              "numeric-id": 71
+            }
+          },
+          "hash": "89567dd13053949ea90716a4d8ee4102fa9b65c5",
+          "property": "P3",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "Q139$1c39b465-4c9c-74dd-3560-2fc844a1d219",
+        "mainsnak": {
+          "datatype": "globe-coordinate",
+          "datavalue": {
+            "type": "globecoordinate",
+            "value": {
+              "altitude": null,
+              "globe": "http://www.wikidata.org/entity/Q2",
+              "latitude": 45.58555555555556,
+              "longitude": 10.898888888888889,
+              "precision": 0.0001
+            }
+          },
+          "hash": "7f8ef29402733e3c5d17a0e0f2e4c77f25fa4380",
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Campanian Ignimbrite Findspot"
+    }
+  },
+  "id": "Q139",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Fumane Cave"
+    }
+  },
+  "lastrevid": 740,
+  "modified": "2025-01-12T14:11:04Z",
+  "ns": 120,
+  "pageid": 167,
+  "sitelinks": {},
+  "title": "Item:Q139",
+  "type": "item"
+}

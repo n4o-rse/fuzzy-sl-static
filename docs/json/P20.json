@@ -1,0 +1,31 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "RDF URL pattern URI pattern for RDF resource formatter URL for RDF resource URL template for RDF resource RDF URI template URI used in RDF formatter URI of the RDF resources RDF formatter URL"
+      }
+    ]
+  },
+  "claims": {},
+  "datatype": "string",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "formatter URL for RDF resource: URI template from which \"$1\" can be automatically replaced with the effective property value on items (it is the URI of the resources, not the URI of the RDF file describing it)"
+    }
+  },
+  "id": "P20",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "formatter URI for RDF resource"
+    }
+  },
+  "lastrevid": 232,
+  "modified": "2024-10-17T16:15:33Z",
+  "ns": 122,
+  "pageid": 93,
+  "title": "Property:P20",
+  "type": "property"
+}

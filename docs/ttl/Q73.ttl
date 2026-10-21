@@ -1,0 +1,213 @@
+# Q73: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q73
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Campanian Ignimbrite Findspot"@en ;
+    dcterms:identifier "Q73" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2024-10-23T13:57:53Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q73 ;
+    dcterms:title "Urluia Quarry"@en ;
+    schema:about wd:Q73 ;
+    schema:dateModified "2024-10-23T13:57:53Z"^^xsd:dateTime ;
+    schema:version "627"^^xsd:integer ;
+    dcat:distribution dist:Q73-html,
+        dist:Q73-json,
+        dist:Q73-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q73.html> .
+
+dist:Q73-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q73, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q73.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q73-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q73, as archived from the Wikibase API"@en ;
+    dcat:byteSize "13102"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q73.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q73-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q73, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q73.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q73
+    a wikibase:Item ;
+    schema:description "Campanian Ignimbrite Findspot"@en ;
+    schema:name "Urluia Quarry"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "13"^^xsd:integer ;
+    rdfs:label "Urluia Quarry"@en ;
+    skos:prefLabel "Urluia Quarry"@en ;
+    p:P1 wds:Q73-d415f57e-4817-3f1a-c885-601a3654b461 ;
+    p:P3 wds:Q73-37a6da06-4bf3-fbdf-1f2e-6e848e035396 ;
+    p:P4 wds:Q73-d1c9ec22-4fc9-b18c-a120-f60bdba226e8 ;
+    p:P8 wds:Q73-053db839-4f27-b434-7c55-7b4b812802f9 ;
+    p:P10 wds:Q73-5f98b3b0-4567-ed48-4c4d-c561068570bc,
+        wds:Q73-bc09bc6c-4cae-08ae-1c56-bd94322ca259,
+        wds:Q73-fced15da-4807-8ee6-6ca7-69f0b865f72b ;
+    p:P11 wds:Q73-5cdd0a51-46ec-a486-b9ae-abde0bed1315,
+        wds:Q73-300c47b5-4b18-7450-a867-bde4ab27d166,
+        wds:Q73-5150ab07-4cb0-0f6b-97b1-87dc19ac043d,
+        wds:Q73-9997354f-4fa3-0757-468c-73ad19308a56 ;
+    p:P26 wds:Q73-3a33e566-4230-a5ac-8bfb-5c49a8f3ebe0 ;
+    p:P32 wds:Q73-4a7db98c-4869-48bd-f052-11a379911a19 ;
+    wdt:P1 wd:Q11 ;
+    wdt:P3 wd:Q71 ;
+    wdt:P4 "Point(27.9021 44.0947)"^^geo:wktLiteral ;
+    wdt:P8 wd:Q82 ;
+    wdt:P10 <http://openstreetmap.org/way/84975654>,
+        <http://sws.geonames.org/664132>,
+        <http://www.wikidata.org/entity/Q130547772> ;
+    wdt:P11 "Fitzsimmons et al., 2014",
+        "Fitzsimmons et al.,, 2013",
+        "Obreht et al., 2017",
+        "Pötter et al., 2021" ;
+    wdt:P26 wd:Q93 ;
+    wdt:P32 <http://www.wikidata.org/entity/Q218> .
+
+wds:Q73-3a33e566-4230-a5ac-8bfb-5c49a8f3ebe0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P26 wd:Q93 .
+
+wds:Q73-4a7db98c-4869-48bd-f052-11a379911a19
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P32 <http://www.wikidata.org/entity/Q218> .
+
+wds:Q73-5cdd0a51-46ec-a486-b9ae-abde0bed1315
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P11 "Pötter et al., 2021" .
+
+wds:Q73-5f98b3b0-4567-ed48-4c4d-c561068570bc
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P10 <http://www.wikidata.org/entity/Q130547772> .
+
+wds:Q73-37a6da06-4bf3-fbdf-1f2e-6e848e035396
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q71 .
+
+wds:Q73-053db839-4f27-b434-7c55-7b4b812802f9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P8 wd:Q82 .
+
+wds:Q73-300c47b5-4b18-7450-a867-bde4ab27d166
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P11 "Fitzsimmons et al.,, 2013" .
+
+wds:Q73-5150ab07-4cb0-0f6b-97b1-87dc19ac043d
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P11 "Fitzsimmons et al., 2014" .
+
+wds:Q73-9997354f-4fa3-0757-468c-73ad19308a56
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P11 "Obreht et al., 2017" .
+
+wds:Q73-bc09bc6c-4cae-08ae-1c56-bd94322ca259
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P10 <http://sws.geonames.org/664132> .
+
+wds:Q73-d1c9ec22-4fc9-b18c-a120-f60bdba226e8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    prov:wasDerivedFrom wdref:bffe38af4c184428d0c5e91f1434a06eef15628c ;
+    pq:P5 wd:Q15 ;
+    pq:P6 wd:Q20 ;
+    pq:P7 wd:Q17 ;
+    pq:P13 "Fitzsimmons et al. (2014), p.76: “In this paper we investigate [...] the site of Urluia Quarry on the Dobrogea loess plateau [...], some 15 km south of the Danube River. The site immediately overlies the Quaternary-uplifted Cretaceous-Tertiary-age limestone basement rocks (Munteanu et al., 2008), which were the target of earlier quarrying activities.”; Pötter et al. (2021), p.5: “The Urluia (URL) LPS is located in an abandoned limestone quarry on the limestone plateau of the Dobrogea (Fitzsimmons et al., 2013; Fitzsimmons and Hambach, 2014; Obreht et al., 2017).”" ;
+    pq:P14 wd:Q72 ;
+    pq:P15 "set a point based on Fitzsimmons et al. (2014), p.76 and Pötter et al. (2021), p.5 using OSM Way 84975654" ;
+    pq:P16 wd:Q19 ;
+    pq:P23 "±0.0001°" ;
+    pq:P24 wd:Q80 ;
+    pq:P33 wd:Q128 ;
+    ps:P4 "Point(27.9021 44.0947)"^^geo:wktLiteral ;
+    psv:P4 wdv:e1ea2c34361cdd07e29c0d893cdf2133 .
+
+wds:Q73-d415f57e-4817-3f1a-c885-601a3654b461
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q11 .
+
+wds:Q73-fced15da-4807-8ee6-6ca7-69f0b865f72b
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P10 <http://openstreetmap.org/way/84975654> .
+
+wdref:bffe38af4c184428d0c5e91f1434a06eef15628c
+    a wikibase:Reference ;
+    pr:P25 "Fitzsimmons et al. (2014), p.76",
+        "Pötter et al. (2021), p.5" .
+
+wdv:e1ea2c34361cdd07e29c0d893cdf2133
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "44.0947"^^xsd:double ;
+    wikibase:geoLongitude "27.9021"^^xsd:double ;
+    wikibase:geoPrecision "0.0001"^^xsd:double .

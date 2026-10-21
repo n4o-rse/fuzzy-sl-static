@@ -1,0 +1,170 @@
+# Q68: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q68
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "An der Bahnstrecke von Curinga (Provinz Catanzaro), zwischen den Flüssen Angitola und Turrina."@en ;
+    dcterms:identifier "Q68" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2024-10-23T14:02:57Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q68 ;
+    dcterms:title "Curinga 1916 (IGCH 1881 / Noe 285)"@en ;
+    schema:about wd:Q68 ;
+    schema:dateModified "2024-10-23T14:02:57Z"^^xsd:dateTime ;
+    schema:version "631"^^xsd:integer ;
+    dcat:distribution dist:Q68-html,
+        dist:Q68-json,
+        dist:Q68-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q68.html> .
+
+dist:Q68-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q68, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q68.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q68-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q68, as archived from the Wikibase API"@en ;
+    dcat:byteSize "11253"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q68.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q68-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q68, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q68.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q68
+    a wikibase:Item ;
+    schema:description "An der Bahnstrecke von Curinga (Provinz Catanzaro), zwischen den Flüssen Angitola und Turrina."@en ;
+    schema:name "Curinga 1916 (IGCH 1881 / Noe 285)"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "8"^^xsd:integer ;
+    rdfs:label "Curinga 1916 (IGCH 1881 / Noe 285)"@en ;
+    skos:prefLabel "Curinga 1916 (IGCH 1881 / Noe 285)"@en ;
+    p:P1 wds:Q68-0927E700-AB69-486A-A59B-B29280E7FA98 ;
+    p:P3 wds:Q68-94ABD5D4-E769-417C-AED4-04525E9CB2E2 ;
+    p:P4 wds:Q68-657839F9-111B-430F-B474-C2A84AB72752 ;
+    p:P8 wds:Q68-68746257-8546-4059-AEE3-8435D2D3B511 ;
+    p:P10 wds:Q68-AEB4E22C-8BD2-41E9-8ECF-B6BDCA4C1B42,
+        wds:Q68-B8C295CF-2914-435F-891B-7432284D1E88,
+        wds:Q68-EBE27513-3558-4ED2-AEA8-0A682E078208 ;
+    p:P11 wds:Q68-C2ABA8F0-1615-4B7C-B3E6-596F4735561C ;
+    wdt:P1 wd:Q10 ;
+    wdt:P3 wd:Q14 ;
+    wdt:P4 "Point(16.31344 38.82811)"^^geo:wktLiteral ;
+    wdt:P8 wd:Q32 ;
+    wdt:P10 <http://coinhoards.org/id/igch1881>,
+        <http://openstreetmap.org/relation/39724>,
+        <http://wikidata.org/entity/Q53514> ;
+    wdt:P11 "P. Orsi (1919)" .
+
+wds:Q68-94ABD5D4-E769-417C-AED4-04525E9CB2E2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q14 .
+
+wds:Q68-0927E700-AB69-486A-A59B-B29280E7FA98
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q10 .
+
+wds:Q68-657839F9-111B-430F-B474-C2A84AB72752
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P5 wd:Q15 ;
+    pq:P6 wd:Q20 ;
+    pq:P7 wd:Q17 ;
+    pq:P13 "Bei GeoNames wurden die Koordinaten ungefähr vom Zentrum von Curinga gewählt. Der Fund wurde jedoch bei Trockenlegungsarbeiten zum Bau der Bahnstrecke zwischen den Flüssen Angitola und Turrina gehoben. Beide Flüsse liegen deutlich weiter südlich, außerhalb der Stadt. Der Turrina verläuft unmittelbar südlich von Curinga, der Angitola evtl. ca. 15 km weiter südlich; die Bahnstrecke verläuft allerdings westlich an der Küste entlang. Der Fundort könnte sich in einem undefinierten Areal  südwestlich von Curinga befinden." ;
+    pq:P14 wd:Q18 ;
+    pq:P15 "set a point based on P. Orsi (1919), IGCH 1881, wich uses GeoNames ID 2524872 (Curinga)" ;
+    pq:P16 wd:Q19 ;
+    pq:P23 "±0.000001°" ;
+    pq:P24 wd:Q80 ;
+    pq:P33 wd:Q126 ;
+    ps:P4 "Point(16.31344 38.82811)"^^geo:wktLiteral ;
+    psv:P4 wdv:ea7bd1db68059cc37b8a4ad50f0732bc .
+
+wds:Q68-68746257-8546-4059-AEE3-8435D2D3B511
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P8 wd:Q32 .
+
+wds:Q68-AEB4E22C-8BD2-41E9-8ECF-B6BDCA4C1B42
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 <http://archaeoinformatics.link/ontology#spatialCloseMatch> ;
+    ps:P10 <http://wikidata.org/entity/Q53514> .
+
+wds:Q68-B8C295CF-2914-435F-891B-7432284D1E88
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 <http://archaeoinformatics.link/ontology#spatialCloseMatch> ;
+    ps:P10 <http://openstreetmap.org/relation/39724> .
+
+wds:Q68-C2ABA8F0-1615-4B7C-B3E6-596F4735561C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P11 "P. Orsi (1919)" .
+
+wds:Q68-EBE27513-3558-4ED2-AEA8-0A682E078208
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 <http://archaeoinformatics.link/ontology#spatialCloseMatch> ;
+    ps:P10 <http://coinhoards.org/id/igch1881> .
+
+wdv:ea7bd1db68059cc37b8a4ad50f0732bc
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "38.82811"^^xsd:double ;
+    wikibase:geoLongitude "16.31344"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

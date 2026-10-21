@@ -1,0 +1,140 @@
+# Q106: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q106
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Samian Ware Findsport (Samian Research)"@en ;
+    dcterms:identifier "Q106" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2024-10-23T11:36:43Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q106 ;
+    dcterms:title "Chesterholm-Vindolanda"@en ;
+    schema:about wd:Q106 ;
+    schema:dateModified "2024-10-23T11:36:43Z"^^xsd:dateTime ;
+    schema:version "597"^^xsd:integer ;
+    dcat:distribution dist:Q106-html,
+        dist:Q106-json,
+        dist:Q106-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q106.html> .
+
+dist:Q106-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q106, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q106.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q106-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q106, as archived from the Wikibase API"@en ;
+    dcat:byteSize "8048"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q106.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q106-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q106, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q106.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q106
+    a wikibase:Item ;
+    schema:description "Samian Ware Findsport (Samian Research)"@en ;
+    schema:name "Chesterholm-Vindolanda"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "4"^^xsd:integer ;
+    rdfs:label "Chesterholm-Vindolanda"@en ;
+    skos:prefLabel "Chesterholm-Vindolanda"@en ;
+    p:P1 wds:Q106-4d8ca893-4381-7e1b-4231-e3e227386c8a ;
+    p:P3 wds:Q106-aa8d37a5-4442-b7f9-0b6f-4ccfe4f5bfa0 ;
+    p:P4 wds:Q106-70c69521-4284-d41e-f0a9-bb4515b7bf51 ;
+    p:P30 wds:Q106-af9eee67-4005-e1e3-4806-888f9f409f0c ;
+    wdt:P1 wd:Q10 ;
+    wdt:P3 wd:Q94 ;
+    wdt:P4 "Point(-2.359504 54.991588)"^^geo:wktLiteral ;
+    wdt:P30 wd:Q97 .
+
+wds:Q106-4d8ca893-4381-7e1b-4231-e3e227386c8a
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q10 .
+
+wds:Q106-70c69521-4284-d41e-f0a9-bb4515b7bf51
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom wdref:34a1d590cbe61ef52f696fbf0bb510e7ea110669 ;
+    pq:P5 wd:Q15 ;
+    pq:P6 wd:Q100 ;
+    pq:P7 wd:Q17 ;
+    pq:P13 "Pleiades ID 89313" ;
+    pq:P14 wd:Q98 ;
+    pq:P15 "set a point based on using Pleiades ID 89313" ;
+    pq:P16 wd:Q99 ;
+    pq:P23 "±0.000001°" ;
+    pq:P24 wd:Q80 ;
+    pq:P33 wd:Q127 ;
+    ps:P4 "Point(-2.359504 54.991588)"^^geo:wktLiteral ;
+    psv:P4 wdv:a1cf2a2d3131d8a369334cff5514827a .
+
+wds:Q106-aa8d37a5-4442-b7f9-0b6f-4ccfe4f5bfa0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q94 .
+
+wds:Q106-af9eee67-4005-e1e3-4806-888f9f409f0c
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P30 wd:Q97 .
+
+wdref:34a1d590cbe61ef52f696fbf0bb510e7ea110669
+    a wikibase:Reference ;
+    pr:P25 "Samian Research Database" .
+
+wdv:a1cf2a2d3131d8a369334cff5514827a
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "54.991588"^^xsd:double ;
+    wikibase:geoLongitude "-2.359504"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

@@ -1,0 +1,128 @@
+# P12: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:P12
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "type of a relation"@en ;
+    dcterms:identifier "P12" ;
+    dcterms:isPartOf cat:properties ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2023-08-14T12:44:10Z"^^xsd:dateTime ;
+    dcterms:subject wd:P12 ;
+    dcterms:title "related to type"@en ;
+    schema:about wd:P12 ;
+    schema:dateModified "2023-08-14T12:44:10Z"^^xsd:dateTime ;
+    schema:version "42"^^xsd:integer ;
+    dcat:distribution dist:P12-html,
+        dist:P12-json,
+        dist:P12-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/P12.html> .
+
+dist:P12-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P12, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/P12.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:P12-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P12, as archived from the Wikibase API"@en ;
+    dcat:byteSize "404"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/P12.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:P12-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P12, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/P12.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:P12
+    a wikibase:Property ;
+    schema:description "type of a relation"@en ;
+    schema:name "related to type"@en ;
+    wikibase:claim p:P12 ;
+    wikibase:directClaim wdt:P12 ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:novalue wdno:P12 ;
+    wikibase:propertyType wikibase:Url ;
+    wikibase:qualifier pq:P12 ;
+    wikibase:qualifierValue pqv:P12 ;
+    wikibase:reference pr:P12 ;
+    wikibase:referenceValue prv:P12 ;
+    wikibase:statementProperty ps:P12 ;
+    wikibase:statementValue psv:P12 ;
+    wikibase:statements "0"^^xsd:integer ;
+    rdfs:label "related to type"@en ;
+    skos:prefLabel "related to type"@en .
+
+p:P12
+    a owl:ObjectProperty .
+
+wdt:P12
+    a owl:ObjectProperty .
+
+pq:P12
+    a owl:ObjectProperty .
+
+pqv:P12
+    a owl:ObjectProperty .
+
+pr:P12
+    a owl:ObjectProperty .
+
+prv:P12
+    a owl:ObjectProperty .
+
+ps:P12
+    a owl:ObjectProperty .
+
+psv:P12
+    a owl:ObjectProperty .
+
+wdno:P12
+    a owl:Class ;
+    owl:complementOf _:4fb4b9bd42cbb1874e7f23f5c45a374a .
+
+_:4fb4b9bd42cbb1874e7f23f5c45a374a
+    a owl:Restriction ;
+    owl:onProperty wdt:P12 ;
+    owl:someValuesFrom owl:Thing .

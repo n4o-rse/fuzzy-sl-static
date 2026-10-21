@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q76$5cb7542c-4dd5-1b44-54d7-dab6e878fe16",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q4",
+              "numeric-id": 4
+            }
+          },
+          "hash": "6056844c4a6d3699fbafab69805eed5ca36eab0e",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "spatial type"
+    }
+  },
+  "id": "Q76",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Exhebition Place"
+    }
+  },
+  "lastrevid": 197,
+  "modified": "2024-10-14T11:11:37Z",
+  "ns": 120,
+  "pageid": 86,
+  "sitelinks": {},
+  "title": "Item:Q76",
+  "type": "item"
+}

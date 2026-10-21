@@ -1,0 +1,188 @@
+# Q137: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q137
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Campanian Ignimbrite Findspot"@en ;
+    dcterms:identifier "Q137" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2025-01-12T13:29:50Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q137 ;
+    dcterms:title "Pompeii Via dell’Abbondanza"@en ;
+    schema:about wd:Q137 ;
+    schema:dateModified "2025-01-12T13:29:50Z"^^xsd:dateTime ;
+    schema:version "732"^^xsd:integer ;
+    dcat:distribution dist:Q137-html,
+        dist:Q137-json,
+        dist:Q137-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q137.html> .
+
+dist:Q137-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q137, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q137.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q137-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q137, as archived from the Wikibase API"@en ;
+    dcat:byteSize "7784"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q137.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q137-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q137, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q137.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q137
+    a wikibase:Item ;
+    schema:description "Campanian Ignimbrite Findspot"@en ;
+    schema:name "Pompeii Via dell’Abbondanza"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "11"^^xsd:integer ;
+    rdfs:label "Pompeii Via dell’Abbondanza"@en ;
+    skos:prefLabel "Pompeii Via dell’Abbondanza"@en ;
+    p:P1 wds:Q137-9ccba03a-40ab-ef93-f5dc-cae93042d370,
+        wds:Q137-c4cd9cbd-4612-43ff-4f99-1baf729dfc77 ;
+    p:P3 wds:Q137-fb009f1f-45cd-ef8a-ca26-b7677a30f0f7 ;
+    p:P4 wds:Q137-4b44d999-499b-0eea-f355-9b32ccdd2e44 ;
+    p:P8 wds:Q137-500b149a-43b6-bbdc-e8bb-1bc4a04ddde0 ;
+    p:P10 wds:Q137-4cbd9053-4fc2-a02b-db3f-3525c3d9c217,
+        wds:Q137-d85dc54a-4e4d-271b-a646-ead396cbef34 ;
+    p:P11 wds:Q137-4997b1d2-4639-05a7-4e51-1de12d5159ee ;
+    p:P26 wds:Q137-36eef004-4267-88ee-e7c9-afe35100d524,
+        wds:Q137-c63a47f9-459e-a95e-7101-501b74119114 ;
+    p:P32 wds:Q137-55f9c3d6-4c66-3a81-cbed-92ec53897943 ;
+    wdt:P1 wd:Q10,
+        wd:Q11 ;
+    wdt:P3 wd:Q71 ;
+    wdt:P4 "Point(14.488961261111 40.75038655)"^^geo:wktLiteral ;
+    wdt:P8 wd:Q32 ;
+    wdt:P10 <http://wikidata.org/entity/Q12778461>,
+        <https://openstreetmap.org/way/192397270> ;
+    wdt:P11 "Rovella et al. (2018)" ;
+    wdt:P26 wd:Q92,
+        wd:Q93 ;
+    wdt:P32 <http://wikidata.org/entity/Q38> .
+
+wds:Q137-4b44d999-499b-0eea-f355-9b32ccdd2e44
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P4 "Point(14.488961261111 40.75038655)"^^geo:wktLiteral ;
+    psv:P4 wdv:1dcacb6b9638986092c3a66c05109d24 .
+
+wds:Q137-4cbd9053-4fc2-a02b-db3f-3525c3d9c217
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 <http://archaeoinformatics.link/ontology#spatialCloseMatch> ;
+    ps:P10 <http://wikidata.org/entity/Q12778461> .
+
+wds:Q137-9ccba03a-40ab-ef93-f5dc-cae93042d370
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q11 .
+
+wds:Q137-36eef004-4267-88ee-e7c9-afe35100d524
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P26 wd:Q93 .
+
+wds:Q137-55f9c3d6-4c66-3a81-cbed-92ec53897943
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P32 <http://wikidata.org/entity/Q38> .
+
+wds:Q137-500b149a-43b6-bbdc-e8bb-1bc4a04ddde0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P8 wd:Q32 .
+
+wds:Q137-4997b1d2-4639-05a7-4e51-1de12d5159ee
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom wdref:3b7956b5b58eb3def30581167721e858d1bc6d08 ;
+    ps:P11 "Rovella et al. (2018)" .
+
+wds:Q137-c4cd9cbd-4612-43ff-4f99-1baf729dfc77
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q10 .
+
+wds:Q137-c63a47f9-459e-a95e-7101-501b74119114
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P26 wd:Q92 .
+
+wds:Q137-d85dc54a-4e4d-271b-a646-ead396cbef34
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 <http://archaeoinformatics.link/ontology#spatialCloseMatch> ;
+    ps:P10 <https://openstreetmap.org/way/192397270> .
+
+wds:Q137-fb009f1f-45cd-ef8a-ca26-b7677a30f0f7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q71 .
+
+wdref:3b7956b5b58eb3def30581167721e858d1bc6d08
+    a wikibase:Reference ;
+    pr:P17 <https://doi.org/10.1140/epjp/i2018-12369-2> .
+
+wdv:1dcacb6b9638986092c3a66c05109d24
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "40.75038655"^^xsd:double ;
+    wikibase:geoLongitude "14.488961261111"^^xsd:double ;
+    wikibase:geoPrecision "0.0001"^^xsd:double .

@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q129$c5f18266-4e08-6911-0240-10fe6fc448e6",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q125",
+              "numeric-id": 125
+            }
+          },
+          "hash": "f7e73057efbc22073d07424db862a06f715e17ba",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Point Type"
+    }
+  },
+  "id": "Q129",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Natural Place"
+    }
+  },
+  "lastrevid": 610,
+  "modified": "2024-10-23T13:51:05Z",
+  "ns": 120,
+  "pageid": 156,
+  "sitelinks": {},
+  "title": "Item:Q129",
+  "type": "item"
+}

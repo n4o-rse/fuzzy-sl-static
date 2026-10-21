@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "e.g. archaeological or geological site"
+    }
+  },
+  "id": "Q3",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Site Type"
+    }
+  },
+  "lastrevid": 33,
+  "modified": "2023-08-10T16:47:07Z",
+  "ns": 120,
+  "pageid": 12,
+  "sitelinks": {},
+  "title": "Item:Q3",
+  "type": "item"
+}

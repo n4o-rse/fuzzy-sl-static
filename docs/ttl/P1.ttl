@@ -1,0 +1,130 @@
+# P1: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:P1
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "is an instance of"@en ;
+    dcterms:identifier "P1" ;
+    dcterms:isPartOf cat:properties ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2023-07-27T08:53:20Z"^^xsd:dateTime ;
+    dcterms:subject wd:P1 ;
+    dcterms:title "instance of"@en ;
+    schema:about wd:P1 ;
+    schema:dateModified "2023-07-27T08:53:20Z"^^xsd:dateTime ;
+    schema:version "1"^^xsd:integer ;
+    dcat:distribution dist:P1-html,
+        dist:P1-json,
+        dist:P1-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/P1.html> .
+
+dist:P1-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P1, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/P1.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:P1-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P1, as archived from the Wikibase API"@en ;
+    dcat:byteSize "556"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/P1.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:P1-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P1, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/P1.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:P1
+    a wikibase:Property ;
+    schema:description "is an instance of"@en ;
+    schema:name "instance of"@en ;
+    wikibase:claim p:P1 ;
+    wikibase:directClaim wdt:P1 ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:novalue wdno:P1 ;
+    wikibase:propertyType wikibase:WikibaseItem ;
+    wikibase:qualifier pq:P1 ;
+    wikibase:qualifierValue pqv:P1 ;
+    wikibase:reference pr:P1 ;
+    wikibase:referenceValue prv:P1 ;
+    wikibase:statementProperty ps:P1 ;
+    wikibase:statementValue psv:P1 ;
+    wikibase:statements "0"^^xsd:integer ;
+    rdfs:label "instance of"@en ;
+    skos:altLabel "a"@en,
+        "type"@en ;
+    skos:prefLabel "instance of"@en .
+
+p:P1
+    a owl:ObjectProperty .
+
+wdt:P1
+    a owl:ObjectProperty .
+
+pq:P1
+    a owl:ObjectProperty .
+
+pqv:P1
+    a owl:ObjectProperty .
+
+pr:P1
+    a owl:ObjectProperty .
+
+prv:P1
+    a owl:ObjectProperty .
+
+ps:P1
+    a owl:ObjectProperty .
+
+psv:P1
+    a owl:ObjectProperty .
+
+wdno:P1
+    a owl:Class ;
+    owl:complementOf _:78a0cd887b0c33dc704d4b85a03ca233 .
+
+_:78a0cd887b0c33dc704d4b85a03ca233
+    a owl:Restriction ;
+    owl:onProperty wdt:P1 ;
+    owl:someValuesFrom owl:Thing .

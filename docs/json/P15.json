@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "datatype": "string",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "coordinate qualifier"
+    }
+  },
+  "id": "P15",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "method description"
+    }
+  },
+  "lastrevid": 477,
+  "modified": "2024-10-23T09:35:01Z",
+  "ns": 122,
+  "pageid": 33,
+  "title": "Property:P15",
+  "type": "property"
+}

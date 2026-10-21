@@ -1,0 +1,31 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "wd:P131"
+      }
+    ]
+  },
+  "claims": {},
+  "datatype": "url",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "the item is located on the territory of the following administrative entity"
+    }
+  },
+  "id": "P32",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "located in the administrative territorial entity"
+    }
+  },
+  "lastrevid": 552,
+  "modified": "2024-10-23T10:37:28Z",
+  "ns": 122,
+  "pageid": 145,
+  "title": "Property:P32",
+  "type": "property"
+}

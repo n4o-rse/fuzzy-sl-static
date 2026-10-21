@@ -1,0 +1,141 @@
+# Q58: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q58
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Derived from conhoards.org identifier"@en ;
+    dcterms:identifier "Q58" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2023-08-14T15:07:30Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q58 ;
+    dcterms:title "Province of Brindisi (Italy)"@en ;
+    schema:about wd:Q58 ;
+    schema:dateModified "2023-08-14T15:07:30Z"^^xsd:dateTime ;
+    schema:version "138"^^xsd:integer ;
+    dcat:distribution dist:Q58-html,
+        dist:Q58-json,
+        dist:Q58-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q58.html> .
+
+dist:Q58-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q58, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q58.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q58-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q58, as archived from the Wikibase API"@en ;
+    dcat:byteSize "7017"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q58.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q58-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q58, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q58.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q58
+    a wikibase:Item ;
+    schema:description "Derived from conhoards.org identifier"@en ;
+    schema:name "Province of Brindisi (Italy)"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "5"^^xsd:integer ;
+    rdfs:label "Province of Brindisi (Italy)"@en ;
+    skos:prefLabel "Province of Brindisi (Italy)"@en ;
+    p:P1 wds:Q58-B8BB5F7F-CC06-43A8-AA78-99257D94C39B ;
+    p:P3 wds:Q58-9702CFCF-AD90-4DA0-9282-DDAB1DDD0DCB ;
+    p:P4 wds:Q58-5D8F1A54-9F84-4F82-825D-2ABFF7EB0A1C ;
+    p:P8 wds:Q58-1C427CDA-C168-441D-AEF4-D01DD51FA953 ;
+    p:P10 wds:Q58-53B93F0E-21EC-4571-92DB-EB8A6D09A82F ;
+    wdt:P1 wd:Q10 ;
+    wdt:P3 wd:Q14 ;
+    wdt:P4 "Point(17.66667 40.58333)"^^geo:wktLiteral ;
+    wdt:P8 wd:Q36 ;
+    wdt:P10 <https://sws.geonames.org/3181526> .
+
+wds:Q58-1C427CDA-C168-441D-AEF4-D01DD51FA953
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P8 wd:Q36 .
+
+wds:Q58-5D8F1A54-9F84-4F82-825D-2ABFF7EB0A1C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P5 wd:Q24 ;
+    pq:P6 wd:Q31 ;
+    pq:P7 wd:Q34 ;
+    pq:P13 "Coordinate is directly used from the GeoNames record." ;
+    pq:P14 wd:Q35 ;
+    pq:P15 "uses existing link to GeoNames in coinhorads ID 1916" ;
+    pq:P16 wd:Q26 ;
+    ps:P4 "Point(17.66667 40.58333)"^^geo:wktLiteral ;
+    psv:P4 wdv:09d54b1c3c29a7bf125b39e6ddb0cdd5 .
+
+wds:Q58-53B93F0E-21EC-4571-92DB-EB8A6D09A82F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 skos:exactMatch ;
+    ps:P10 <https://sws.geonames.org/3181526> .
+
+wds:Q58-9702CFCF-AD90-4DA0-9282-DDAB1DDD0DCB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q14 .
+
+wds:Q58-B8BB5F7F-CC06-43A8-AA78-99257D94C39B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q10 .
+
+wdv:09d54b1c3c29a7bf125b39e6ddb0cdd5
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "40.58333"^^xsd:double ;
+    wikibase:geoLongitude "17.66667"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

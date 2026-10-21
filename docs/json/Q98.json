@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q98$eb177370-4439-23d0-cb58-2e728d3bf3b6",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q21",
+              "numeric-id": 21
+            }
+          },
+          "hash": "cd9f768a4c42cdc7579b96784c19d1cb54b56afe",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "User of the Samian Research Community"
+    }
+  },
+  "id": "Q98",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Samian Research User"
+    }
+  },
+  "lastrevid": 345,
+  "modified": "2024-10-22T17:26:15Z",
+  "ns": 120,
+  "pageid": 120,
+  "sitelinks": {},
+  "title": "Item:Q98",
+  "type": "item"
+}

@@ -1,0 +1,140 @@
+# Q97: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q97
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Samian Ware Findsport (Samian Research)"@en ;
+    dcterms:identifier "Q97" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2024-10-23T11:40:31Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q97 ;
+    dcterms:title "Chesterholm-Vindolanda / vicus"@en ;
+    schema:about wd:Q97 ;
+    schema:dateModified "2024-10-23T11:40:31Z"^^xsd:dateTime ;
+    schema:version "607"^^xsd:integer ;
+    dcat:distribution dist:Q97-html,
+        dist:Q97-json,
+        dist:Q97-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q97.html> .
+
+dist:Q97-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q97, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q97.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q97-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q97, as archived from the Wikibase API"@en ;
+    dcat:byteSize "8097"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q97.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q97-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q97, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q97.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q97
+    a wikibase:Item ;
+    schema:description "Samian Ware Findsport (Samian Research)"@en ;
+    schema:name "Chesterholm-Vindolanda / vicus"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "4"^^xsd:integer ;
+    rdfs:label "Chesterholm-Vindolanda / vicus"@en ;
+    skos:prefLabel "Chesterholm-Vindolanda / vicus"@en ;
+    p:P1 wds:Q97-a83ba7de-478c-64fd-1ef1-701e296959c1 ;
+    p:P3 wds:Q97-ba7e3083-46a7-0967-a685-f3941816a54b ;
+    p:P4 wds:Q97-01c7ebee-4c62-1e71-535f-ed12a85abf8f ;
+    p:P29 wds:Q97-a0de1224-478d-8f2e-91b9-4031e0195c8e ;
+    wdt:P1 wd:Q10 ;
+    wdt:P3 wd:Q94 ;
+    wdt:P4 "Point(-2.3602 54.9912)"^^geo:wktLiteral ;
+    wdt:P29 wd:Q106 .
+
+wds:Q97-01c7ebee-4c62-1e71-535f-ed12a85abf8f
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom wdref:be5752eb388438cd5117922259646dc0de23aea9 ;
+    pq:P5 wd:Q23 ;
+    pq:P6 wd:Q100 ;
+    pq:P7 wd:Q17 ;
+    pq:P13 "middle of Castra Vindolanda, OSM node 10089459650" ;
+    pq:P14 wd:Q35 ;
+    pq:P15 "set a point based on OSM node 10089459650" ;
+    pq:P16 wd:Q104 ;
+    pq:P23 "±0.0001°" ;
+    pq:P24 wd:Q80 ;
+    pq:P33 wd:Q128 ;
+    ps:P4 "Point(-2.3602 54.9912)"^^geo:wktLiteral ;
+    psv:P4 wdv:c1f19554f81b2e49d74c3c3cb9438acf .
+
+wds:Q97-a0de1224-478d-8f2e-91b9-4031e0195c8e
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P29 wd:Q106 .
+
+wds:Q97-a83ba7de-478c-64fd-1ef1-701e296959c1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q10 .
+
+wds:Q97-ba7e3083-46a7-0967-a685-f3941816a54b
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q94 .
+
+wdref:be5752eb388438cd5117922259646dc0de23aea9
+    a wikibase:Reference ;
+    pr:P17 <https://www.openstreetmap.org/node/10089459650> .
+
+wdv:c1f19554f81b2e49d74c3c3cb9438acf
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "54.9912"^^xsd:double ;
+    wikibase:geoLongitude "-2.3602"^^xsd:double ;
+    wikibase:geoPrecision "0.0001"^^xsd:double .

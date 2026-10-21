@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q35$710a4d23-4695-6c27-d647-252f29372c0f",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q21",
+              "numeric-id": 21
+            }
+          },
+          "hash": "cd9f768a4c42cdc7579b96784c19d1cb54b56afe",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Geodät und RSE"
+    }
+  },
+  "id": "Q35",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Florian Thiery"
+    }
+  },
+  "lastrevid": 108,
+  "modified": "2023-08-14T14:02:48Z",
+  "ns": 120,
+  "pageid": 51,
+  "sitelinks": {},
+  "title": "Item:Q35",
+  "type": "item"
+}

@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Type"
+    }
+  },
+  "id": "Q6",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Certainty Level"
+    }
+  },
+  "lastrevid": 156,
+  "modified": "2023-08-14T21:13:50Z",
+  "ns": 120,
+  "pageid": 15,
+  "sitelinks": {},
+  "title": "Item:Q6",
+  "type": "item"
+}

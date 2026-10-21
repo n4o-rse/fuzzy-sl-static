@@ -1,0 +1,251 @@
+# Q74: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q74
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Ogham Stone #4 UCC Stone Corridor at UCC Cork"@en ;
+    dcterms:identifier "Q74" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2024-10-30T08:56:59Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q74 ;
+    dcterms:title "Ogham Stone UCC Stone Corridor IV"@en ;
+    schema:about wd:Q74 ;
+    schema:dateModified "2024-10-30T08:56:59Z"^^xsd:dateTime ;
+    schema:version "670"^^xsd:integer ;
+    dcat:distribution dist:Q74-html,
+        dist:Q74-json,
+        dist:Q74-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q74.html> .
+
+dist:Q74-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q74, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q74.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q74-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q74, as archived from the Wikibase API"@en ;
+    dcat:byteSize "20836"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q74.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q74-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q74, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q74.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q74
+    a wikibase:Item ;
+    schema:description "Ogham Stone #4 UCC Stone Corridor at UCC Cork"@en ;
+    schema:name "Ogham Stone UCC Stone Corridor IV"@en ;
+    wikibase:identifiers "2"^^xsd:integer ;
+    wikibase:statements "16"^^xsd:integer ;
+    rdfs:label "Ogham Stone UCC Stone Corridor IV"@en ;
+    skos:prefLabel "Ogham Stone UCC Stone Corridor IV"@en ;
+    p:P1 wds:Q74-7ec947fa-4159-bfce-5ace-f6cae30b01d7 ;
+    p:P3 wds:Q74-a7a43978-44a2-3a71-40e5-4479023ba4cf ;
+    p:P4 wds:Q74-044fd031-4b81-05b3-c118-c7f409417337,
+        wds:Q74-b6c08e15-4843-729d-ddc7-b81e66813d09 ;
+    p:P8 wds:Q74-596e9b44-4ece-f099-76ff-8d48e3591ba3 ;
+    p:P10 wds:Q74-04a4372e-4cc2-4fb9-fd7d-ca0e10d16846,
+        wds:Q74-08b978dc-4eb7-2392-5011-378804b19cb5,
+        wds:Q74-066ecd19-4781-d58b-14fd-34d780ba3642,
+        wds:Q74-ea2ebf02-4299-5a80-9e8b-e293b9d5f583 ;
+    p:P11 wds:Q74-5c86d982-42ce-dc6e-a758-2eb693603328,
+        wds:Q74-734ac8da-47b8-45bc-9e8e-94d73aecdffa,
+        wds:Q74-c95dee6c-49cb-e947-5c6e-7ac854f905d2,
+        wds:Q74-d5386125-4f7b-7871-e600-dba5140985b2 ;
+    p:P19 wds:Q74-1b15be22-4ace-a255-bd54-410b3c142ef1 ;
+    p:P26 wds:Q74-5187e32f-4f78-4d27-18a8-afc048140b19 ;
+    p:P34 wds:Q74-0055ccf8-43cf-8ea6-cf5d-b4c84f875ed6 ;
+    wdt:P1 wd:Q10 ;
+    wdt:P3 wd:Q75 ;
+    wdt:P4 "Point(-8.4924431111111 51.893659305556)"^^geo:wktLiteral ;
+    wdt:P8 wd:Q76 ;
+    wdt:P10 <http://lod.ogham.link/data/Y50000081>,
+        <http://wikidata.org/entity/Q130529871>,
+        <https://database.factgrid.de/entity/Q1000294>,
+        <https://wikibase.semantic-kompakkt.de/entity/Q1247> ;
+    wdt:P11 "https://titus.uni-frankfurt.de/ogam/h/og081.htm",
+        "https://www.jstor.org/stable/25505959",
+        "https://www.openstreetmap.org/node/11071361392",
+        "https://www.ucl.ac.uk/archaeology/cisp/database/stone/gares_1.html" ;
+    wdt:P19 "Q1262" ;
+    wdt:P26 wd:Q92 ;
+    wdt:P34 "Q130529871" .
+
+wds:Q74-1b15be22-4ace-a255-bd54-410b3c142ef1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P19 "Q1262" .
+
+wds:Q74-04a4372e-4cc2-4fb9-fd7d-ca0e10d16846
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 <http://archaeoinformatics.link/ontology#spatialCloseMatch> ;
+    ps:P10 <https://database.factgrid.de/entity/Q1000294> .
+
+wds:Q74-5c86d982-42ce-dc6e-a758-2eb693603328
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P11 "https://www.jstor.org/stable/25505959" .
+
+wds:Q74-7ec947fa-4159-bfce-5ace-f6cae30b01d7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q10 .
+
+wds:Q74-08b978dc-4eb7-2392-5011-378804b19cb5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 <http://archaeoinformatics.link/ontology#spatialCloseMatch> ;
+    ps:P10 <https://wikibase.semantic-kompakkt.de/entity/Q1247> .
+
+wds:Q74-044fd031-4b81-05b3-c118-c7f409417337
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    pq:P5 wd:Q23 ;
+    pq:P6 wd:Q78 ;
+    pq:P7 wd:Q77 ;
+    pq:P13 "on-site servey at exhebition area" ;
+    pq:P14 wd:Q35 ;
+    pq:P15 "on-site survey at UCC Cork" ;
+    pq:P16 wd:Q78 ;
+    pq:P23 "±0.0001°" ;
+    pq:P24 wd:Q132 ;
+    pq:P33 wd:Q133 ;
+    ps:P4 "Point(-8.4924431111111 51.893659305556)"^^geo:wktLiteral ;
+    psv:P4 wdv:b7bde5c28cb829daf4c267ba8694ce60 .
+
+wds:Q74-0055ccf8-43cf-8ea6-cf5d-b4c84f875ed6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P34 "Q130529871" .
+
+wds:Q74-066ecd19-4781-d58b-14fd-34d780ba3642
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 <http://archaeoinformatics.link/ontology#spatialCloseMatch> ;
+    ps:P10 <http://wikidata.org/entity/Q130529871> .
+
+wds:Q74-596e9b44-4ece-f099-76ff-8d48e3591ba3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P8 wd:Q76 .
+
+wds:Q74-734ac8da-47b8-45bc-9e8e-94d73aecdffa
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P11 "https://www.ucl.ac.uk/archaeology/cisp/database/stone/gares_1.html" .
+
+wds:Q74-5187e32f-4f78-4d27-18a8-afc048140b19
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P26 wd:Q92 .
+
+wds:Q74-a7a43978-44a2-3a71-40e5-4479023ba4cf
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q75 .
+
+wds:Q74-b6c08e15-4843-729d-ddc7-b81e66813d09
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P5 wd:Q24 ;
+    pq:P6 wd:Q20 ;
+    pq:P7 wd:Q17 ;
+    pq:P13 "Gippert/Web, Ogham 81: `According to Brash, JRSAI 10, 1869, 260, the stone was found in a structure called Rath Lisheenagreine, in the townland of Gurranes (sic!), parish of Templemartin, 1 mle. north of the parish church (the village in question is named \"Gurranes\" in the Cork U.C. too). A detailed map of the rath (in connection with the larger Rath Lisnacaheragh) is available in S.P. O' RЎordяin's article in PRIA 47-C, 1941-42, 77 ff. - According to Brash, the stone was discovered by one farmer Crowley 17 years before (the publication of his article in JRSAI 10, 1869); Macalister states in CIIC that it \"has been known since the sixities\" and \"appears to have come from a souterrain in the group\" of \"earth-works\" on the townland of Gurranes. The first report was made by John Lyons, C.C., Newcestown, Enniskeane; Brash's visit took place on 16.12.1868. The stone was moved to the Museum of the U.C., Cork after Macalister first visited it (at that time it was still \"standing loosely in one of the ditches\": CIIC 1, 84). In the collection of the U.C., it is assigned no. 17.'." ;
+    pq:P14 wd:Q35 ;
+    pq:P15 "found in old documents" ;
+    pq:P16 wd:Q19 ;
+    pq:P23 "±0.0001°" ;
+    pq:P24 wd:Q80 ;
+    pq:P33 wd:Q128 ;
+    ps:P4 "Point(-8.7658694444444 51.81655)"^^geo:wktLiteral ;
+    psv:P4 wdv:a749b25408b194f0a6d3ab0e551c82f6 .
+
+wds:Q74-c95dee6c-49cb-e947-5c6e-7ac854f905d2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P11 "https://www.openstreetmap.org/node/11071361392" .
+
+wds:Q74-d5386125-4f7b-7871-e600-dba5140985b2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P11 "https://titus.uni-frankfurt.de/ogam/h/og081.htm" .
+
+wds:Q74-ea2ebf02-4299-5a80-9e8b-e293b9d5f583
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 <http://archaeoinformatics.link/ontology#spatialCloseMatch> ;
+    ps:P10 <http://lod.ogham.link/data/Y50000081> .
+
+wdv:a749b25408b194f0a6d3ab0e551c82f6
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "51.81655"^^xsd:double ;
+    wikibase:geoLongitude "-8.7658694444444"^^xsd:double ;
+    wikibase:geoPrecision "2.7777777777778e-06"^^xsd:double .
+
+wdv:b7bde5c28cb829daf4c267ba8694ce60
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "51.893659305556"^^xsd:double ;
+    wikibase:geoLongitude "-8.4924431111111"^^xsd:double ;
+    wikibase:geoPrecision "0.0001"^^xsd:double .

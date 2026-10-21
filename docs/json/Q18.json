@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q18$6212b19c-4f92-ffb5-4bfb-53e2163a68b0",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q21",
+              "numeric-id": 21
+            }
+          },
+          "hash": "cd9f768a4c42cdc7579b96784c19d1cb54b56afe",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Archäologin"
+    }
+  },
+  "id": "Q18",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Stefanie Baars"
+    }
+  },
+  "lastrevid": 77,
+  "modified": "2023-08-14T13:05:45Z",
+  "ns": 120,
+  "pageid": 32,
+  "sitelinks": {},
+  "title": "Item:Q18",
+  "type": "item"
+}

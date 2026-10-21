@@ -1,0 +1,141 @@
+# Q102: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q102
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Samian Ware Findsport (Samian Research)"@en ;
+    dcterms:identifier "Q102" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2024-10-23T11:38:54Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q102 ;
+    dcterms:title "London (Londinium) / Shadwell"@en ;
+    schema:about wd:Q102 ;
+    schema:dateModified "2024-10-23T11:38:54Z"^^xsd:dateTime ;
+    schema:version "602"^^xsd:integer ;
+    dcat:distribution dist:Q102-html,
+        dist:Q102-json,
+        dist:Q102-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q102.html> .
+
+dist:Q102-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q102, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q102.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q102-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q102, as archived from the Wikibase API"@en ;
+    dcat:byteSize "8372"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q102.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q102-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q102, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q102.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q102
+    a wikibase:Item ;
+    schema:description "Samian Ware Findsport (Samian Research)"@en ;
+    schema:name "London (Londinium) / Shadwell"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "4"^^xsd:integer ;
+    rdfs:label "London (Londinium) / Shadwell"@en ;
+    skos:altLabel "Roman Bath House, Shadwell"@en ;
+    skos:prefLabel "London (Londinium) / Shadwell"@en ;
+    p:P1 wds:Q102-61a98147-47f2-5965-0d98-4492bd0aaf21 ;
+    p:P4 wds:Q102-c3850b3c-45a2-f692-8d4b-91e58b5837b7 ;
+    p:P9 wds:Q102-fed833a2-4360-199c-266e-1e608a12784a ;
+    p:P29 wds:Q102-730323a3-4b34-a81e-ba40-c65007eebe75 ;
+    wdt:P1 wd:Q10 ;
+    wdt:P4 "Point(-0.05843 51.508987)"^^geo:wktLiteral ;
+    wdt:P9 wd:Q94 ;
+    wdt:P29 wd:Q101 .
+
+wds:Q102-61a98147-47f2-5965-0d98-4492bd0aaf21
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q10 .
+
+wds:Q102-730323a3-4b34-a81e-ba40-c65007eebe75
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P29 wd:Q101 .
+
+wds:Q102-c3850b3c-45a2-f692-8d4b-91e58b5837b7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom wdref:e1a607814cd7d83f4e251f0472db70b237b8eead ;
+    pq:P5 wd:Q23 ;
+    pq:P6 wd:Q100 ;
+    pq:P7 wd:Q34 ;
+    pq:P13 "historicengland Roman Bath House, Shadwell, list-entry/1456951" ;
+    pq:P14 wd:Q35 ;
+    pq:P15 "set a point based on using historicengland list-entry/1456951 (UK GRID: TQ3483880682), Eluna Apartments, 4, Wapping Lane, London, E1W 2RG" ;
+    pq:P16 wd:Q100 ;
+    pq:P23 "±0.000001°" ;
+    pq:P24 wd:Q80 ;
+    pq:P33 wd:Q128 ;
+    ps:P4 "Point(-0.05843 51.508987)"^^geo:wktLiteral ;
+    psv:P4 wdv:25e119f1fa8c5d08e1cea3e0e196171e .
+
+wds:Q102-fed833a2-4360-199c-266e-1e608a12784a
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P9 wd:Q94 .
+
+wdref:e1a607814cd7d83f4e251f0472db70b237b8eead
+    a wikibase:Reference ;
+    pr:P17 <https://historicengland.org.uk/listing/the-list/list-entry/1456951?section=official-list-entry> .
+
+wdv:25e119f1fa8c5d08e1cea3e0e196171e
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "51.508987"^^xsd:double ;
+    wikibase:geoLongitude "-0.05843"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

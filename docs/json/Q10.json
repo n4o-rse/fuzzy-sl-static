@@ -1,0 +1,86 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q10$bb5b5443-4e9c-6dd2-af3e-f6954cf9e6bc",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q3",
+              "numeric-id": 3
+            }
+          },
+          "hash": "dad80ce021597708e456b39bc26c8f08f3771429",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P2": [
+      {
+        "id": "Q10$50adc1cb-416a-2ed6-2547-123a61205c79",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q79",
+              "numeric-id": 79
+            }
+          },
+          "hash": "5df86fffd1c276eef36f3d271c11f13076d68933",
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "Q10$a051f668-477c-2e1f-b1c0-b22c75affd53",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q146",
+              "numeric-id": 146
+            }
+          },
+          "hash": "bfc2994fbaf085dbbb8ba5aac3f16cbdf3847565",
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Site Type"
+    }
+  },
+  "id": "Q10",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Archaeological Site"
+    }
+  },
+  "lastrevid": 772,
+  "modified": "2025-05-02T14:02:30Z",
+  "ns": 120,
+  "pageid": 20,
+  "sitelinks": {},
+  "title": "Item:Q10",
+  "type": "item"
+}

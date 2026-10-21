@@ -1,0 +1,156 @@
+# Q101: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q101
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Samian Ware Findsport (Samian Research)"@en ;
+    dcterms:identifier "Q101" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2024-10-23T11:35:34Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q101 ;
+    dcterms:title "London (Londinium)"@en ;
+    schema:about wd:Q101 ;
+    schema:dateModified "2024-10-23T11:35:34Z"^^xsd:dateTime ;
+    schema:version "594"^^xsd:integer ;
+    dcat:distribution dist:Q101-html,
+        dist:Q101-json,
+        dist:Q101-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q101.html> .
+
+dist:Q101-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q101, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q101.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q101-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q101, as archived from the Wikibase API"@en ;
+    dcat:byteSize "9153"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q101.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q101-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q101, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q101.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q101
+    a wikibase:Item ;
+    schema:description "Samian Ware Findsport (Samian Research)"@en ;
+    schema:name "London (Londinium)"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "6"^^xsd:integer ;
+    rdfs:label "London (Londinium)"@en ;
+    skos:prefLabel "London (Londinium)"@en ;
+    p:P1 wds:Q101-b101a5cb-4c7d-b178-0f06-a75e7a246e3f ;
+    p:P3 wds:Q101-f608f8f6-48a0-581a-1098-9580ebdb0ce1 ;
+    p:P4 wds:Q101-cfb8efb6-4a17-253b-90c7-dcc15edc2eb0 ;
+    p:P30 wds:Q101-3baeeef8-42b7-e69a-eb67-43ca78a8932a,
+        wds:Q101-9d1c7f85-4d45-ef21-74f1-1f5662ddb753,
+        wds:Q101-167f0a92-4331-2858-9319-3c194aec8563 ;
+    wdt:P1 wd:Q10 ;
+    wdt:P3 wd:Q94 ;
+    wdt:P4 "Point(-0.091838888888889 51.512788888889)"^^geo:wktLiteral ;
+    wdt:P30 wd:Q95,
+        wd:Q102,
+        wd:Q103 .
+
+wds:Q101-3baeeef8-42b7-e69a-eb67-43ca78a8932a
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P30 wd:Q95 .
+
+wds:Q101-9d1c7f85-4d45-ef21-74f1-1f5662ddb753
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P30 wd:Q102 .
+
+wds:Q101-167f0a92-4331-2858-9319-3c194aec8563
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P30 wd:Q103 .
+
+wds:Q101-b101a5cb-4c7d-b178-0f06-a75e7a246e3f
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q10 .
+
+wds:Q101-cfb8efb6-4a17-253b-90c7-dcc15edc2eb0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    prov:wasDerivedFrom wdref:34a1d590cbe61ef52f696fbf0bb510e7ea110669 ;
+    pq:P5 wd:Q15 ;
+    pq:P6 wd:Q100 ;
+    pq:P7 wd:Q17 ;
+    pq:P13 "Pleiades ID 79574" ;
+    pq:P14 wd:Q98 ;
+    pq:P15 "set a point based on using Pleiades ID 79574" ;
+    pq:P16 wd:Q99 ;
+    pq:P23 "±0.00001°" ;
+    pq:P24 wd:Q80 ;
+    pq:P33 wd:Q127 ;
+    ps:P4 "Point(-0.091838888888889 51.512788888889)"^^geo:wktLiteral ;
+    psv:P4 wdv:5683622f32e78aba38153518206c6862 .
+
+wds:Q101-f608f8f6-48a0-581a-1098-9580ebdb0ce1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q94 .
+
+wdref:34a1d590cbe61ef52f696fbf0bb510e7ea110669
+    a wikibase:Reference ;
+    pr:P25 "Samian Research Database" .
+
+wdv:5683622f32e78aba38153518206c6862
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "51.512788888889"^^xsd:double ;
+    wikibase:geoLongitude "-0.091838888888889"^^xsd:double ;
+    wikibase:geoPrecision "2.7777777777778e-06"^^xsd:double .

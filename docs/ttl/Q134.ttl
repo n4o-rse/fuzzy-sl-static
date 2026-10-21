@@ -1,0 +1,199 @@
+# Q134: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q134
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Campanian Ignimbrite Findspot"@en ;
+    dcterms:identifier "Q134" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2025-01-12T12:57:51Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q134 ;
+    dcterms:title "Dead Sea Deep Drilling Project 5017-1A"@en ;
+    schema:about wd:Q134 ;
+    schema:dateModified "2025-01-12T12:57:51Z"^^xsd:dateTime ;
+    schema:version "693"^^xsd:integer ;
+    dcat:distribution dist:Q134-html,
+        dist:Q134-json,
+        dist:Q134-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q134.html> .
+
+dist:Q134-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q134, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q134.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q134-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q134, as archived from the Wikibase API"@en ;
+    dcat:byteSize "12932"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q134.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q134-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q134, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q134.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q134
+    a wikibase:Item ;
+    schema:description "Campanian Ignimbrite Findspot"@en ;
+    schema:name "Dead Sea Deep Drilling Project 5017-1A"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "11"^^xsd:integer ;
+    rdfs:label "Dead Sea Deep Drilling Project 5017-1A"@en ;
+    skos:prefLabel "Dead Sea Deep Drilling Project 5017-1A"@en ;
+    p:P1 wds:Q134-c0b74692-4aad-fad3-2fe9-83042a9986f2 ;
+    p:P3 wds:Q134-983ae8e0-4eae-16c4-a1b9-da1c161462b4 ;
+    p:P4 wds:Q134-62ce1882-4aaa-0b94-29eb-487a61a48be1 ;
+    p:P8 wds:Q134-c94f50dd-4ea3-bdff-2252-4e8fc0a0a272 ;
+    p:P10 wds:Q134-bbad239c-476b-da9f-c8a5-4f811a6d34b5,
+        wds:Q134-e4ded882-495e-b119-8593-9b71af2803f8 ;
+    p:P11 wds:Q134-e82d81c4-424d-2e06-3fb0-d3ba26c66d48 ;
+    p:P26 wds:Q134-5f43b45a-4378-cf01-9fba-76fc8cdb4c60 ;
+    p:P32 wds:Q134-5f1a96e3-4a11-f2cd-8b87-bf1440f3508e,
+        wds:Q134-bad92cac-49eb-4564-c0e3-21c91435c540,
+        wds:Q134-e16afb35-4314-e968-d157-e0e23d54677a ;
+    wdt:P1 wd:Q11 ;
+    wdt:P3 wd:Q71 ;
+    wdt:P4 "Point(35.4752 31.4931)"^^geo:wktLiteral ;
+    wdt:P8 wd:Q135 ;
+    wdt:P10 <http://wikidata.org/entity/Q23883>,
+        <https://openstreetmap.org/relation/9351124> ;
+    wdt:P11 "Kearney et al. (2024)" ;
+    wdt:P26 wd:Q93 ;
+    wdt:P32 <http://www.wikidata.org/entity/Q801>,
+        <http://www.wikidata.org/entity/Q810>,
+        <http://www.wikidata.org/entity/Q219060> .
+
+wds:Q134-5f1a96e3-4a11-f2cd-8b87-bf1440f3508e
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P32 <http://www.wikidata.org/entity/Q810> .
+
+wds:Q134-5f43b45a-4378-cf01-9fba-76fc8cdb4c60
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P26 wd:Q93 .
+
+wds:Q134-62ce1882-4aaa-0b94-29eb-487a61a48be1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom wdref:264840904b5ee0728c7bf96086b5f0824657e2e0 ;
+    pq:P5 wd:Q15 ;
+    pq:P6 wd:Q20 ;
+    pq:P7 wd:Q17 ;
+    pq:P13 "stated in scientific paper, Kearney et al. (2024), fig. 1" ;
+    pq:P14 wd:Q35 ;
+    pq:P15 "scientific paper" ;
+    pq:P16 wd:Q19 ;
+    pq:P23 "±0.0001°" ;
+    pq:P24 wd:Q80 ;
+    pq:P33 wd:Q130 ;
+    ps:P4 "Point(35.4752 31.4931)"^^geo:wktLiteral ;
+    psv:P4 wdv:320c276602fb708b97468001fe6e95a1 .
+
+wds:Q134-983ae8e0-4eae-16c4-a1b9-da1c161462b4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q71 .
+
+wds:Q134-bad92cac-49eb-4564-c0e3-21c91435c540
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P32 <http://www.wikidata.org/entity/Q801> .
+
+wds:Q134-bbad239c-476b-da9f-c8a5-4f811a6d34b5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 <http://archaeoinformatics.link/ontology#spatialCloseMatch> ;
+    ps:P10 <https://openstreetmap.org/relation/9351124> .
+
+wds:Q134-c0b74692-4aad-fad3-2fe9-83042a9986f2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q11 .
+
+wds:Q134-c94f50dd-4ea3-bdff-2252-4e8fc0a0a272
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P8 wd:Q135 .
+
+wds:Q134-e4ded882-495e-b119-8593-9b71af2803f8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 <http://archaeoinformatics.link/ontology#spatialCloseMatch> ;
+    ps:P10 <http://wikidata.org/entity/Q23883> .
+
+wds:Q134-e16afb35-4314-e968-d157-e0e23d54677a
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P32 <http://www.wikidata.org/entity/Q219060> .
+
+wds:Q134-e82d81c4-424d-2e06-3fb0-d3ba26c66d48
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom wdref:264840904b5ee0728c7bf96086b5f0824657e2e0 ;
+    ps:P11 "Kearney et al. (2024)" .
+
+wdref:264840904b5ee0728c7bf96086b5f0824657e2e0
+    a wikibase:Reference ;
+    pr:P17 <https://doi.org/10.1038/s41598-024-59639-7> .
+
+wdv:320c276602fb708b97468001fe6e95a1
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "31.4931"^^xsd:double ;
+    wikibase:geoLongitude "35.4752"^^xsd:double ;
+    wikibase:geoPrecision "0.0001"^^xsd:double .

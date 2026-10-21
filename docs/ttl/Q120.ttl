@@ -1,0 +1,141 @@
+# Q120: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q120
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Samian Ware Findsport (Samian Research)"@en ;
+    dcterms:identifier "Q120" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2024-10-23T11:33:19Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q120 ;
+    dcterms:title "Car Dyke (Samian Discovery Site)"@en ;
+    schema:about wd:Q120 ;
+    schema:dateModified "2024-10-23T11:33:19Z"^^xsd:dateTime ;
+    schema:version "591"^^xsd:integer ;
+    dcat:distribution dist:Q120-html,
+        dist:Q120-json,
+        dist:Q120-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q120.html> .
+
+dist:Q120-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q120, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q120.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q120-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q120, as archived from the Wikibase API"@en ;
+    dcat:byteSize "8502"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q120.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q120-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q120, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q120.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q120
+    a wikibase:Item ;
+    schema:description "Samian Ware Findsport (Samian Research)"@en ;
+    schema:name "Car Dyke (Samian Discovery Site)"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "4"^^xsd:integer ;
+    rdfs:label "Car Dyke (Samian Discovery Site)"@en ;
+    skos:prefLabel "Car Dyke (Samian Discovery Site)"@en ;
+    p:P1 wds:Q120-2a47a71f-476d-ca3c-a072-3ea248fc7b2d ;
+    p:P3 wds:Q120-ba845365-44b0-4815-096d-ea041a6ac966 ;
+    p:P4 wds:Q120-1dc0704a-43fc-765e-2c7a-525402f67d81 ;
+    p:P8 wds:Q120-1ef28da0-48e7-a74a-e1e6-51980d8d5fa4 ;
+    wdt:P1 wd:Q10 ;
+    wdt:P3 wd:Q94 ;
+    wdt:P4 "Point(-0.2678 53.0125)"^^geo:wktLiteral ;
+    wdt:P8 wd:Q123 .
+
+wds:Q120-1dc0704a-43fc-765e-2c7a-525402f67d81
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    prov:wasDerivedFrom wdref:f631308f49c59f7d8a2907b18784c0dd68eac2dc ;
+    pq:P5 wd:Q15 ;
+    pq:P6 wd:Q100 ;
+    pq:P7 wd:Q17 ;
+    pq:P13 "Wikidata Item Q120052 and OSM way 60965523" ;
+    pq:P14 wd:Q35 ;
+    pq:P15 "set a point based on using Wikidata Item Q120052 and OSM way 60965523" ;
+    pq:P16 wd:Q99 ;
+    pq:P23 "±0.0001°" ;
+    pq:P24 wd:Q80 ;
+    pq:P33 wd:Q126 ;
+    ps:P4 "Point(-0.2678 53.0125)"^^geo:wktLiteral ;
+    psv:P4 wdv:2c58105cf5a2d5cff1f1b2b5b439d50d .
+
+wds:Q120-1ef28da0-48e7-a74a-e1e6-51980d8d5fa4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P8 wd:Q123 .
+
+wds:Q120-2a47a71f-476d-ca3c-a072-3ea248fc7b2d
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q10 .
+
+wds:Q120-ba845365-44b0-4815-096d-ea041a6ac966
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q94 .
+
+wdref:f631308f49c59f7d8a2907b18784c0dd68eac2dc
+    a wikibase:Reference ;
+    pr:P17 <http://www.wikidata.org/entity/Q120052>,
+        <https://www.openstreetmap.org/way/60965523> .
+
+wdv:2c58105cf5a2d5cff1f1b2b5b439d50d
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "53.0125"^^xsd:double ;
+    wikibase:geoLongitude "-0.2678"^^xsd:double ;
+    wikibase:geoPrecision "0.0001"^^xsd:double .

@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q31$ee5d1cac-4496-5b20-9b8c-2bfa86f4d268",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "hash": "2a3b4b0a52cd6c738fd7ba49e5cb34800d258d5c",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "source"
+    }
+  },
+  "id": "Q31",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "GeoNames"
+    }
+  },
+  "lastrevid": 100,
+  "modified": "2023-08-14T13:53:35Z",
+  "ns": 120,
+  "pageid": 47,
+  "sitelinks": {},
+  "title": "Item:Q31",
+  "type": "item"
+}

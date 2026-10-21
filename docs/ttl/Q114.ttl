@@ -1,0 +1,172 @@
+# Q114: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q114
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Campanian Ignimbrite Findspot"@en ;
+    dcterms:identifier "Q114" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2024-10-23T13:52:58Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q114 ;
+    dcterms:title "Paglicci Cave"@en ;
+    schema:about wd:Q114 ;
+    schema:dateModified "2024-10-23T13:52:58Z"^^xsd:dateTime ;
+    schema:version "616"^^xsd:integer ;
+    dcat:distribution dist:Q114-html,
+        dist:Q114-json,
+        dist:Q114-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q114.html> .
+
+dist:Q114-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q114, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q114.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q114-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q114, as archived from the Wikibase API"@en ;
+    dcat:byteSize "10126"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q114.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q114-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q114, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q114.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q114
+    a wikibase:Item ;
+    schema:description "Campanian Ignimbrite Findspot"@en ;
+    schema:name "Paglicci Cave"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "8"^^xsd:integer ;
+    rdfs:label "Paglicci Cave"@en ;
+    skos:prefLabel "Paglicci Cave"@en ;
+    p:P1 wds:Q114-2a53e245-402c-e4dc-8b65-1e889b1ce92e,
+        wds:Q114-3fe50e7c-45e1-a329-2a16-31bde893af0a ;
+    p:P3 wds:Q114-1b8e8b79-419d-b868-0e4d-404cb7670ef6 ;
+    p:P4 wds:Q114-f31cb8ba-4d92-88f3-98b5-7707cbbb8e7e ;
+    p:P8 wds:Q114-bcb72a7b-4435-09df-9593-4d7571d8f2b1 ;
+    p:P11 wds:Q114-095ae203-4cb2-75d3-a717-b46760229e7f ;
+    p:P26 wds:Q114-5d0f5102-4c2b-682d-3015-9b7f2c852f60,
+        wds:Q114-27dbc7ed-4c14-6b29-d6ab-409585b2e241 ;
+    wdt:P1 wd:Q10,
+        wd:Q11 ;
+    wdt:P3 wd:Q71 ;
+    wdt:P4 "Point(15.615 41.6541)"^^geo:wktLiteral ;
+    wdt:P8 wd:Q90 ;
+    wdt:P11 "Giaccio et al., 2008" ;
+    wdt:P26 wd:Q92,
+        wd:Q93 .
+
+wds:Q114-1b8e8b79-419d-b868-0e4d-404cb7670ef6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q71 .
+
+wds:Q114-2a53e245-402c-e4dc-8b65-1e889b1ce92e
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q10 .
+
+wds:Q114-3fe50e7c-45e1-a329-2a16-31bde893af0a
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q11 .
+
+wds:Q114-5d0f5102-4c2b-682d-3015-9b7f2c852f60
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P26 wd:Q93 .
+
+wds:Q114-27dbc7ed-4c14-6b29-d6ab-409585b2e241
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P26 wd:Q92 .
+
+wds:Q114-095ae203-4cb2-75d3-a717-b46760229e7f
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P11 "Giaccio et al., 2008" .
+
+wds:Q114-bcb72a7b-4435-09df-9593-4d7571d8f2b1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P8 wd:Q90 .
+
+wds:Q114-f31cb8ba-4d92-88f3-98b5-7707cbbb8e7e
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    prov:wasDerivedFrom wdref:61c9793e0c7a90c89fa846b3a77c5cdfb7d37629 ;
+    pq:P5 wd:Q15 ;
+    pq:P6 wd:Q20 ;
+    pq:P7 wd:Q17 ;
+    pq:P13 "findspot mentioned in a scientific paper and found on OpenStreetMap" ;
+    pq:P14 wd:Q72 ;
+    pq:P15 "CI findspot related from literature" ;
+    pq:P16 wd:Q19 ;
+    pq:P23 "±0.0001°" ;
+    pq:P24 wd:Q80 ;
+    pq:P33 wd:Q129 ;
+    ps:P4 "Point(15.615 41.6541)"^^geo:wktLiteral ;
+    psv:P4 wdv:95927c6bfd1da7ac17b59eea023ecc11 .
+
+wdref:61c9793e0c7a90c89fa846b3a77c5cdfb7d37629
+    a wikibase:Reference ;
+    pr:P25 "Giaccio et al., 2008" .
+
+wdv:95927c6bfd1da7ac17b59eea023ecc11
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "41.6541"^^xsd:double ;
+    wikibase:geoLongitude "15.615"^^xsd:double ;
+    wikibase:geoPrecision "0.0001"^^xsd:double .

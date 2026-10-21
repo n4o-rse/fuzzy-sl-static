@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "datatype": "string",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "a reference in literature"
+    }
+  },
+  "id": "P11",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "has reference"
+    }
+  },
+  "lastrevid": 157,
+  "modified": "2023-08-14T21:30:53Z",
+  "ns": 122,
+  "pageid": 23,
+  "title": "Property:P11",
+  "type": "property"
+}

@@ -1,0 +1,53 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "OSM"
+      }
+    ]
+  },
+  "claims": {
+    "P1": [
+      {
+        "id": "Q104$2f034ff8-47f4-58cf-e807-b912b4e9f24b",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "hash": "2a3b4b0a52cd6c738fd7ba49e5cb34800d258d5c",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Source"
+    }
+  },
+  "id": "Q104",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Open Street Map"
+    }
+  },
+  "lastrevid": 388,
+  "modified": "2024-10-22T18:36:39Z",
+  "ns": 120,
+  "pageid": 128,
+  "sitelinks": {},
+  "title": "Item:Q104",
+  "type": "item"
+}

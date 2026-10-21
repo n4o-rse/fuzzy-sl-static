@@ -1,0 +1,190 @@
+# Q115: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q115
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Campanian Ignimbrite Findspot"@en ;
+    dcterms:identifier "Q115" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2025-10-18T17:11:14Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q115 ;
+    dcterms:title "Toplitsa Cave"@en ;
+    schema:about wd:Q115 ;
+    schema:dateModified "2025-10-18T17:11:14Z"^^xsd:dateTime ;
+    schema:version "779"^^xsd:integer ;
+    dcat:distribution dist:Q115-html,
+        dist:Q115-json,
+        dist:Q115-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q115.html> .
+
+dist:Q115-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q115, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q115.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q115-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q115, as archived from the Wikibase API"@en ;
+    dcat:byteSize "11997"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q115.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q115-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q115, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q115.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q115
+    a wikibase:Item ;
+    schema:description "Campanian Ignimbrite Findspot"@en ;
+    schema:name "Toplitsa Cave"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "10"^^xsd:integer ;
+    rdfs:label "Toplitsa Cave"@en ;
+    skos:prefLabel "Toplitsa Cave"@en ;
+    p:P1 wds:Q115-7a651c32-4449-6689-1faf-9b61869c8204,
+        wds:Q115-764f745b-47d4-22de-e0bd-be84a6ee59d0 ;
+    p:P3 wds:Q115-9fdb7c4d-4805-d6c4-c724-8c890600de2d ;
+    p:P4 wds:Q115-9487e411-4a41-bea1-f742-d689f1b1698c ;
+    p:P8 wds:Q115-91cc11ef-473b-efeb-c38c-e3c382861169 ;
+    p:P10 wds:Q115-5b0d7ddf-4284-be86-3106-9acc10810b0c,
+        wds:Q115-915f0b10-4ae1-e5ca-6f62-032c2b95a12d ;
+    p:P11 wds:Q115-d2abaca4-4b20-2dc8-dcd8-41c7409e3498 ;
+    p:P26 wds:Q115-7c3a8986-4747-daae-6352-57edda524cd3,
+        wds:Q115-c8d94c6d-40d8-366c-73a6-ed0b8516c156 ;
+    wdt:P1 wd:Q10,
+        wd:Q11 ;
+    wdt:P3 wd:Q71 ;
+    wdt:P4 "Point(24.0053 43.1907)"^^geo:wktLiteral ;
+    wdt:P8 wd:Q90 ;
+    wdt:P10 <http://openstreetmap.org/node/11109379095>,
+        <http://wikidata.org/entity/Q61788595> ;
+    wdt:P11 "Tsanova et al., 2021" ;
+    wdt:P26 wd:Q92,
+        wd:Q93 .
+
+wds:Q115-5b0d7ddf-4284-be86-3106-9acc10810b0c
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 <http://archaeoinformatics.link/ontology#spatialCloseMatch> ;
+    ps:P10 <http://openstreetmap.org/node/11109379095> .
+
+wds:Q115-7a651c32-4449-6689-1faf-9b61869c8204
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q10 .
+
+wds:Q115-7c3a8986-4747-daae-6352-57edda524cd3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P26 wd:Q93 .
+
+wds:Q115-9fdb7c4d-4805-d6c4-c724-8c890600de2d
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q71 .
+
+wds:Q115-91cc11ef-473b-efeb-c38c-e3c382861169
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P8 wd:Q90 .
+
+wds:Q115-764f745b-47d4-22de-e0bd-be84a6ee59d0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q11 .
+
+wds:Q115-915f0b10-4ae1-e5ca-6f62-032c2b95a12d
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 <http://archaeoinformatics.link/ontology#spatialCloseMatch> ;
+    ps:P10 <http://wikidata.org/entity/Q61788595> .
+
+wds:Q115-9487e411-4a41-bea1-f742-d689f1b1698c
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    prov:wasDerivedFrom wdref:c7b8daa87f52187c7ca745c4a9c5f5e65ebbf408 ;
+    pq:P5 wd:Q23 ;
+    pq:P6 wd:Q20 ;
+    pq:P7 wd:Q17 ;
+    pq:P13 "findspot mentioned in a scientific paper and found on OpenStreetMap" ;
+    pq:P14 wd:Q72 ;
+    pq:P15 "CI findspot related from literature" ;
+    pq:P16 wd:Q19 ;
+    pq:P23 "±0.0001°" ;
+    pq:P24 wd:Q80 ;
+    pq:P33 wd:Q129 ;
+    ps:P4 "Point(24.0053 43.1907)"^^geo:wktLiteral ;
+    psv:P4 wdv:bd6c3fc835bb2ab6d19602fa03b7421e .
+
+wds:Q115-c8d94c6d-40d8-366c-73a6-ed0b8516c156
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P26 wd:Q92 .
+
+wds:Q115-d2abaca4-4b20-2dc8-dcd8-41c7409e3498
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P11 "Tsanova et al., 2021" .
+
+wdref:c7b8daa87f52187c7ca745c4a9c5f5e65ebbf408
+    a wikibase:Reference ;
+    pr:P25 "Tsanova et al., 2021" .
+
+wdv:bd6c3fc835bb2ab6d19602fa03b7421e
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "43.1907"^^xsd:double ;
+    wikibase:geoLongitude "24.0053"^^xsd:double ;
+    wikibase:geoPrecision "0.0001"^^xsd:double .

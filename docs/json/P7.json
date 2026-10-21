@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "datatype": "wikibase-item",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "coordinate qualifier"
+    }
+  },
+  "id": "P7",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "method used"
+    }
+  },
+  "lastrevid": 475,
+  "modified": "2024-10-23T09:34:40Z",
+  "ns": 122,
+  "pageid": 7,
+  "title": "Property:P7",
+  "type": "property"
+}

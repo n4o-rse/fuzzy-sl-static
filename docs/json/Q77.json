@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q77$252806df-46b2-c874-ccae-a886c542e0c3",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q7",
+              "numeric-id": 7
+            }
+          },
+          "hash": "15b99b8396f20997284cdd601cb95c1b0368bba0",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "method to get coordinates"
+    }
+  },
+  "id": "Q77",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "on-site survey"
+    }
+  },
+  "lastrevid": 201,
+  "modified": "2024-10-14T11:13:21Z",
+  "ns": 120,
+  "pageid": 87,
+  "sitelinks": {},
+  "title": "Item:Q77",
+  "type": "item"
+}

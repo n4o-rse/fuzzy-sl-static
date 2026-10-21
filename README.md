@@ -10,7 +10,10 @@ a language switch, a search box, maps for coordinates, the logo top left, laid o
 `site.yaml` holds title, languages, source, the logo (`assets/logo.jpg`) and, if you want one,
 a licence other than CC0.
 The search box finds an entity by label, alias or Q-/P-id (`python main.py search` writes its index,
-`docs/assets/search-index.js`; the default run does). The SPARQL page is not built yet; the work plan is `PRIMER.md` in `wikibase-static`.
+`docs/assets/search-index.js`; the default run does).
+The data is also published as RDF in the data model of Wikibase: `dist/fuzzy-sl.wikibase.cloud.ttl` (everything, described with DCAT 3),
+`docs/ttl/Q1.ttl` and `docs/json/Q1.json` (one file per entity), and `docs/sparql.html` lets you query it in the browser
+(`python main.py rdf`, `python main.py sparql`; the default run does both). The work plan is `PRIMER.md` in `wikibase-static`.
 
 ## Use
 
@@ -31,7 +34,7 @@ answers with a bot challenge, the step stops and does not try to get around it.
 
 `build` needs no network. It reads `data/raw/` and `site.yaml`, writes `docs/` and reports the
 number of pages and a link check; run it twice and `git status` stays clean. The search box needs
-`wikibase-static` 0.2.0 or later; after a new release run `pip install --upgrade -r requirements.txt`
+`wikibase-static` 0.2.0 or later, the RDF export and the query page 0.3.0 or later; after a new release run `pip install --upgrade -r requirements.txt`
 (pip keeps an installed package of the same version, so a branch that does not change the version number
 needs `--force-reinstall --no-deps`).
 `python main.py --strict` does the same and treats every `WARN` line (a dead internal link, an entity that

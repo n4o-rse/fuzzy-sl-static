@@ -1,0 +1,21 @@
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+
+SELECT ?itemLabel ?propertyLabel ?sourceLabel ?source WHERE {
+  ?statement prov:wasDerivedFrom ?reference .
+  ?reference ?referenceProperty ?source .
+  ?sourceProperty wikibase:reference ?referenceProperty ;
+                  rdfs:label ?sourceLabel .
+  FILTER(LANG(?sourceLabel) = "en")
+  ?property wikibase:claim ?claim ;
+            rdfs:label ?propertyLabel .
+  FILTER(LANG(?propertyLabel) = "en")
+  ?item ?claim ?statement .
+  OPTIONAL {
+    ?item rdfs:label ?itemLabel .
+    FILTER(LANG(?itemLabel) = "en")
+  }
+}
+ORDER BY ?itemLabel ?propertyLabel ?sourceLabel ?source
+LIMIT 200

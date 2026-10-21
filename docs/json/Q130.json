@@ -1,0 +1,54 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q130$4db36894-4593-00a3-6881-789fabcc2f12",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q125",
+              "numeric-id": 125
+            }
+          },
+          "hash": "f7e73057efbc22073d07424db862a06f715e17ba",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "Point Type"
+    },
+    "en": {
+      "language": "en",
+      "value": "Point Type"
+    }
+  },
+  "id": "Q130",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "Untersuchungsort"
+    },
+    "en": {
+      "language": "en",
+      "value": "Investigation Place"
+    }
+  },
+  "lastrevid": 623,
+  "modified": "2024-10-23T13:55:54Z",
+  "ns": 120,
+  "pageid": 157,
+  "sitelinks": {},
+  "title": "Item:Q130",
+  "type": "item"
+}

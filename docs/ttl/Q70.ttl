@@ -1,0 +1,174 @@
+# Q70: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q70
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Campanian Ignimbrite Findspot"@en ;
+    dcterms:identifier "Q70" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2024-10-23T13:57:13Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q70 ;
+    dcterms:title "Auel Maar AU3"@en ;
+    schema:about wd:Q70 ;
+    schema:dateModified "2024-10-23T13:57:13Z"^^xsd:dateTime ;
+    schema:version "626"^^xsd:integer ;
+    dcat:distribution dist:Q70-html,
+        dist:Q70-json,
+        dist:Q70-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q70.html> .
+
+dist:Q70-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q70, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q70.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q70-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q70, as archived from the Wikibase API"@en ;
+    dcat:byteSize "11072"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q70.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q70-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q70, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q70.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q70
+    a wikibase:Item ;
+    schema:description "Campanian Ignimbrite Findspot"@en ;
+    schema:name "Auel Maar AU3"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "8"^^xsd:integer ;
+    rdfs:label "Auel Maar AU3"@en ;
+    skos:prefLabel "Auel Maar AU3"@en ;
+    p:P1 wds:Q70-714c0beb-49f7-65eb-d672-04ce5bb63068 ;
+    p:P3 wds:Q70-9a733728-40d0-3bdf-31ae-bac4953d0b5c ;
+    p:P4 wds:Q70-d8d35767-4f0b-6b62-4a0b-88c12c9ef381 ;
+    p:P8 wds:Q70-7cefb8bc-40d4-fad1-89e7-720b5afdb670 ;
+    p:P10 wds:Q70-e5db8249-4c6f-25df-a12e-b3233ac986ef ;
+    p:P11 wds:Q70-284cad68-4911-80f2-6d2d-305464301d56 ;
+    p:P26 wds:Q70-b545d911-44bf-5c73-b4a0-89be38be3f9b ;
+    p:P32 wds:Q70-f36ed9d8-4be7-fe1a-8920-69961e2b7174 ;
+    wdt:P1 wd:Q11 ;
+    wdt:P3 wd:Q71 ;
+    wdt:P4 "Point(6.5951 50.2825)"^^geo:wktLiteral ;
+    wdt:P8 wd:Q83 ;
+    wdt:P10 <https://kulturdb.de/einobjekt.php?id=23391> ;
+    wdt:P11 "Schenk et al. (2024)" ;
+    wdt:P26 wd:Q93 ;
+    wdt:P32 <http://www.wikidata.org/entity/Q183> .
+
+wds:Q70-7cefb8bc-40d4-fad1-89e7-720b5afdb670
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P8 wd:Q83 .
+
+wds:Q70-9a733728-40d0-3bdf-31ae-bac4953d0b5c
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q71 .
+
+wds:Q70-284cad68-4911-80f2-6d2d-305464301d56
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom wdref:d71dbeaaf5238cf600a05d0bbeba8000454986f1 ;
+    ps:P11 "Schenk et al. (2024)" .
+
+wds:Q70-714c0beb-49f7-65eb-d672-04ce5bb63068
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q11 .
+
+wds:Q70-b545d911-44bf-5c73-b4a0-89be38be3f9b
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P26 wd:Q93 .
+
+wds:Q70-d8d35767-4f0b-6b62-4a0b-88c12c9ef381
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    prov:wasDerivedFrom wdref:d71dbeaaf5238cf600a05d0bbeba8000454986f1 ;
+    pq:P5 wd:Q23 ;
+    pq:P6 wd:Q20 ;
+    pq:P7 wd:Q17 ;
+    pq:P13 "stated in scientific paper, Schenk et al. (2024), fig. 1" ;
+    pq:P14 wd:Q72 ;
+    pq:P15 "site survey" ;
+    pq:P16 wd:Q19 ;
+    pq:P23 "±0.0001°" ;
+    pq:P24 wd:Q80 ;
+    pq:P33 wd:Q130 ;
+    ps:P4 "Point(6.5951 50.2825)"^^geo:wktLiteral ;
+    psv:P4 wdv:62a86fe6bf9449bfa9d1a524f2097645 .
+
+wds:Q70-e5db8249-4c6f-25df-a12e-b3233ac986ef
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 <http://archaeoinformatics.link/ontology#spatialCloseMatch> ;
+    ps:P10 <https://kulturdb.de/einobjekt.php?id=23391> .
+
+wds:Q70-f36ed9d8-4be7-fe1a-8920-69961e2b7174
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P32 <http://www.wikidata.org/entity/Q183> .
+
+wdref:d71dbeaaf5238cf600a05d0bbeba8000454986f1
+    a wikibase:Reference ;
+    pr:P17 <https://doi.org/10.3390/quat7020017> .
+
+wdv:62a86fe6bf9449bfa9d1a524f2097645
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "50.2825"^^xsd:double ;
+    wikibase:geoLongitude "6.5951"^^xsd:double ;
+    wikibase:geoPrecision "0.0001"^^xsd:double .

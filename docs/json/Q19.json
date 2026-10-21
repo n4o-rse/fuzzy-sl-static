@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q19$c6f856e2-47d3-4c63-48d9-96fc450c35d2",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "hash": "2a3b4b0a52cd6c738fd7ba49e5cb34800d258d5c",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Paper of Book"
+    }
+  },
+  "id": "Q19",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Paper"
+    }
+  },
+  "lastrevid": 73,
+  "modified": "2023-08-14T13:04:42Z",
+  "ns": 120,
+  "pageid": 35,
+  "sitelinks": {},
+  "title": "Item:Q19",
+  "type": "item"
+}

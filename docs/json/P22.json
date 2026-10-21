@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "datatype": "monolingualtext",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "description of the certainty (in a specific language)"
+    }
+  },
+  "id": "P22",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "certainty description (with language)"
+    }
+  },
+  "lastrevid": 234,
+  "modified": "2024-10-21T11:11:34Z",
+  "ns": 122,
+  "pageid": 95,
+  "title": "Property:P22",
+  "type": "property"
+}

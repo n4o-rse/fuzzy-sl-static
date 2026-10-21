@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q86$b5156a97-4738-fee7-7bac-5e4b931e176d",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q4",
+              "numeric-id": 4
+            }
+          },
+          "hash": "6056844c4a6d3699fbafab69805eed5ca36eab0e",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "spatial type"
+    }
+  },
+  "id": "Q86",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Supervolcano"
+    }
+  },
+  "lastrevid": 278,
+  "modified": "2024-10-21T20:49:50Z",
+  "ns": 120,
+  "pageid": 105,
+  "sitelinks": {},
+  "title": "Item:Q86",
+  "type": "item"
+}

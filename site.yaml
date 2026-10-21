@@ -3,6 +3,8 @@ title: fuzzy-sl (static copy)
 description: Static, read-only copy of the Wikibase fuzzy-sl.wikibase.cloud. The data was archived with wikibase-static; nothing on these pages can be edited.
 source:
   url: https://fuzzy-sl.wikibase.cloud
+# Where docs/ is published; the RDF export needs it for the download URLs of its DCAT distributions.
+pages_url: https://n4o-rse.github.io/fuzzy-sl-static/
 languages:
   default: en
   second: de

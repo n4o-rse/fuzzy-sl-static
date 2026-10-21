@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q123$a9a436df-4425-9a2d-f021-4dbdb229b63f",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q4",
+              "numeric-id": 4
+            }
+          },
+          "hash": "6056844c4a6d3699fbafab69805eed5ca36eab0e",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Spatial Type"
+    }
+  },
+  "id": "Q123",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Canal"
+    }
+  },
+  "lastrevid": 575,
+  "modified": "2024-10-23T11:21:14Z",
+  "ns": 120,
+  "pageid": 149,
+  "sitelinks": {},
+  "title": "Item:Q123",
+  "type": "item"
+}

@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q99$1f94a964-46d6-33a4-04c4-1c4f0c2b9280",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "hash": "2a3b4b0a52cd6c738fd7ba49e5cb34800d258d5c",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Source"
+    }
+  },
+  "id": "Q99",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Samian Research Database (Source)"
+    }
+  },
+  "lastrevid": 349,
+  "modified": "2024-10-22T17:29:28Z",
+  "ns": 120,
+  "pageid": 121,
+  "sitelinks": {},
+  "title": "Item:Q99",
+  "type": "item"
+}

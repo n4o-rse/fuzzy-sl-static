@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q79$d080ba81-4ac9-8e9b-52db-0b16a0cc6dc6",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q3",
+              "numeric-id": 3
+            }
+          },
+          "hash": "dad80ce021597708e456b39bc26c8f08f3771429",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "generic Site Class"
+    }
+  },
+  "id": "Q79",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Site"
+    }
+  },
+  "lastrevid": 222,
+  "modified": "2024-10-17T10:53:15Z",
+  "ns": 120,
+  "pageid": 90,
+  "sitelinks": {},
+  "title": "Item:Q79",
+  "type": "item"
+}

@@ -1,0 +1,24 @@
+{
+  "aliases": {},
+  "claims": {},
+  "datatype": "wikibase-item",
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "a more generic location"
+    }
+  },
+  "id": "P29",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "has broader location"
+    }
+  },
+  "lastrevid": 366,
+  "modified": "2024-10-22T17:40:03Z",
+  "ns": 122,
+  "pageid": 124,
+  "title": "Property:P29",
+  "type": "property"
+}

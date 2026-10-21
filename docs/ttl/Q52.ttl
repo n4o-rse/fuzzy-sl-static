@@ -1,0 +1,144 @@
+# Q52: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q52
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Region Bruttium (ancient) or Calabria (modern)"@en ;
+    dcterms:identifier "Q52" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2024-10-23T14:05:22Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q52 ;
+    dcterms:title "Shepherd - Bruttium (Calabria) - 1911"@en ;
+    schema:about wd:Q52 ;
+    schema:dateModified "2024-10-23T14:05:22Z"^^xsd:dateTime ;
+    schema:version "633"^^xsd:integer ;
+    dcat:distribution dist:Q52-html,
+        dist:Q52-json,
+        dist:Q52-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q52.html> .
+
+dist:Q52-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q52, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q52.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q52-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q52, as archived from the Wikibase API"@en ;
+    dcat:byteSize "8504"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q52.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q52-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q52, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q52.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q52
+    a wikibase:Item ;
+    schema:description "Region Bruttium (ancient) or Calabria (modern)"@en ;
+    schema:name "Shepherd - Bruttium (Calabria) - 1911"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "5"^^xsd:integer ;
+    rdfs:label "Shepherd - Bruttium (Calabria) - 1911"@en ;
+    skos:prefLabel "Shepherd - Bruttium (Calabria) - 1911"@en ;
+    p:P1 wds:Q52-5E2E6DAB-02E1-4D98-8745-415FB382C06B ;
+    p:P3 wds:Q52-EEEAAE21-504F-488E-9E6C-781441A1EAAF ;
+    p:P4 wds:Q52-B679F37E-D308-4B2D-A3BF-6D5FEE412BAF ;
+    p:P8 wds:Q52-076F6319-B6FE-4B0B-B283-F2D2B41DE6D7 ;
+    p:P10 wds:Q52-43883F40-49E7-4E70-B17A-D9C5CAF87A8D ;
+    wdt:P1 wd:Q10 ;
+    wdt:P3 wd:Q14 ;
+    wdt:P4 "Point(16.478385 39.044786)"^^geo:wktLiteral ;
+    wdt:P8 wd:Q39 ;
+    wdt:P10 <https://upload.wikimedia.org/wikipedia/commons/7/75/Shepherd_-_Bruttium_%28Calabria%29_-_1911.png> .
+
+wds:Q52-5E2E6DAB-02E1-4D98-8745-415FB382C06B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q10 .
+
+wds:Q52-076F6319-B6FE-4B0B-B283-F2D2B41DE6D7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P8 wd:Q39 .
+
+wds:Q52-43883F40-49E7-4E70-B17A-D9C5CAF87A8D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 skos:exactMatch ;
+    ps:P10 <https://upload.wikimedia.org/wikipedia/commons/7/75/Shepherd_-_Bruttium_%28Calabria%29_-_1911.png> .
+
+wds:Q52-B679F37E-D308-4B2D-A3BF-6D5FEE412BAF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P5 wd:Q24 ;
+    pq:P6 wd:Q30 ;
+    pq:P7 wd:Q17 ;
+    pq:P13 "Georeferencing was done using QGIS." ;
+    pq:P14 wd:Q35 ;
+    pq:P15 "georeferencing the area using QGIS and the Wikimedia Commons Image and combine it with iDAI.gazetteer ID 2180561" ;
+    pq:P16 wd:Q27 ;
+    pq:P23 "±0.000001°" ;
+    pq:P24 wd:Q80 ;
+    pq:P33 wd:Q126 ;
+    ps:P4 "Point(16.478385 39.044786)"^^geo:wktLiteral ;
+    psv:P4 wdv:4012ba1e43b37156776516cb53218828 .
+
+wds:Q52-EEEAAE21-504F-488E-9E6C-781441A1EAAF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q14 .
+
+wdv:4012ba1e43b37156776516cb53218828
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "39.044786"^^xsd:double ;
+    wikibase:geoLongitude "16.478385"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

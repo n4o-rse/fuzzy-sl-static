@@ -1,0 +1,200 @@
+# Q88: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q88
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Campanian Ignimbrite Findspot & Eruption Site"@en ;
+    dcterms:identifier "Q88" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2024-10-23T13:58:23Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q88 ;
+    dcterms:title "Campi Flegri"@en ;
+    schema:about wd:Q88 ;
+    schema:dateModified "2024-10-23T13:58:23Z"^^xsd:dateTime ;
+    schema:version "628"^^xsd:integer ;
+    dcat:distribution dist:Q88-html,
+        dist:Q88-json,
+        dist:Q88-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q88.html> .
+
+dist:Q88-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q88, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q88.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q88-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q88, as archived from the Wikibase API"@en ;
+    dcat:byteSize "13373"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q88.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q88-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q88, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q88.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q88
+    a wikibase:Item ;
+    schema:description "Campanian Ignimbrite Findspot & Eruption Site"@en ;
+    schema:name "Campi Flegri"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "11"^^xsd:integer ;
+    rdfs:label "Campi Flegri"@en ;
+    skos:prefLabel "Campi Flegri"@en ;
+    p:P1 wds:Q88-36f84e0d-4d93-fc1f-cb70-1c0f2c66238f ;
+    p:P3 wds:Q88-59efbb79-4cc2-92cf-ab85-bfa486b8a043 ;
+    p:P4 wds:Q88-c7cd48c6-4e74-fd44-aaf0-154640ece0a4 ;
+    p:P8 wds:Q88-cf587437-4e8f-7afd-6185-889af822a708 ;
+    p:P10 wds:Q88-afc4e02c-4acb-1c51-80cc-393493684681,
+        wds:Q88-f8db8386-434b-a5e9-3ea2-e53430dcf903 ;
+    p:P11 wds:Q88-05f93d08-47aa-298d-a8c4-fb71e4a459a4,
+        wds:Q88-971a7e47-43e1-1cdd-42ba-192f8e4d4666,
+        wds:Q88-b67d4f1d-4386-4420-e36a-83d99beddb80 ;
+    p:P26 wds:Q88-242d96c1-48a6-c2d4-0dee-4c35113ddcb8 ;
+    p:P32 wds:Q88-5cc3fad2-45fe-024c-f64c-8c777f36e3d4 ;
+    wdt:P1 wd:Q11 ;
+    wdt:P3 wd:Q71 ;
+    wdt:P4 "Point(14.1402 40.8275)"^^geo:wktLiteral ;
+    wdt:P8 wd:Q86 ;
+    wdt:P10 <http://openstreetmap.org/node/10879170567>,
+        <http://wikidata.org/entity/Q755123> ;
+    wdt:P11 "Fedele et al., 2003",
+        "Orsi et al., 1996",
+        "Schenk et al. (2024)" ;
+    wdt:P26 wd:Q93 ;
+    wdt:P32 <http://www.wikidata.org/entity/Q38> .
+
+wds:Q88-5cc3fad2-45fe-024c-f64c-8c777f36e3d4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P32 <http://www.wikidata.org/entity/Q38> .
+
+wds:Q88-05f93d08-47aa-298d-a8c4-fb71e4a459a4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P11 "Orsi et al., 1996" .
+
+wds:Q88-36f84e0d-4d93-fc1f-cb70-1c0f2c66238f
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q11 .
+
+wds:Q88-59efbb79-4cc2-92cf-ab85-bfa486b8a043
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q71 .
+
+wds:Q88-242d96c1-48a6-c2d4-0dee-4c35113ddcb8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P26 wd:Q93 .
+
+wds:Q88-971a7e47-43e1-1cdd-42ba-192f8e4d4666
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P11 "Fedele et al., 2003" .
+
+wds:Q88-afc4e02c-4acb-1c51-80cc-393493684681
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 <http://archaeoinformatics.link/ontology#spatialCloseMatch> ;
+    ps:P10 <http://openstreetmap.org/node/10879170567> .
+
+wds:Q88-b67d4f1d-4386-4420-e36a-83d99beddb80
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom wdref:d71dbeaaf5238cf600a05d0bbeba8000454986f1 ;
+    ps:P11 "Schenk et al. (2024)" .
+
+wds:Q88-c7cd48c6-4e74-fd44-aaf0-154640ece0a4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    prov:wasDerivedFrom wdref:d71dbeaaf5238cf600a05d0bbeba8000454986f1 ;
+    pq:P5 wd:Q15 ;
+    pq:P6 wd:Q20 ;
+    pq:P7 wd:Q17 ;
+    pq:P13 "stated in scientific paper, Schenk et al. (2024), fig. 1" ;
+    pq:P14 wd:Q72 ;
+    pq:P15 "set a representative point based on scientific papers using OSM Node 4948370721" ;
+    pq:P16 wd:Q19 ;
+    pq:P23 "±0.0001°" ;
+    pq:P24 wd:Q80,
+        wd:Q87 ;
+    pq:P33 wd:Q129 ;
+    ps:P4 "Point(14.1402 40.8275)"^^geo:wktLiteral ;
+    psv:P4 wdv:ef8a7aacc405d52f770f908d2bd77cf1 .
+
+wds:Q88-cf587437-4e8f-7afd-6185-889af822a708
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P8 wd:Q86 .
+
+wds:Q88-f8db8386-434b-a5e9-3ea2-e53430dcf903
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P12 <http://archaeoinformatics.link/ontology#spatialCloseMatch> ;
+    ps:P10 <http://wikidata.org/entity/Q755123> .
+
+wdref:d71dbeaaf5238cf600a05d0bbeba8000454986f1
+    a wikibase:Reference ;
+    pr:P17 <https://doi.org/10.3390/quat7020017> .
+
+wdv:ef8a7aacc405d52f770f908d2bd77cf1
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "40.8275"^^xsd:double ;
+    wikibase:geoLongitude "14.1402"^^xsd:double ;
+    wikibase:geoPrecision "0.0001"^^xsd:double .

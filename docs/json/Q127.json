@@ -1,0 +1,53 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "Plaiades Place"
+      }
+    ]
+  },
+  "claims": {
+    "P1": [
+      {
+        "id": "Q127$e8c3d2b0-465d-93e2-2030-c969e6110e73",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q125",
+              "numeric-id": 125
+            }
+          },
+          "hash": "f7e73057efbc22073d07424db862a06f715e17ba",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Point Type"
+    }
+  },
+  "id": "Q127",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Place as a Concept"
+    }
+  },
+  "lastrevid": 599,
+  "modified": "2024-10-23T11:37:36Z",
+  "ns": 120,
+  "pageid": 154,
+  "sitelinks": {},
+  "title": "Item:Q127",
+  "type": "item"
+}

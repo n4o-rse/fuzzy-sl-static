@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q42$B54D23DA-4D54-4CC4-BCEC-94126C2916A2",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q22",
+              "numeric-id": 22
+            }
+          },
+          "hash": "1a5939b0279ed0c6f71d6d7e70e0313cc3878c3d",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "The answer for everything ..."
+    }
+  },
+  "id": "Q42",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "42"
+    }
+  },
+  "lastrevid": 126,
+  "modified": "2023-08-14T14:44:53Z",
+  "ns": 120,
+  "pageid": 56,
+  "sitelinks": {},
+  "title": "Item:Q42",
+  "type": "item"
+}

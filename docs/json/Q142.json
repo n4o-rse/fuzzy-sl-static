@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q142$c0667db3-432b-0dba-cd06-7f495fe3011b",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q5",
+              "numeric-id": 5
+            }
+          },
+          "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Project"
+    }
+  },
+  "id": "Q142",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Provenance Research Sites"
+    }
+  },
+  "lastrevid": 748,
+  "modified": "2025-01-16T13:16:56Z",
+  "ns": 120,
+  "pageid": 170,
+  "sitelinks": {},
+  "title": "Item:Q142",
+  "type": "item"
+}

@@ -1,0 +1,129 @@
+# P18: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:P18
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "describes the URL to use when displaying property; “$1” in the value is replaced with the property’s value"@en ;
+    dcterms:identifier "P18" ;
+    dcterms:isPartOf cat:properties ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2024-10-17T13:47:37Z"^^xsd:dateTime ;
+    dcterms:subject wd:P18 ;
+    dcterms:title "Formatter URL"@en ;
+    schema:about wd:P18 ;
+    schema:dateModified "2024-10-17T13:47:37Z"^^xsd:dateTime ;
+    schema:version "228"^^xsd:integer ;
+    dcat:distribution dist:P18-html,
+        dist:P18-json,
+        dist:P18-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/P18.html> .
+
+dist:P18-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P18, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/P18.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:P18-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P18, as archived from the Wikibase API"@en ;
+    dcat:byteSize "596"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/P18.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:P18-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P18, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/P18.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:P18
+    a wikibase:Property ;
+    schema:description "describes the URL to use when displaying property; “$1” in the value is replaced with the property’s value"@en ;
+    schema:name "Formatter URL"@en ;
+    wikibase:claim p:P18 ;
+    wikibase:directClaim wdt:P18 ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:novalue wdno:P18 ;
+    wikibase:propertyType wikibase:String ;
+    wikibase:qualifier pq:P18 ;
+    wikibase:qualifierValue pqv:P18 ;
+    wikibase:reference pr:P18 ;
+    wikibase:referenceValue prv:P18 ;
+    wikibase:statementProperty ps:P18 ;
+    wikibase:statementValue psv:P18 ;
+    wikibase:statements "0"^^xsd:integer ;
+    rdfs:label "Formatter URL"@en ;
+    skos:altLabel "URL formatter"@en ;
+    skos:prefLabel "Formatter URL"@en .
+
+p:P18
+    a owl:ObjectProperty .
+
+wdt:P18
+    a owl:DatatypeProperty .
+
+pq:P18
+    a owl:DatatypeProperty .
+
+pqv:P18
+    a owl:ObjectProperty .
+
+pr:P18
+    a owl:DatatypeProperty .
+
+prv:P18
+    a owl:ObjectProperty .
+
+ps:P18
+    a owl:DatatypeProperty .
+
+psv:P18
+    a owl:ObjectProperty .
+
+wdno:P18
+    a owl:Class ;
+    owl:complementOf _:33aca3fd84a1b18274ae25bed3a4c748 .
+
+_:33aca3fd84a1b18274ae25bed3a4c748
+    a owl:Restriction ;
+    owl:onProperty wdt:P18 ;
+    owl:someValuesFrom owl:Thing .

@@ -1,0 +1,172 @@
+# Q112: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
+# Generated with wikibase-static 0.3.0; data as of 2025-11-01T08:28:29Z
+# Licence: CC0 1.0
+
+@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
+@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
+@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
+@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
+@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
+@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
+@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
+@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
+@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
+@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
+@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:Q112
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Campanian Ignimbrite Findspot"@en ;
+    dcterms:identifier "Q112" ;
+    dcterms:isPartOf cat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:modified "2024-10-23T13:53:19Z"^^xsd:dateTime ;
+    dcterms:subject wd:Q112 ;
+    dcterms:title "Golema Pesht Cave near Zdunje"@en ;
+    schema:about wd:Q112 ;
+    schema:dateModified "2024-10-23T13:53:19Z"^^xsd:dateTime ;
+    schema:version "617"^^xsd:integer ;
+    dcat:distribution dist:Q112-html,
+        dist:Q112-json,
+        dist:Q112-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/fuzzy-sl-static/Q112.html> .
+
+dist:Q112-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q112, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/fuzzy-sl-static/Q112.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+dist:Q112-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q112, as archived from the Wikibase API"@en ;
+    dcat:byteSize "10112"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/json/Q112.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+dist:Q112-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q112, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL <https://n4o-rse.github.io/fuzzy-sl-static/ttl/Q112.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+wd:Q112
+    a wikibase:Item ;
+    schema:description "Campanian Ignimbrite Findspot"@en ;
+    schema:name "Golema Pesht Cave near Zdunje"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "8"^^xsd:integer ;
+    rdfs:label "Golema Pesht Cave near Zdunje"@en ;
+    skos:prefLabel "Golema Pesht Cave near Zdunje"@en ;
+    p:P1 wds:Q112-36b0c128-4d13-efb3-8506-153f76671da4,
+        wds:Q112-aa483baa-46b3-c12c-7c88-c60f9fc90434 ;
+    p:P3 wds:Q112-d02bb13c-44c7-aaa1-a004-3b155f0f5165 ;
+    p:P4 wds:Q112-c7cbce3a-4bb1-2040-91ff-8e50ca99a51a ;
+    p:P8 wds:Q112-bad4661a-41f9-09f4-4ca4-45b0158eedaa ;
+    p:P11 wds:Q112-c3050b74-4c47-e24d-f8f6-f3c688d56239 ;
+    p:P26 wds:Q112-4d998607-40a6-e284-b3ae-3fbf7c2f0cba,
+        wds:Q112-dec2c219-4fea-0b43-96b4-8604eab07427 ;
+    wdt:P1 wd:Q10,
+        wd:Q11 ;
+    wdt:P3 wd:Q71 ;
+    wdt:P4 "Point(21.1617 41.8117)"^^geo:wktLiteral ;
+    wdt:P8 wd:Q90 ;
+    wdt:P11 "Lowe et al., 2012" ;
+    wdt:P26 wd:Q92,
+        wd:Q93 .
+
+wds:Q112-4d998607-40a6-e284-b3ae-3fbf7c2f0cba
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P26 wd:Q92 .
+
+wds:Q112-36b0c128-4d13-efb3-8506-153f76671da4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q11 .
+
+wds:Q112-aa483baa-46b3-c12c-7c88-c60f9fc90434
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1 wd:Q10 .
+
+wds:Q112-bad4661a-41f9-09f4-4ca4-45b0158eedaa
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P8 wd:Q90 .
+
+wds:Q112-c7cbce3a-4bb1-2040-91ff-8e50ca99a51a
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    prov:wasDerivedFrom wdref:e3a7525155eec88fb5300465a9b1fcedbcdd4502 ;
+    pq:P5 wd:Q113 ;
+    pq:P6 wd:Q20 ;
+    pq:P7 wd:Q17 ;
+    pq:P13 "findspot mentioned in a scientific paper" ;
+    pq:P14 wd:Q72 ;
+    pq:P15 "CI findspot related from literature" ;
+    pq:P16 wd:Q19 ;
+    pq:P23 "±0.0001°" ;
+    pq:P24 wd:Q80 ;
+    pq:P33 wd:Q129 ;
+    ps:P4 "Point(21.1617 41.8117)"^^geo:wktLiteral ;
+    psv:P4 wdv:b28b6dc8b145fa3142ec407bced5ab2f .
+
+wds:Q112-c3050b74-4c47-e24d-f8f6-f3c688d56239
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P11 "Lowe et al., 2012" .
+
+wds:Q112-d02bb13c-44c7-aaa1-a004-3b155f0f5165
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P3 wd:Q71 .
+
+wds:Q112-dec2c219-4fea-0b43-96b4-8604eab07427
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P26 wd:Q93 .
+
+wdref:e3a7525155eec88fb5300465a9b1fcedbcdd4502
+    a wikibase:Reference ;
+    pr:P25 "Lowe et al., 2012" .
+
+wdv:b28b6dc8b145fa3142ec407bced5ab2f
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "41.8117"^^xsd:double ;
+    wikibase:geoLongitude "21.1617"^^xsd:double ;
+    wikibase:geoPrecision "0.0001"^^xsd:double .

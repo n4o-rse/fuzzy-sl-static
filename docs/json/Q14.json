@@ -1,0 +1,46 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q14$b992f885-459d-3211-edb3-d392e826bbf0",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q5",
+              "numeric-id": 5
+            }
+          },
+          "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Project"
+    }
+  },
+  "id": "Q14",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Silver Coinage of Croton"
+    }
+  },
+  "lastrevid": 48,
+  "modified": "2023-08-14T12:47:59Z",
+  "ns": 120,
+  "pageid": 26,
+  "sitelinks": {},
+  "title": "Item:Q14",
+  "type": "item"
+}

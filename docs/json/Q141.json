@@ -1,0 +1,67 @@
+{
+  "aliases": {},
+  "claims": {
+    "P1": [
+      {
+        "id": "Q141$f5c1758b-4f43-72ca-21c7-3e97bc9e2f83",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q3",
+              "numeric-id": 3
+            }
+          },
+          "hash": "dad80ce021597708e456b39bc26c8f08f3771429",
+          "property": "P1",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P2": [
+      {
+        "id": "Q141$9cc79bbb-4d93-82b1-0e1f-8f0397c3a169",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q79",
+              "numeric-id": 79
+            }
+          },
+          "hash": "5df86fffd1c276eef36f3d271c11f13076d68933",
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "Site Type"
+    }
+  },
+  "id": "Q141",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Provenance Site"
+    }
+  },
+  "lastrevid": 745,
+  "modified": "2025-01-16T13:15:51Z",
+  "ns": 120,
+  "pageid": 169,
+  "sitelinks": {},
+  "title": "Item:Q141",
+  "type": "item"
+}
