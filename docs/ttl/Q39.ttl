@@ -1,33 +1,33 @@
-# Q39: the part of the RDF export of https://fuzzy-sl.wikibase.cloud that describes this entity
-# Generated with wikibase-static 0.6.2; data as of 2025-11-01T08:28:29Z
+# Q39: the part of the RDF export of fuzzy-sl (static copy) that describes this entity
+# Generated with wikibase-static 0.6.3; data as of 2025-11-01T08:28:29Z
 # Licence: CC0 1.0
 
-@prefix cat: <https://fuzzy-sl.wikibase.cloud/catalog/> .
+@prefix cat: <https://n4o-rse.github.io/fuzzy-sl-static/catalog/> .
 @prefix cc: <http://creativecommons.org/ns#> .
-@prefix data: <https://fuzzy-sl.wikibase.cloud/wiki/Special:EntityData/> .
+@prefix data: <https://n4o-rse.github.io/fuzzy-sl-static/wiki/Special:EntityData/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dist: <https://fuzzy-sl.wikibase.cloud/distribution/> .
+@prefix dist: <https://n4o-rse.github.io/fuzzy-sl-static/distribution/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix p: <https://fuzzy-sl.wikibase.cloud/prop/> .
-@prefix pq: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/> .
-@prefix pqv: <https://fuzzy-sl.wikibase.cloud/prop/qualifier/value/> .
-@prefix pr: <https://fuzzy-sl.wikibase.cloud/prop/reference/> .
+@prefix p: <https://n4o-rse.github.io/fuzzy-sl-static/prop/> .
+@prefix pq: <https://n4o-rse.github.io/fuzzy-sl-static/prop/qualifier/> .
+@prefix pqv: <https://n4o-rse.github.io/fuzzy-sl-static/prop/qualifier/value/> .
+@prefix pr: <https://n4o-rse.github.io/fuzzy-sl-static/prop/reference/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix prv: <https://fuzzy-sl.wikibase.cloud/prop/reference/value/> .
-@prefix ps: <https://fuzzy-sl.wikibase.cloud/prop/statement/> .
-@prefix psv: <https://fuzzy-sl.wikibase.cloud/prop/statement/value/> .
+@prefix prv: <https://n4o-rse.github.io/fuzzy-sl-static/prop/reference/value/> .
+@prefix ps: <https://n4o-rse.github.io/fuzzy-sl-static/prop/statement/> .
+@prefix psv: <https://n4o-rse.github.io/fuzzy-sl-static/prop/statement/value/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix wd: <https://fuzzy-sl.wikibase.cloud/entity/> .
-@prefix wdno: <https://fuzzy-sl.wikibase.cloud/prop/novalue/> .
-@prefix wdref: <https://fuzzy-sl.wikibase.cloud/reference/> .
-@prefix wds: <https://fuzzy-sl.wikibase.cloud/entity/statement/> .
-@prefix wdt: <https://fuzzy-sl.wikibase.cloud/prop/direct/> .
-@prefix wdv: <https://fuzzy-sl.wikibase.cloud/value/> .
+@prefix wd: <https://n4o-rse.github.io/fuzzy-sl-static/entity/> .
+@prefix wdno: <https://n4o-rse.github.io/fuzzy-sl-static/prop/novalue/> .
+@prefix wdref: <https://n4o-rse.github.io/fuzzy-sl-static/reference/> .
+@prefix wds: <https://n4o-rse.github.io/fuzzy-sl-static/entity/statement/> .
+@prefix wdt: <https://n4o-rse.github.io/fuzzy-sl-static/prop/direct/> .
+@prefix wdv: <https://n4o-rse.github.io/fuzzy-sl-static/value/> .
 @prefix wikibase: <http://wikiba.se/ontology#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 

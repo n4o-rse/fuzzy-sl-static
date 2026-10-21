@@ -1,7 +1,10 @@
 # fuzzy-sl-static
 
 Static, read-only copy of the Wikibase <https://fuzzy-sl.wikibase.cloud>, built with
-[wikibase-static](https://github.com/n4o-rse/wikibase-static). 
+[wikibase-static](https://github.com/n4o-rse/wikibase-static).
+The URIs of the RDF export and the concept URIs (`https://n4o-rse.github.io/fuzzy-sl-static/entity/Q20`) are those of this
+site (`rdf_base` in `site.yaml`), not those of the source: the copy has to stand if the source is gone. The source is named
+as the source (footer, `dcterms:source`), nothing more.
 
 **State:** the items and properties of the source are archived in `data/raw/`
 (`manifest.json` and one JSON file per entity, as the Wikibase API delivers them).
@@ -11,7 +14,7 @@ a language switch, a search box, maps for coordinates, the logo top left, laid o
 a licence other than CC0.
 The search box finds an entity by label, alias or Q-/P-id (`python main.py search` writes its index,
 `docs/assets/search-index.js`; the default run does).
-The data is also published as RDF in the data model of Wikibase: `dist/fuzzy-sl.wikibase.cloud.ttl` (everything, described with DCAT 3),
+The data is also published as RDF in the data model of Wikibase: `dist/n4o-rse.github.io-fuzzy-sl-static.ttl` (everything, described with DCAT 3),
 `docs/ttl/Q1.ttl` and `docs/json/Q1.json` (one file per entity), and `docs/sparql.html` (example queries) and `docs/query.html` (a free query editor with table, map and image views) let you query it in the browser
 (`python main.py rdf`, `python main.py sparql`; the default run does both). The work plan is `PRIMER.md` in `wikibase-static`.
 
@@ -39,6 +42,16 @@ number of pages and a link check; run it twice and `git status` stays clean. The
 needs `--force-reinstall --no-deps`).
 `python main.py --strict` does the same and treats every `WARN` line (a dead internal link, an entity that
 does not load) as an error.
+
+## Updating after a new release of wikibase-static
+
+```cmd
+update.cmd
+update.cmd "Message of the commit"
+```
+
+`update.cmd` installs the package again, runs `python main.py --strict`, and commits (`git add -A`) and pushes if something
+changed; a failing step stops it before anything is pushed.
 
 ## Publishing
 
