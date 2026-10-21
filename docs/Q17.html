@@ -31,6 +31,10 @@ html[data-lang="de"] .l:not([lang="de"]) { display: none; }
       <ul class="tabs-left"><li class="active"><span>Item</span></li></ul>
       <div class="tabs-right">
         <ul class="tabs-view"><li class="active"><span><span class="l" lang="en">Read</span><span class="l" lang="de">Lesen</span></span></li><li><a href="https://fuzzy-sl.wikibase.cloud/entity/Q17" target="_blank" rel="noopener">Original</a></li></ul>
+        <form class="search" role="search" action="#" hidden data-index="assets/search-index.js" data-default="en" data-text="{&#34;de&#34;:{&#34;error&#34;:&#34;Der Suchindex konnte nicht geladen werden.&#34;,&#34;none&#34;:&#34;Keine Treffer&#34;,&#34;placeholder&#34;:&#34;Suche&#34;},&#34;en&#34;:{&#34;error&#34;:&#34;The search index could not be loaded.&#34;,&#34;none&#34;:&#34;No results&#34;,&#34;placeholder&#34;:&#34;Search&#34;}}">
+          <input type="search" name="q" autocomplete="off" spellcheck="false" placeholder="Search" aria-label="Search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="wbs-search-list">
+          <ul class="search-results" id="wbs-search-list" role="listbox" aria-label="Search" hidden></ul>
+        </form>
         <div class="lang-switch" role="group" aria-label="Language">
           <button type="button" data-set-lang="en">EN</button><button type="button" data-set-lang="de">DE</button>
         </div>
@@ -119,10 +123,11 @@ html[data-lang="de"] .l:not([lang="de"]) { display: none; }
         <span class="item"><span class="l" lang="en">As of</span><span class="l" lang="de">Stand</span>: 2023-08-14</span>
         <span class="item"><span class="l" lang="en">Licence</span><span class="l" lang="de">Lizenz</span>: <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0</a></span>
       </p>
-      <p class="generated"><span class="l" lang="en">Static read-only copy, generated with</span><span class="l" lang="de">Statische Nur-Lese-Kopie, erzeugt mit</span> <a href="https://github.com/n4o-rse/wikibase-static" target="_blank" rel="noopener">wikibase-static</a> 0.1.0</p>
+      <p class="generated"><span class="l" lang="en">Static read-only copy, generated with</span><span class="l" lang="de">Statische Nur-Lese-Kopie, erzeugt mit</span> <a href="https://github.com/n4o-rse/wikibase-static" target="_blank" rel="noopener">wikibase-static</a> 0.2.0</p>
     </footer>
   </div>
 </div>
 <script src="assets/app.js"></script>
+<script src="assets/search.js"></script>
 </body>
 </html>

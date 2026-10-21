@@ -6,10 +6,11 @@ Static, read-only copy of the Wikibase <https://fuzzy-sl.wikibase.cloud>, built 
 **State:** the items and properties of the source are archived in `data/raw/`
 (`manifest.json` and one JSON file per entity, as the Wikibase API delivers them).
 `python main.py build` renders them into `docs/` (one page per item and property, a start page,
-a language switch, maps for coordinates, the logo top left, laid out like the Wikibase itself);
+a language switch, a search box, maps for coordinates, the logo top left, laid out like the Wikibase itself);
 `site.yaml` holds title, languages, source, the logo (`assets/logo.jpg`) and, if you want one,
 a licence other than CC0.
-Search and the SPARQL page are not built yet; the work plan is `PRIMER.md` in `wikibase-static`.
+The search box finds an entity by label, alias or Q-/P-id (`python main.py search` writes its index,
+`docs/assets/search-index.js`; the default run does). The SPARQL page is not built yet; the work plan is `PRIMER.md` in `wikibase-static`.
 
 ## Use
 
@@ -29,7 +30,10 @@ what changed since the last run (`0 changed` when nothing did). If the Wikibase
 answers with a bot challenge, the step stops and does not try to get around it.
 
 `build` needs no network. It reads `data/raw/` and `site.yaml`, writes `docs/` and reports the
-number of pages and a link check; run it twice and `git status` stays clean.
+number of pages and a link check; run it twice and `git status` stays clean. The search box needs
+`wikibase-static` 0.2.0 or later; after a new release run `pip install --upgrade -r requirements.txt`
+(pip keeps an installed package of the same version, so a branch that does not change the version number
+needs `--force-reinstall --no-deps`).
 `python main.py --strict` does the same and treats every `WARN` line (a dead internal link, an entity that
 does not load) as an error.
 
