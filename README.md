@@ -1,7 +1,7 @@
 # fuzzy-sl-static
 
 Static, read-only copy of the Wikibase <https://fuzzy-sl.wikibase.cloud>, built with
-[wikibase-static](https://github.com/n4o-rse/wikibase-static).
+[wikibase-static](https://github.com/n4o-rse/wikibase-static). 
 
 **State:** the items and properties of the source are archived in `data/raw/`
 (`manifest.json` and one JSON file per entity, as the Wikibase API delivers them).
