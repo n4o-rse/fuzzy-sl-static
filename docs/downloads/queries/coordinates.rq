@@ -1,6 +1,7 @@
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX wikibase: <http://wikiba.se/ontology#>
 
+#defaultView:Map
 SELECT ?item ?label ?coordinates WHERE {
   ?property wikibase:propertyType wikibase:GlobeCoordinate ;
             wikibase:directClaim ?direct .
