@@ -15,14 +15,16 @@ html[data-lang="de"] .l:not([lang="de"]) { display: none; }
 <body>
 <div class="page">
   <aside class="sidebar">
-    <a class="logo" href="index.html"><span class="logo-text">fuzzy-sl (static copy)</span></a>
+    <a class="logo" href="index.html"><img src="assets/logo/logo.jpg" alt="fuzzy-sl (static copy)"></a>
     <nav class="nav" aria-label="Home">
       <a href="index.html"><span class="l" lang="en">Home</span><span class="l" lang="de">Startseite</span></a>
 <a href="index.html#items">Items</a><a href="index.html#properties">Properties</a>    </nav>
   </aside>
   <div class="content">
-    <div class="topbar">
-      <div class="tools">
+    <div class="tabs">
+      <ul class="tabs-left"><li class="active"><span><span class="l" lang="en">Home</span><span class="l" lang="de">Startseite</span></span></li></ul>
+      <div class="tabs-right">
+        <ul class="tabs-view"></ul>
         <div class="lang-switch" role="group" aria-label="Language">
           <button type="button" data-set-lang="en">EN</button><button type="button" data-set-lang="de">DE</button>
         </div>
@@ -224,17 +226,15 @@ html[data-lang="de"] .l:not([lang="de"]) { display: none; }
   </section>
 </article>
     </main>
+    <footer class="site-footer">
+      <p>
+        <span class="item"><span class="l" lang="en">Source</span><span class="l" lang="de">Quelle</span>: <a href="https://fuzzy-sl.wikibase.cloud" target="_blank" rel="noopener">fuzzy-sl.wikibase.cloud</a></span>
+        <span class="item"><span class="l" lang="en">Licence</span><span class="l" lang="de">Lizenz</span>: <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0</a></span>
+      </p>
+      <p class="generated"><span class="l" lang="en">Static read-only copy, generated with</span><span class="l" lang="de">Statische Nur-Lese-Kopie, erzeugt mit</span> <a href="https://github.com/n4o-rse/wikibase-static" target="_blank" rel="noopener">wikibase-static</a> 0.1.0</p>
+    </footer>
   </div>
 </div>
-<footer class="site-footer">
-  <div class="wrap">
-    <p>
-      <span class="item"><span class="l" lang="en">Source</span><span class="l" lang="de">Quelle</span>: <a href="https://fuzzy-sl.wikibase.cloud" target="_blank" rel="noopener">fuzzy-sl.wikibase.cloud</a></span>
-      <span class="item"><span class="l" lang="en">Licence</span><span class="l" lang="de">Lizenz</span>: <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0</a></span>
-    </p>
-    <p class="generated"><span class="l" lang="en">Static read-only copy, generated with</span><span class="l" lang="de">Statische Nur-Lese-Kopie, erzeugt mit</span> <a href="https://github.com/n4o-rse/wikibase-static" target="_blank" rel="noopener">wikibase-static</a> 0.1.0</p>
-  </div>
-</footer>
 <script src="assets/app.js"></script>
 </body>
 </html>

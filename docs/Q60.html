@@ -16,14 +16,16 @@ html[data-lang="de"] .l:not([lang="de"]) { display: none; }
 <body>
 <div class="page">
   <aside class="sidebar">
-    <a class="logo" href="index.html"><span class="logo-text">fuzzy-sl (static copy)</span></a>
+    <a class="logo" href="index.html"><img src="assets/logo/logo.jpg" alt="fuzzy-sl (static copy)"></a>
     <nav class="nav" aria-label="Home">
       <a href="index.html"><span class="l" lang="en">Home</span><span class="l" lang="de">Startseite</span></a>
 <a href="index.html#items">Items</a><a href="index.html#properties">Properties</a>    </nav>
   </aside>
   <div class="content">
-    <div class="topbar">
-      <div class="tools">
+    <div class="tabs">
+      <ul class="tabs-left"><li class="active"><span>Item</span></li></ul>
+      <div class="tabs-right">
+        <ul class="tabs-view"><li class="active"><span><span class="l" lang="en">Read</span><span class="l" lang="de">Lesen</span></span></li><li><a href="https://fuzzy-sl.wikibase.cloud/entity/Q60" target="_blank" rel="noopener">Original</a></li></ul>
         <div class="lang-switch" role="group" aria-label="Language">
           <button type="button" data-set-lang="en">EN</button><button type="button" data-set-lang="de">DE</button>
         </div>
@@ -31,9 +33,19 @@ html[data-lang="de"] .l:not([lang="de"]) { display: none; }
     </div>
     <main>
 <article class="entity">
-  <p class="kind">Item</p>
   <h1>Taranto, Via Oberdan <span class="id">(Q60)</span></h1>
   <p class="description">Noted by K, 1968.</p>
+
+  <details class="languages" open>
+    <summary><span class="l" lang="en">In other languages</span><span class="l" lang="de">In weiteren Sprachen</span></summary>
+    <table class="terms">
+      <thead><tr><th><span class="l" lang="en">Language</span><span class="l" lang="de">Sprache</span></th><th><span class="l" lang="en">Label</span><span class="l" lang="de">Bezeichnung</span></th><th><span class="l" lang="en">Description</span><span class="l" lang="de">Beschreibung</span></th><th><span class="l" lang="en">Also known as</span><span class="l" lang="de">Auch bekannt als</span></th></tr></thead>
+      <tbody>
+        <tr lang="en"><td><span class="l" lang="en">English</span><span class="l" lang="de">Englisch</span></td><td>Taranto, Via Oberdan</td><td>Noted by K, 1968.</td><td></td></tr>
+        <tr lang="de"><td><span class="l" lang="en">German</span><span class="l" lang="de">Deutsch</span></td><td><span class="muted"><span class="l" lang="en">No label defined</span><span class="l" lang="de">Keine Bezeichnung vorhanden</span></span></td><td><span class="muted"><span class="l" lang="en">No description defined</span><span class="l" lang="de">Keine Beschreibung vorhanden</span></span></td><td></td></tr>
+      </tbody>
+    </table>
+  </details>
 
   <section class="map-section">
     <h2><span class="l" lang="en">Map</span><span class="l" lang="de">Karte</span></h2>
@@ -46,7 +58,11 @@ html[data-lang="de"] .l:not([lang="de"]) { display: none; }
       <div class="prop"><a href="P1.html">instance of <span class="id">(P1)</span></a></div>
       <div class="values">
         <div class="statement rank-normal">
-          <div class="main"><a href="Q10.html">Archaeological Site <span class="id">(Q10)</span></a></div>
+          <span class="rank-icon rank-normal" title="Rank: normal"></span>
+          <div class="body">
+            <div class="main"><a href="Q10.html">Archaeological Site <span class="id">(Q10)</span></a></div>
+            <div class="references zero"><span class="toggle"><span class="l" lang="en">0 references</span><span class="l" lang="de">0 Fundstellen</span></span></div>
+          </div>
         </div>
       </div>
     </div>
@@ -54,7 +70,11 @@ html[data-lang="de"] .l:not([lang="de"]) { display: none; }
       <div class="prop"><a href="P3.html">part of <span class="id">(P3)</span></a></div>
       <div class="values">
         <div class="statement rank-normal">
-          <div class="main"><a href="Q14.html">Silver Coinage of Croton <span class="id">(Q14)</span></a></div>
+          <span class="rank-icon rank-normal" title="Rank: normal"></span>
+          <div class="body">
+            <div class="main"><a href="Q14.html">Silver Coinage of Croton <span class="id">(Q14)</span></a></div>
+            <div class="references zero"><span class="toggle"><span class="l" lang="en">0 references</span><span class="l" lang="de">0 Fundstellen</span></span></div>
+          </div>
         </div>
       </div>
     </div>
@@ -62,18 +82,22 @@ html[data-lang="de"] .l:not([lang="de"]) { display: none; }
       <div class="prop"><a href="P4.html">has coordinate <span class="id">(P4)</span></a></div>
       <div class="values">
         <div class="statement rank-normal">
-          <div class="main"><a class="coordinate" href="https://www.openstreetmap.org/?mlat=40.46438&amp;mlon=17.24707#map=14/40.46438/17.24707" target="_blank" rel="noopener">40.46438° N, 17.24707° E</a></div>
-          <div class="qualifiers">
-            <div class="qualifier"><span class="qprop"><a href="P5.html">certainty level <span class="id">(P5)</span></a></span> <span class="qval"><a href="Q15.html">Medium <span class="id">(Q15)</span></a></span></div>
-            <div class="qualifier"><span class="qprop"><a href="P13.html">certainty description <span class="id">(P13)</span></a></span> <span class="qval">coordinate from related GeoNames ID</span></div>
-            <div class="qualifier"><span class="qprop"><a href="P7.html">method used <span class="id">(P7)</span></a></span> <span class="qval"><a href="Q34.html">External Repository <span class="id">(Q34)</span></a></span></div>
-            <div class="qualifier"><span class="qprop"><a href="P14.html">acting person <span class="id">(P14)</span></a></span> <span class="qval"><a href="Q18.html">Stefanie Baars <span class="id">(Q18)</span></a></span></div>
-            <div class="qualifier"><span class="qprop"><a href="P16.html">source type (detail) <span class="id">(P16)</span></a></span> <span class="qval"><a href="Q26.html">URI <span class="id">(Q26)</span></a></span></div>
-            <div class="qualifier"><span class="qprop"><a href="P6.html">source type (generic) <span class="id">(P6)</span></a></span> <span class="qval"><a href="Q31.html">GeoNames <span class="id">(Q31)</span></a></span></div>
-            <div class="qualifier"><span class="qprop"><a href="P15.html">method description <span class="id">(P15)</span></a></span> <span class="qval">uses existing URI from coinhoards.org</span></div>
-            <div class="qualifier"><span class="qprop"><a href="P33.html">point type <span class="id">(P33)</span></a></span> <span class="qval"><a href="Q130.html"><span class="l" lang="en">Investigation Place</span><span class="l" lang="de">Untersuchungsort</span> <span class="id">(Q130)</span></a></span></div>
-            <div class="qualifier"><span class="qprop"><a href="P23.html">precision <span class="id">(P23)</span></a></span> <span class="qval">±0.000001°</span></div>
-            <div class="qualifier"><span class="qprop"><a href="P24.html">location type <span class="id">(P24)</span></a></span> <span class="qval"><a href="Q80.html">Findspot <span class="id">(Q80)</span></a></span></div>
+          <span class="rank-icon rank-normal" title="Rank: normal"></span>
+          <div class="body">
+            <div class="main"><a class="coordinate" href="https://www.openstreetmap.org/?mlat=40.46438&amp;mlon=17.24707#map=14/40.46438/17.24707" target="_blank" rel="noopener">40.46438° N, 17.24707° E</a></div>
+            <div class="qualifiers">
+              <div class="qprop"><a href="P5.html">certainty level <span class="id">(P5)</span></a></div><div class="qval"><a href="Q15.html">Medium <span class="id">(Q15)</span></a></div>
+              <div class="qprop"><a href="P13.html">certainty description <span class="id">(P13)</span></a></div><div class="qval">coordinate from related GeoNames ID</div>
+              <div class="qprop"><a href="P7.html">method used <span class="id">(P7)</span></a></div><div class="qval"><a href="Q34.html">External Repository <span class="id">(Q34)</span></a></div>
+              <div class="qprop"><a href="P14.html">acting person <span class="id">(P14)</span></a></div><div class="qval"><a href="Q18.html">Stefanie Baars <span class="id">(Q18)</span></a></div>
+              <div class="qprop"><a href="P16.html">source type (detail) <span class="id">(P16)</span></a></div><div class="qval"><a href="Q26.html">URI <span class="id">(Q26)</span></a></div>
+              <div class="qprop"><a href="P6.html">source type (generic) <span class="id">(P6)</span></a></div><div class="qval"><a href="Q31.html">GeoNames <span class="id">(Q31)</span></a></div>
+              <div class="qprop"><a href="P15.html">method description <span class="id">(P15)</span></a></div><div class="qval">uses existing URI from coinhoards.org</div>
+              <div class="qprop"><a href="P33.html">point type <span class="id">(P33)</span></a></div><div class="qval"><a href="Q130.html"><span class="l" lang="en">Investigation Place</span><span class="l" lang="de">Untersuchungsort</span> <span class="id">(Q130)</span></a></div>
+              <div class="qprop"><a href="P23.html">precision <span class="id">(P23)</span></a></div><div class="qval">±0.000001°</div>
+              <div class="qprop"><a href="P24.html">location type <span class="id">(P24)</span></a></div><div class="qval"><a href="Q80.html">Findspot <span class="id">(Q80)</span></a></div>
+            </div>
+            <div class="references zero"><span class="toggle"><span class="l" lang="en">0 references</span><span class="l" lang="de">0 Fundstellen</span></span></div>
           </div>
         </div>
       </div>
@@ -82,7 +106,11 @@ html[data-lang="de"] .l:not([lang="de"]) { display: none; }
       <div class="prop"><a href="P8.html">has spatial type <span class="id">(P8)</span></a></div>
       <div class="values">
         <div class="statement rank-normal">
-          <div class="main"><a href="Q16.html">Inhabited Place <span class="id">(Q16)</span></a></div>
+          <span class="rank-icon rank-normal" title="Rank: normal"></span>
+          <div class="body">
+            <div class="main"><a href="Q16.html">Inhabited Place <span class="id">(Q16)</span></a></div>
+            <div class="references zero"><span class="toggle"><span class="l" lang="en">0 references</span><span class="l" lang="de">0 Fundstellen</span></span></div>
+          </div>
         </div>
       </div>
     </div>
@@ -90,15 +118,23 @@ html[data-lang="de"] .l:not([lang="de"]) { display: none; }
       <div class="prop"><a href="P10.html">related to <span class="id">(P10)</span></a></div>
       <div class="values">
         <div class="statement rank-normal">
-          <div class="main"><a href="http://coinhoards.org/id/igch1902" target="_blank" rel="noopener">http://coinhoards.org/id/igch1902</a></div>
-          <div class="qualifiers">
-            <div class="qualifier"><span class="qprop"><a href="P12.html">related to type <span class="id">(P12)</span></a></span> <span class="qval"><a href="http://www.w3.org/2004/02/skos/core#exactMatch" target="_blank" rel="noopener">http://www.w3.org/2004/02/skos/core#exactMatch</a></span></div>
+          <span class="rank-icon rank-normal" title="Rank: normal"></span>
+          <div class="body">
+            <div class="main"><a href="http://coinhoards.org/id/igch1902" target="_blank" rel="noopener">http://coinhoards.org/id/igch1902</a></div>
+            <div class="qualifiers">
+              <div class="qprop"><a href="P12.html">related to type <span class="id">(P12)</span></a></div><div class="qval"><a href="http://www.w3.org/2004/02/skos/core#exactMatch" target="_blank" rel="noopener">http://www.w3.org/2004/02/skos/core#exactMatch</a></div>
+            </div>
+            <div class="references zero"><span class="toggle"><span class="l" lang="en">0 references</span><span class="l" lang="de">0 Fundstellen</span></span></div>
           </div>
         </div>
         <div class="statement rank-normal">
-          <div class="main"><a href="http://sws.geonames.org/3165926" target="_blank" rel="noopener">http://sws.geonames.org/3165926</a></div>
-          <div class="qualifiers">
-            <div class="qualifier"><span class="qprop"><a href="P12.html">related to type <span class="id">(P12)</span></a></span> <span class="qval"><a href="http://www.w3.org/2004/02/skos/core#exactMatch" target="_blank" rel="noopener">http://www.w3.org/2004/02/skos/core#exactMatch</a></span></div>
+          <span class="rank-icon rank-normal" title="Rank: normal"></span>
+          <div class="body">
+            <div class="main"><a href="http://sws.geonames.org/3165926" target="_blank" rel="noopener">http://sws.geonames.org/3165926</a></div>
+            <div class="qualifiers">
+              <div class="qprop"><a href="P12.html">related to type <span class="id">(P12)</span></a></div><div class="qval"><a href="http://www.w3.org/2004/02/skos/core#exactMatch" target="_blank" rel="noopener">http://www.w3.org/2004/02/skos/core#exactMatch</a></div>
+            </div>
+            <div class="references zero"><span class="toggle"><span class="l" lang="en">0 references</span><span class="l" lang="de">0 Fundstellen</span></span></div>
           </div>
         </div>
       </div>
@@ -107,7 +143,11 @@ html[data-lang="de"] .l:not([lang="de"]) { display: none; }
       <div class="prop"><a href="P11.html">has reference <span class="id">(P11)</span></a></div>
       <div class="values">
         <div class="statement rank-normal">
-          <div class="main">Kraay, SNR 1970, p. 68</div>
+          <span class="rank-icon rank-normal" title="Rank: normal"></span>
+          <div class="body">
+            <div class="main">Kraay, SNR 1970, p. 68</div>
+            <div class="references zero"><span class="toggle"><span class="l" lang="en">0 references</span><span class="l" lang="de">0 Fundstellen</span></span></div>
+          </div>
         </div>
       </div>
     </div>
@@ -115,18 +155,16 @@ html[data-lang="de"] .l:not([lang="de"]) { display: none; }
 
 </article>
     </main>
+    <footer class="site-footer">
+      <p>
+        <span class="item"><span class="l" lang="en">Source</span><span class="l" lang="de">Quelle</span>: <a href="https://fuzzy-sl.wikibase.cloud" target="_blank" rel="noopener">fuzzy-sl.wikibase.cloud</a> (<a href="https://fuzzy-sl.wikibase.cloud/entity/Q60" target="_blank" rel="noopener"><span class="l" lang="en">Original page</span><span class="l" lang="de">Originalseite</span></a>)</span>
+        <span class="item"><span class="l" lang="en">As of</span><span class="l" lang="de">Stand</span>: 2024-10-23</span>
+        <span class="item"><span class="l" lang="en">Licence</span><span class="l" lang="de">Lizenz</span>: <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0</a></span>
+      </p>
+      <p class="generated"><span class="l" lang="en">Static read-only copy, generated with</span><span class="l" lang="de">Statische Nur-Lese-Kopie, erzeugt mit</span> <a href="https://github.com/n4o-rse/wikibase-static" target="_blank" rel="noopener">wikibase-static</a> 0.1.0</p>
+    </footer>
   </div>
 </div>
-<footer class="site-footer">
-  <div class="wrap">
-    <p>
-      <span class="item"><span class="l" lang="en">Source</span><span class="l" lang="de">Quelle</span>: <a href="https://fuzzy-sl.wikibase.cloud" target="_blank" rel="noopener">fuzzy-sl.wikibase.cloud</a> (<a href="https://fuzzy-sl.wikibase.cloud/entity/Q60" target="_blank" rel="noopener"><span class="l" lang="en">Original page</span><span class="l" lang="de">Originalseite</span></a>)</span>
-      <span class="item"><span class="l" lang="en">As of</span><span class="l" lang="de">Stand</span>: 2024-10-23</span>
-      <span class="item"><span class="l" lang="en">Licence</span><span class="l" lang="de">Lizenz</span>: <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0</a></span>
-    </p>
-    <p class="generated"><span class="l" lang="en">Static read-only copy, generated with</span><span class="l" lang="de">Statische Nur-Lese-Kopie, erzeugt mit</span> <a href="https://github.com/n4o-rse/wikibase-static" target="_blank" rel="noopener">wikibase-static</a> 0.1.0</p>
-  </div>
-</footer>
 <script src="assets/app.js"></script>
 <script src="assets/vendor/leaflet/leaflet.js"></script>
 <script src="assets/map.js"></script>

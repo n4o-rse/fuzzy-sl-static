@@ -6,8 +6,9 @@ Static, read-only copy of the Wikibase <https://fuzzy-sl.wikibase.cloud>, built 
 **State:** the items and properties of the source are archived in `data/raw/`
 (`manifest.json` and one JSON file per entity, as the Wikibase API delivers them).
 `python main.py build` renders them into `docs/` (one page per item and property, a start page,
-a language switch, maps for coordinates, the logo top left); `site.yaml` holds title, languages,
-source and, if you want one, the logo and a licence other than CC0.
+a language switch, maps for coordinates, the logo top left, laid out like the Wikibase itself);
+`site.yaml` holds title, languages, source, the logo (`assets/logo.jpg`) and, if you want one,
+a licence other than CC0.
 Search and the SPARQL page are not built yet; the work plan is `PRIMER.md` in `wikibase-static`.
 
 ## Use
