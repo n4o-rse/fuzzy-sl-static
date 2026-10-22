@@ -1,5 +1,5 @@
 # Q33: the part of the RDF export of fuzzy-sl (static copy) that describes this entity
-# Generated with wikibase-static 0.6.4; data as of 2025-11-01T08:28:29Z
+# Generated with wikibase-static 0.8.0; data as of 2025-11-01T08:28:29Z
 # Licence: CC0 1.0
 
 @prefix cat: <https://n4o-rse.github.io/fuzzy-sl-static/catalog/> .

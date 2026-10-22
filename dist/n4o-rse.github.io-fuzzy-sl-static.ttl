@@ -1,9 +1,11 @@
 # RDF export of fuzzy-sl (static copy), Wikibase data model; base URI https://n4o-rse.github.io/fuzzy-sl-static
-# Generated with wikibase-static 0.6.4; data as of 2025-11-01T08:28:29Z
+# Generated with wikibase-static 0.8.0; data as of 2025-11-01T08:28:29Z
 # Licence: CC0 1.0
 
 @prefix cat: <https://n4o-rse.github.io/fuzzy-sl-static/catalog/> .
 @prefix cc: <http://creativecommons.org/ns#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.cidoc-crm.org/extensions/crmdig/> .
 @prefix data: <https://n4o-rse.github.io/fuzzy-sl-static/wiki/Special:EntityData/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -10057,7 +10059,7 @@ wd:Q146
     p:P2 wds:Q146-1b2a1f73-4845-2f04-e314-c20aec01a001 ;
     p:P37 wds:Q146-7251be17-4de4-875b-1f1f-4511416b9ccc ;
     wdt:P2 wd:Q145 ;
-    wdt:P37 <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+    wdt:P37 crm:E53_Place .
 
 wd:Q147
     a wikibase:Item ;
@@ -10071,7 +10073,7 @@ wd:Q147
     p:P2 wds:Q147-e21d40e6-4721-93e2-dfb2-c0a5a6f865ab ;
     p:P37 wds:Q147-71544382-491e-4c06-8c1f-69204c3b8415 ;
     wdt:P2 wd:Q145 ;
-    wdt:P37 <http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature> .
+    wdt:P37 crm:E26_Physical_Feature .
 
 wd:Q148
     a wikibase:Item ;
@@ -14344,13 +14346,13 @@ wds:Q146-7251be17-4de4-875b-1f1f-4511416b9ccc
     a wikibase:BestRank,
         wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    ps:P37 <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+    ps:P37 crm:E53_Place .
 
 wds:Q147-71544382-491e-4c06-8c1f-69204c3b8415
     a wikibase:BestRank,
         wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    ps:P37 <http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature> .
+    ps:P37 crm:E26_Physical_Feature .
 
 wds:Q147-e21d40e6-4721-93e2-dfb2-c0a5a6f865ab
     a wikibase:BestRank,
@@ -16091,3 +16093,19 @@ _:fbbec31d5bf16a6c7d7b554a39b1f107
     a owl:Restriction ;
     owl:onProperty wdt:P10 ;
     owl:someValuesFrom owl:Thing .
+
+# CIDOC CRM anchoring (wikibase-static): the classes of this site tied to classes of the CIDOC CRM and its extensions (data/crm.csv) and the DCAT classes of this file (data/dcat-crm.csv),
+# with the superclasses of an extension class up to its first class of the CIDOC CRM, and subclass of / instance of spelled out as rdfs:subClassOf / rdf:type. Not part of the Wikibase data model.
+
+crmdig:D1_Digital_Object
+    rdfs:subClassOf crm:E73_Information_Object .
+
+dcat:Catalog
+    rdfs:subClassOf crm:E31_Document,
+        crmdig:D1_Digital_Object .
+
+dcat:Dataset
+    rdfs:subClassOf crm:E73_Information_Object .
+
+dcat:Distribution
+    rdfs:subClassOf crmdig:D1_Digital_Object .
