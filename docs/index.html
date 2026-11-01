@@ -6,9 +6,9 @@
 <title>fuzzy-sl (static copy)</title>
 <meta name="description" content="Static, read-only copy of the Wikibase fuzzy-sl.wikibase.cloud. The data was archived with wikibase-static; nothing on these pages can be edited.">
 <link rel="canonical" href="https://n4o-rse.github.io/fuzzy-sl-static/index.html">
+<script>try{var t=localStorage.getItem("wbs-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t);}catch(e){}</script>
 <link rel="stylesheet" href="assets/style.css">
 <style>
-:root { --accent: #336699; }
 html[data-lang="en"] .l:not([lang="en"]) { display: none; }
 html[data-lang="de"] .l:not([lang="de"]) { display: none; }
 </style>
@@ -30,6 +30,7 @@ html[data-lang="de"] .l:not([lang="de"]) { display: none; }
           <input type="search" name="q" autocomplete="off" spellcheck="false" placeholder="Search" aria-label="Search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="wbs-search-list">
           <ul class="search-results" id="wbs-search-list" role="listbox" aria-label="Search" hidden></ul>
         </form>
+        <button type="button" class="theme-switch" id="wbs-theme" hidden data-labels="{&#34;de&#34;:{&#34;dark&#34;:[&#34;Dunkel&#34;,&#34;Farbschema: dunkel (Klick für hell)&#34;],&#34;light&#34;:[&#34;Hell&#34;,&#34;Farbschema: hell (Klick für dunkel)&#34;]},&#34;en&#34;:{&#34;dark&#34;:[&#34;Dark&#34;,&#34;Colour theme: dark (click for light)&#34;],&#34;light&#34;:[&#34;Light&#34;,&#34;Colour theme: light (click for dark)&#34;]}}" aria-label="Colour theme" title="Colour theme">&#9680;</button>
         <div class="lang-switch" role="group" aria-label="Language">
           <button type="button" data-set-lang="en">EN</button><button type="button" data-set-lang="de">DE</button>
         </div>
@@ -45,6 +46,112 @@ html[data-lang="de"] .l:not([lang="de"]) { display: none; }
     <li><a href="overview.html"><span class="l" lang="en">Overview</span><span class="l" lang="de">Übersicht</span></a> <span class="muted">(14)</span></li>
     <li><a href="properties.html">Properties</a> <span class="muted">(36)</span></li>
   </ul>
+  <section class="model" data-graph-name="model">
+    <h2><span class="l" lang="en">Data model</span><span class="l" lang="de">Datenmodell</span></h2>
+    <p class="muted"><span class="l" lang="en">One card per class. Its rows are the properties that the instances of the class use, with the class or data type of the values and the number of statements. Read from the data, so it shows what the data does, not what a schema says.</span><span class="l" lang="de">Eine Karte pro Klasse. Ihre Zeilen sind die Properties, die die Instanzen der Klasse benutzen, mit der Klasse oder dem Datentyp der Werte und der Zahl der Aussagen. Aus den Daten gelesen, es zeigt also, was die Daten tun, nicht was ein Schema vorschreibt.</span></p>
+    <svg class="model-graph" width="100%" viewBox="0 0 880 622" role="group" aria-label="Data model" style="max-width:880px;height:auto">
+<title>Data model</title><desc>12 of 14 classes with the properties of their instances</desc>
+<style>
+.mg-t{fill:#000;font:13px sans-serif}.mg-w{fill:#fff;font:13px sans-serif}.mg-s{fill:#000;font:11px sans-serif}.mg-sw{fill:#fff;font:11px sans-serif}
+.mg-id{font:11px sans-serif;opacity:.7}.mg-b{font-weight:600}
+.mg-self{fill:#166534;stroke:#000;stroke-width:.8}.mg-class{fill:#9a3412;stroke:#000;stroke-width:.8}
+.mg-item{fill:#e2e8f0;stroke:#000;stroke-width:.8}.mg-wd{fill:#e2e8f0;stroke:#000;stroke-width:.8;stroke-dasharray:4 3}
+.mg-lit{fill:#fff;stroke:#000;stroke-width:.8}.mg-prop{fill:#f8fafc;stroke:#000;stroke-width:.8}
+.mg-meta{fill:#fbbf24;stroke:#000;stroke-width:.8}.mg-card{fill:#fff;stroke:#000;stroke-width:.8}
+.mg-ref{stroke-dasharray:4 2}.mg-pref{stroke-width:2}.mg-depr{stroke-dasharray:3 3;opacity:.7}
+.mg-edge{fill:none;stroke:#6b7280;stroke-width:1.2}.mg-leader{fill:none;stroke:#6b7280;stroke-width:.8;stroke-dasharray:3 3}
+.mg-link{cursor:pointer}.mg-link:hover rect,.mg-link:hover ellipse{stroke-width:2}
+</style>
+<defs><marker id="mg-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="10" y="10" width="420" height="324" rx="6" class="mg-card"/>
+<a href="Q10.html" class="mg-link"><title>Archaeological Site (Q10)</title><path d="M10 44V16a6 6 0 0 1 6-6H424a6 6 0 0 1 6 6V44Z" class="mg-class"/><text x="22" y="27" class="mg-w mg-b" dominant-baseline="central">Archaeological Site</text><text x="418" y="27" class="mg-sw" text-anchor="end" dominant-baseline="central">52 instance(s)</text></a>
+<a href="P4.html" class="mg-link"><title>has coordinate (P4)</title><rect x="20" y="50" width="190" height="20" rx="4" class="mg-meta"/><text x="28" y="60" class="mg-s" dominant-baseline="central">has coordinate</text></a>
+<g><title>Globe coordinate</title><rect x="220" y="50" width="111.48" height="20" rx="4" class="mg-lit"/><text x="275.74" y="60" class="mg-s" text-anchor="middle" dominant-baseline="central">Globe coordinate</text></g>
+<text x="420" y="60" class="mg-s" text-anchor="end" dominant-baseline="central">×55</text>
+<a href="P10.html" class="mg-link"><title>related to (P10)</title><rect x="20" y="76" width="190" height="20" rx="4" class="mg-meta"/><text x="28" y="86" class="mg-s" dominant-baseline="central">related to</text></a>
+<g><title>URL</title><rect x="220" y="76" width="35.14" height="20" rx="4" class="mg-lit"/><text x="237.57" y="86" class="mg-s" text-anchor="middle" dominant-baseline="central">URL</text></g>
+<text x="420" y="86" class="mg-s" text-anchor="end" dominant-baseline="central">×54</text>
+<a href="P3.html" class="mg-link"><title>part of (P3)</title><rect x="20" y="102" width="190" height="20" rx="4" class="mg-meta"/><text x="28" y="112" class="mg-s" dominant-baseline="central">part of</text></a>
+<a href="Q5.html" class="mg-link"><title>Project</title><rect x="220" y="102" width="58.02" height="20" rx="10" class="mg-class"/><text x="249.01" y="112" class="mg-sw" text-anchor="middle" dominant-baseline="central">Project</text></a>
+<text x="420" y="112" class="mg-s" text-anchor="end" dominant-baseline="central">×51</text>
+<a href="P8.html" class="mg-link"><title>has spatial type (P8)</title><rect x="20" y="128" width="190" height="20" rx="4" class="mg-meta"/><text x="28" y="138" class="mg-s" dominant-baseline="central">has spatial type</text></a>
+<a href="Q4.html" class="mg-link"><title>Spatial Type</title><rect x="220" y="128" width="88.16" height="20" rx="10" class="mg-class"/><text x="264.08" y="138" class="mg-sw" text-anchor="middle" dominant-baseline="central">Spatial Type</text></a>
+<text x="420" y="138" class="mg-s" text-anchor="end" dominant-baseline="central">×40</text>
+<a href="P11.html" class="mg-link"><title>has reference (P11)</title><rect x="20" y="154" width="190" height="20" rx="4" class="mg-meta"/><text x="28" y="164" class="mg-s" dominant-baseline="central">has reference</text></a>
+<g><title>String</title><rect x="220" y="154" width="52.08" height="20" rx="4" class="mg-lit"/><text x="246.04" y="164" class="mg-s" text-anchor="middle" dominant-baseline="central">String</text></g>
+<text x="420" y="164" class="mg-s" text-anchor="end" dominant-baseline="central">×37</text>
+<a href="P26.html" class="mg-link"><title>has spatial category (P26)</title><rect x="20" y="180" width="190" height="20" rx="4" class="mg-meta"/><text x="28" y="190" class="mg-s" dominant-baseline="central">has spatial category</text></a>
+<a href="Q91.html" class="mg-link"><title>Spatial Category</title><rect x="220" y="180" width="111.92" height="20" rx="10" class="mg-class"/><text x="275.96" y="190" class="mg-sw" text-anchor="middle" dominant-baseline="central">Spatial Category</text></a>
+<text x="420" y="190" class="mg-s" text-anchor="end" dominant-baseline="central">×25</text>
+<a href="P30.html" class="mg-link"><title>has narrower location (P30)</title><rect x="20" y="206" width="190" height="20" rx="4" class="mg-meta"/><text x="28" y="216" class="mg-s" dominant-baseline="central">has narrower location</text></a>
+<a href="Q10.html" class="mg-link"><title>Archaeological Site</title><rect x="220" y="206" width="129.74" height="20" rx="10" class="mg-class"/><text x="284.87" y="216" class="mg-sw" text-anchor="middle" dominant-baseline="central">Archaeological Site</text></a>
+<text x="420" y="216" class="mg-s" text-anchor="end" dominant-baseline="central">×7</text>
+<a href="P29.html" class="mg-link"><title>has broader location (P29)</title><rect x="20" y="232" width="190" height="20" rx="4" class="mg-meta"/><text x="28" y="242" class="mg-s" dominant-baseline="central">has broader location</text></a>
+<a href="Q10.html" class="mg-link"><title>Archaeological Site</title><rect x="220" y="232" width="129.74" height="20" rx="10" class="mg-class"/><text x="284.87" y="242" class="mg-sw" text-anchor="middle" dominant-baseline="central">Archaeological Site</text></a>
+<text x="420" y="242" class="mg-s" text-anchor="end" dominant-baseline="central">×6</text>
+<a href="P32.html" class="mg-link"><title>located in the administrative territorial entity (P32)</title><rect x="20" y="258" width="190" height="20" rx="4" class="mg-meta"/><text x="28" y="268" class="mg-s" dominant-baseline="central">located in the administ…</text></a>
+<g><title>URL</title><rect x="220" y="258" width="35.14" height="20" rx="4" class="mg-lit"/><text x="237.57" y="268" class="mg-s" text-anchor="middle" dominant-baseline="central">URL</text></g>
+<text x="420" y="268" class="mg-s" text-anchor="end" dominant-baseline="central">×3</text>
+<a href="P19.html" class="mg-link"><title>Semantic Kompakkt ID (P19)</title><rect x="20" y="284" width="190" height="20" rx="4" class="mg-meta"/><text x="28" y="294" class="mg-s" dominant-baseline="central">Semantic Kompakkt ID</text></a>
+<g><title>External identifier</title><rect x="220" y="284" width="129.3" height="20" rx="4" class="mg-lit"/><text x="284.65" y="294" class="mg-s" text-anchor="middle" dominant-baseline="central">External identifier</text></g>
+<text x="420" y="294" class="mg-s" text-anchor="end" dominant-baseline="central">×2</text>
+<text x="22" y="318" class="mg-s" dominant-baseline="central">+ 4 more properties</text>
+<rect x="450" y="10" width="420" height="250" rx="6" class="mg-card"/>
+<a href="Q11.html" class="mg-link"><title>Geological Site (Q11)</title><path d="M450 44V16a6 6 0 0 1 6-6H864a6 6 0 0 1 6 6V44Z" class="mg-class"/><text x="462" y="27" class="mg-w mg-b" dominant-baseline="central">Geological Site</text><text x="858" y="27" class="mg-sw" text-anchor="end" dominant-baseline="central">19 instance(s)</text></a>
+<a href="P26.html" class="mg-link"><title>has spatial category (P26)</title><rect x="460" y="50" width="190" height="20" rx="4" class="mg-meta"/><text x="468" y="60" class="mg-s" dominant-baseline="central">has spatial category</text></a>
+<a href="Q91.html" class="mg-link"><title>Spatial Category</title><rect x="660" y="50" width="111.92" height="20" rx="10" class="mg-class"/><text x="715.96" y="60" class="mg-sw" text-anchor="middle" dominant-baseline="central">Spatial Category</text></a>
+<text x="860" y="60" class="mg-s" text-anchor="end" dominant-baseline="central">×29</text>
+<a href="P11.html" class="mg-link"><title>has reference (P11)</title><rect x="460" y="76" width="190" height="20" rx="4" class="mg-meta"/><text x="468" y="86" class="mg-s" dominant-baseline="central">has reference</text></a>
+<g><title>String</title><rect x="660" y="76" width="52.08" height="20" rx="4" class="mg-lit"/><text x="686.04" y="86" class="mg-s" text-anchor="middle" dominant-baseline="central">String</text></g>
+<text x="860" y="86" class="mg-s" text-anchor="end" dominant-baseline="central">×24</text>
+<a href="P10.html" class="mg-link"><title>related to (P10)</title><rect x="460" y="102" width="190" height="20" rx="4" class="mg-meta"/><text x="468" y="112" class="mg-s" dominant-baseline="central">related to</text></a>
+<g><title>URL</title><rect x="660" y="102" width="35.14" height="20" rx="4" class="mg-lit"/><text x="677.57" y="112" class="mg-s" text-anchor="middle" dominant-baseline="central">URL</text></g>
+<text x="860" y="112" class="mg-s" text-anchor="end" dominant-baseline="central">×20</text>
+<a href="P3.html" class="mg-link"><title>part of (P3)</title><rect x="460" y="128" width="190" height="20" rx="4" class="mg-meta"/><text x="468" y="138" class="mg-s" dominant-baseline="central">part of</text></a>
+<a href="Q5.html" class="mg-link"><title>Project</title><rect x="660" y="128" width="58.02" height="20" rx="10" class="mg-class"/><text x="689.01" y="138" class="mg-sw" text-anchor="middle" dominant-baseline="central">Project</text></a>
+<text x="860" y="138" class="mg-s" text-anchor="end" dominant-baseline="central">×19</text>
+<a href="P4.html" class="mg-link"><title>has coordinate (P4)</title><rect x="460" y="154" width="190" height="20" rx="4" class="mg-meta"/><text x="468" y="164" class="mg-s" dominant-baseline="central">has coordinate</text></a>
+<g><title>Globe coordinate</title><rect x="660" y="154" width="111.48" height="20" rx="4" class="mg-lit"/><text x="715.74" y="164" class="mg-s" text-anchor="middle" dominant-baseline="central">Globe coordinate</text></g>
+<text x="860" y="164" class="mg-s" text-anchor="end" dominant-baseline="central">×19</text>
+<a href="P8.html" class="mg-link"><title>has spatial type (P8)</title><rect x="460" y="180" width="190" height="20" rx="4" class="mg-meta"/><text x="468" y="190" class="mg-s" dominant-baseline="central">has spatial type</text></a>
+<a href="Q4.html" class="mg-link"><title>Spatial Type</title><rect x="660" y="180" width="88.16" height="20" rx="10" class="mg-class"/><text x="704.08" y="190" class="mg-sw" text-anchor="middle" dominant-baseline="central">Spatial Type</text></a>
+<g><title>item</title><rect x="754.16" y="180" width="40.2" height="20" rx="10" class="mg-item"/><text x="774.26" y="190" class="mg-s" text-anchor="middle" dominant-baseline="central">item</text></g>
+<text x="860" y="190" class="mg-s" text-anchor="end" dominant-baseline="central">×18</text>
+<a href="P32.html" class="mg-link"><title>located in the administrative territorial entity (P32)</title><rect x="460" y="206" width="190" height="20" rx="4" class="mg-meta"/><text x="468" y="216" class="mg-s" dominant-baseline="central">located in the administ…</text></a>
+<g><title>URL</title><rect x="660" y="206" width="35.14" height="20" rx="4" class="mg-lit"/><text x="677.57" y="216" class="mg-s" text-anchor="middle" dominant-baseline="central">URL</text></g>
+<text x="860" y="216" class="mg-s" text-anchor="end" dominant-baseline="central">×11</text>
+<a href="P35.html" class="mg-link"><title>WKT Geometry (P35)</title><rect x="460" y="232" width="190" height="20" rx="4" class="mg-meta"/><text x="468" y="242" class="mg-s" dominant-baseline="central">WKT Geometry</text></a>
+<g><title>String</title><rect x="660" y="232" width="52.08" height="20" rx="4" class="mg-lit"/><text x="686.04" y="242" class="mg-s" text-anchor="middle" dominant-baseline="central">String</text></g>
+<text x="860" y="242" class="mg-s" text-anchor="end" dominant-baseline="central">×1</text>
+<rect x="450" y="274" width="420" height="34" rx="6" class="mg-card"/>
+<a href="Q4.html" class="mg-link"><title>Spatial Type (Q4)</title><path d="M450 308V280a6 6 0 0 1 6-6H864a6 6 0 0 1 6 6V308Z" class="mg-class"/><text x="462" y="291" class="mg-w mg-b" dominant-baseline="central">Spatial Type</text><text x="858" y="291" class="mg-sw" text-anchor="end" dominant-baseline="central">14 instance(s)</text></a>
+<rect x="450" y="322" width="420" height="34" rx="6" class="mg-card"/>
+<a href="Q2.html" class="mg-link"><title>Source (Q2)</title><path d="M450 356V328a6 6 0 0 1 6-6H864a6 6 0 0 1 6 6V356Z" class="mg-class"/><text x="462" y="339" class="mg-w mg-b" dominant-baseline="central">Source</text><text x="858" y="339" class="mg-sw" text-anchor="end" dominant-baseline="central">13 instance(s)</text></a>
+<rect x="10" y="348" width="420" height="34" rx="6" class="mg-card"/>
+<a href="Q125.html" class="mg-link"><title>Point Type (Q125)</title><path d="M10 382V354a6 6 0 0 1 6-6H424a6 6 0 0 1 6 6V382Z" class="mg-class"/><text x="22" y="365" class="mg-w mg-b" dominant-baseline="central">Point Type</text><text x="418" y="365" class="mg-sw" text-anchor="end" dominant-baseline="central">6 instance(s)</text></a>
+<rect x="450" y="370" width="420" height="34" rx="6" class="mg-card"/>
+<a href="Q5.html" class="mg-link"><title>Project (Q5)</title><path d="M450 404V376a6 6 0 0 1 6-6H864a6 6 0 0 1 6 6V404Z" class="mg-class"/><text x="462" y="387" class="mg-w mg-b" dominant-baseline="central">Project</text><text x="858" y="387" class="mg-sw" text-anchor="end" dominant-baseline="central">5 instance(s)</text></a>
+<rect x="10" y="396" width="420" height="34" rx="6" class="mg-card"/>
+<a href="Q3.html" class="mg-link"><title>Site Type (Q3)</title><path d="M10 430V402a6 6 0 0 1 6-6H424a6 6 0 0 1 6 6V430Z" class="mg-class"/><text x="22" y="413" class="mg-w mg-b" dominant-baseline="central">Site Type</text><text x="418" y="413" class="mg-sw" text-anchor="end" dominant-baseline="central">4 instance(s)</text></a>
+<rect x="450" y="418" width="420" height="34" rx="6" class="mg-card"/>
+<a href="Q6.html" class="mg-link"><title>Certainty Level (Q6)</title><path d="M450 452V424a6 6 0 0 1 6-6H864a6 6 0 0 1 6 6V452Z" class="mg-class"/><text x="462" y="435" class="mg-w mg-b" dominant-baseline="central">Certainty Level</text><text x="858" y="435" class="mg-sw" text-anchor="end" dominant-baseline="central">4 instance(s)</text></a>
+<rect x="10" y="444" width="420" height="34" rx="6" class="mg-card"/>
+<a href="Q21.html" class="mg-link"><title>Person (Q21)</title><path d="M10 478V450a6 6 0 0 1 6-6H424a6 6 0 0 1 6 6V478Z" class="mg-class"/><text x="22" y="461" class="mg-w mg-b" dominant-baseline="central">Person</text><text x="418" y="461" class="mg-sw" text-anchor="end" dominant-baseline="central">4 instance(s)</text></a>
+<rect x="450" y="466" width="420" height="34" rx="6" class="mg-card"/>
+<a href="Q81.html" class="mg-link"><title>Location Type (Q81)</title><path d="M450 500V472a6 6 0 0 1 6-6H864a6 6 0 0 1 6 6V500Z" class="mg-class"/><text x="462" y="483" class="mg-w mg-b" dominant-baseline="central">Location Type</text><text x="858" y="483" class="mg-sw" text-anchor="end" dominant-baseline="central">4 instance(s)</text></a>
+<rect x="10" y="492" width="420" height="34" rx="6" class="mg-card"/>
+<a href="Q7.html" class="mg-link"><title>Method Type (Q7)</title><path d="M10 526V498a6 6 0 0 1 6-6H424a6 6 0 0 1 6 6V526Z" class="mg-class"/><text x="22" y="509" class="mg-w mg-b" dominant-baseline="central">Method Type</text><text x="418" y="509" class="mg-sw" text-anchor="end" dominant-baseline="central">3 instance(s)</text></a>
+<rect x="450" y="514" width="420" height="34" rx="6" class="mg-card"/>
+<a href="Q91.html" class="mg-link"><title>Spatial Category (Q91)</title><path d="M450 548V520a6 6 0 0 1 6-6H864a6 6 0 0 1 6 6V548Z" class="mg-class"/><text x="462" y="531" class="mg-w mg-b" dominant-baseline="central">Spatial Category</text><text x="858" y="531" class="mg-sw" text-anchor="end" dominant-baseline="central">3 instance(s)</text></a>
+<text x="10" y="568" class="mg-s" dominant-baseline="central">+ 2 more classes not drawn</text>
+<rect x="10" y="592" width="47.7" height="18" rx="9" class="mg-class"/><text x="33.85" y="601" class="mg-sw" text-anchor="middle" dominant-baseline="central">class</text>
+<rect x="67.7" y="592" width="65.52" height="18" rx="4" class="mg-meta"/><text x="100.46" y="601" class="mg-s" text-anchor="middle" dominant-baseline="central">property</text>
+<rect x="143.22" y="592" width="71.46" height="18" rx="4" class="mg-lit"/><text x="178.95" y="601" class="mg-s" text-anchor="middle" dominant-baseline="central">data type</text>
+<rect x="224.68" y="592" width="42.2" height="18" rx="9" class="mg-item"/><text x="245.78" y="601" class="mg-s" text-anchor="middle" dominant-baseline="central">item</text>
+</svg>
+
+    <p class="model-tools"><a href="graphs/model.svg" download><span class="l" lang="en">Download as SVG</span><span class="l" lang="de">Als SVG herunterladen</span></a> <button type="button" class="copy-uri" data-graph-download="png" hidden><span class="l" lang="en">Download as PNG</span><span class="l" lang="de">Als PNG herunterladen</span></button></p>
+  </section>
 </article>
     </main>
     <footer class="site-footer">
@@ -52,7 +159,7 @@ html[data-lang="de"] .l:not([lang="de"]) { display: none; }
         <span class="item"><span class="l" lang="en">Source</span><span class="l" lang="de">Quelle</span>: <a href="https://fuzzy-sl.wikibase.cloud" target="_blank" rel="noopener">fuzzy-sl.wikibase.cloud</a></span>
         <span class="item"><span class="l" lang="en">Licence</span><span class="l" lang="de">Lizenz</span>: <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0</a></span>
       </p>
-      <p class="generated"><span class="l" lang="en">Static read-only copy, generated with</span><span class="l" lang="de">Statische Nur-Lese-Kopie, erzeugt mit</span> <a href="https://github.com/n4o-rse/wikibase-static" target="_blank" rel="noopener">wikibase-static</a> 0.10.0</p>
+      <p class="generated"><span class="l" lang="en">Static read-only copy, generated with</span><span class="l" lang="de">Statische Nur-Lese-Kopie, erzeugt mit</span> <a href="https://github.com/n4o-rse/wikibase-static" target="_blank" rel="noopener">wikibase-static</a> 0.24.1</p>
     </footer>
   </div>
 </div>
